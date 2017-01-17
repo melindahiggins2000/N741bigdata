@@ -26,48 +26,6 @@
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #dddddd; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { font-weight: bold; } /* Keyword */
-code > span.dt { color: #800000; } /* DataType */
-code > span.dv { color: #0000ff; } /* DecVal */
-code > span.bn { color: #0000ff; } /* BaseN */
-code > span.fl { color: #800080; } /* Float */
-code > span.ch { color: #ff00ff; } /* Char */
-code > span.st { color: #dd0000; } /* String */
-code > span.co { color: #808080; font-style: italic; } /* Comment */
-code > span.al { color: #00ff00; font-weight: bold; } /* Alert */
-code > span.fu { color: #000080; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #ff0000; font-weight: bold; } /* Warning */
-code > span.cn { color: #000000; } /* Constant */
-code > span.sc { color: #ff00ff; } /* SpecialChar */
-code > span.vs { color: #dd0000; } /* VerbatimString */
-code > span.ss { color: #dd0000; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { } /* Variable */
-code > span.cf { } /* ControlFlow */
-code > span.op { } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { font-weight: bold; } /* Preprocessor */
-code > span.at { } /* Attribute */
-code > span.do { color: #808080; font-style: italic; } /* Documentation */
-code > span.an { color: #808080; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #808080; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #808080; font-weight: bold; font-style: italic; } /* Information */
-</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 
 
 <style type="text/css">
@@ -532,40 +490,8 @@ div.tocify {
 </div>
 <div id="rmarkdown-example-with-gapminder" class="section level2">
 <h2>RMarkdown Example with Gapminder</h2>
-<ol style="list-style-type: decimal">
-<li><p>Using the instructions above, create a new Github repository for a new R project.</p></li>
-<li><p>Using RStudio, create a new R project using Git linked to the new Github repository.</p></li>
-<li><p>Once the R project is setup and linked to your Guthub repository, create a new Rmarkdown file. Go to File/New File/R Markdown. Select Document, type in a title, and accept the default HTML format. <img src="rmd01.jpg" alt="rmd01.JPG" /> <img src="rmd02.JPG" alt="rmd02.JPG" /></p></li>
-<li><p>This loads a default example Rmarkdown file. We will edit this file to write our 1st report based on the <code>gapminder</code> package and dataset. To learn more about <strong>Gapminder</strong> see <a href="https://www.gapminder.org/" class="uri">https://www.gapminder.org/</a>, click on “Gapminder World” to see online tools for interacting and exploring the wealth of data provided. The “Videos” tab also provides a great deal of information about the Gapminder project and Hans Rosling’s work as the founder of the project. While there are ways to access and download data from Gapminder under the “Data” tab, we will instead use the <code>gapminder</code> R package <a href="https://cran.r-project.org/web/packages/gapminder/index.html">Gapminder Package at CRAN</a> and <a href="https://github.com/jennybc/gapminder">Gapminder Repository at Github</a> for today’s exercise. <em><strong>Note: The example codes below are based on the example code provided at the <a href="https://github.com/jennybc/gapminder">Gapminder Repository at Github</a>.</strong></em></p></li>
-<li><p>Since we’ll be using the <code>gapminder</code> package, we need to first install it. In RStudio, click on “Tools/Install Packages”. Then start typing in “gapminder” and you’ll see the list start to autopopulate with packages beginning with “gap…”. Pick “gapminder” and click “Install”. Note: “Install Dependencies” should be checked. <img src="rmd03.JPG" alt="rmd03.JPG" /></p></li>
-<li><p>After installing a package, it has to be “loaded” into memory so that R can use it/access it. For this, we use the <code>library()</code> command. When processing an Rmarkdown file, the packages needed for the codes in that file have to be loaded when the Rmarkdown file is compiled. So, we will add this command as an “R chunk” in the Rmarkdown file. Let’s add the command <code>library(gapminder)</code> to the 1st R chunk.</p></li>
-</ol>
-<p>You’ll notice that this R chunk has a name <code>setup</code> and an option for <code>include=FALSE</code>. This option indicates that the R chunk will be evaluated (i.e. “run”) with no output generated in the final report. To learn more about <em>R chunk options</em>, see <a href="https://yihui.name/knitr/options/#chunk_options" class="uri">https://yihui.name/knitr/options/#chunk_options</a> <img src="rmd04.JPG" alt="rmd04.JPG" /></p>
-<ol start="7" style="list-style-type: decimal">
-<li><p>Next let’s type in some text. We’ll use hastags to designate headings. One hashtag <code>##</code> indicates a heading level 1; two <code>##</code> indicates a headling level 2; and so on… Then you can type in simple text. You can add emphasis like making a <strong>word</strong> bold by off setting it using asterix <code>*</code>’s <code>**word**</code>. Putting one underscore before and after a <em>word</em> sets the word as italics <code>_word_</code>. Weblinks can also be added using the synyax <code>[text highlighted](url)</code>. Type in the following. <img src="rmd05.JPG" alt="rmd05.JPG" /></p></li>
-<li><p>Let’s add some R code. To do this we will add a R code chunk. Click the Green Button with the +C that says “Insert”. This will bring up a drop down menu - select “R” since we’ll be inserting an R code chunk. There are other code options also. <img src="rmd06.JPG" alt="rmd06.JPG" /></p></li>
-<li><p>Inside the R code chunk, let’s run a <code>summary()</code> of the 6 variables in the <code>gapminder</code> dataset built into the <code>gapminder</code> package.</p></li>
-</ol>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(gapminder)</code></pre></div>
-<pre><code>##         country        continent        year         lifeExp     
-##  Afghanistan:  12   Africa  :624   Min.   :1952   Min.   :23.60  
-##  Albania    :  12   Americas:300   1st Qu.:1966   1st Qu.:48.20  
-##  Algeria    :  12   Asia    :396   Median :1980   Median :60.71  
-##  Angola     :  12   Europe  :360   Mean   :1980   Mean   :59.47  
-##  Argentina  :  12   Oceania : 24   3rd Qu.:1993   3rd Qu.:70.85  
-##  Australia  :  12                  Max.   :2007   Max.   :82.60  
-##  (Other)    :1632                                                
-##       pop              gdpPercap       
-##  Min.   :6.001e+04   Min.   :   241.2  
-##  1st Qu.:2.794e+06   1st Qu.:  1202.1  
-##  Median :7.024e+06   Median :  3531.8  
-##  Mean   :2.960e+07   Mean   :  7215.3  
-##  3rd Qu.:1.959e+07   3rd Qu.:  9325.5  
-##  Max.   :1.319e+09   Max.   :113523.1  
-## </code></pre>
-<ol start="10" style="list-style-type: decimal">
-<li></li>
-</ol>
+<p><a href="https://github.com/melindahiggins2000/N741gapminder1">Github Repo for N741 Gapminder Example</a></p>
+<p><a href="http://htmlpreview.github.com/?https://raw.githubusercontent.com/melindahiggins2000/N741gapminder1/master/GapminderMarkdown.html">Worked Example in HTML</a></p>
 </div>
 
 <hr>
