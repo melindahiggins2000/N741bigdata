@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Melinda Higgins" />
 
+<meta name="date" content="2017-01-23" />
 
-<title>Colophon of Website</title>
+<title>test1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -441,40 +443,88 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Colophon of Website</h1>
+<h1 class="title toc-ignore">test1</h1>
+<h4 class="author"><em>Melinda Higgins</em></h4>
+<h4 class="date"><em>January 23, 2017</em></h4>
 
 </div>
 
 
-<div id="colophon-of-website" class="section level2">
-<h2>Colophon of Website</h2>
-<p>This website was built using <a href="https://cran.r-project.org/"><code>R</code></a> and <a href="https://www.rstudio.com/"><code>Rstudio</code></a> using the <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html"><code>rmarkdown</code></a> website support.</p>
-<p>The <em><strong>gh-pages</strong></em> <i class="fa fa-github fa-2x"></i> <strong>Github</strong> repository for this website is located at <a href="https://github.com/melindahiggins2000/N741bigdata/tree/gh-pages" class="uri">https://github.com/melindahiggins2000/N741bigdata/tree/gh-pages</a>.</p>
+<p>See <a href="http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice" class="uri">http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice</a></p>
+<p>See data folder at <a href="http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/" class="uri">http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/</a></p>
+<p>read in dataset</p>
+<p>load the library(tidyverse) which loads the readr package for which we’ll use read_csv()</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)</code></pre></div>
+<pre><code>## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr
+## Loading tidyverse: dplyr</code></pre>
+<pre><code>## Conflicts with tidy packages ----------------------------------------------</code></pre>
+<pre><code>## filter(): dplyr, stats
+## lag():    dplyr, stats</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">cmc &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;cmc.data&quot;</span>, <span class="dt">col_names=</span><span class="ot">FALSE</span>)</code></pre></div>
+<pre><code>## Parsed with column specification:
+## cols(
+##   X1 = col_integer(),
+##   X2 = col_integer(),
+##   X3 = col_integer(),
+##   X4 = col_integer(),
+##   X5 = col_integer(),
+##   X6 = col_integer(),
+##   X7 = col_integer(),
+##   X8 = col_integer(),
+##   X9 = col_integer(),
+##   X10 = col_integer()
+## )</code></pre>
+<p>From the cmc.names text file</p>
+<pre><code>7. Attribute Information:
+
+   1. Wife&#39;s age                     (numerical)
+   2. Wife&#39;s education               (categorical)      1=low, 2, 3, 4=high
+   3. Husband&#39;s education            (categorical)      1=low, 2, 3, 4=high
+   4. Number of children ever born   (numerical)
+   5. Wife&#39;s religion                (binary)           0=Non-Islam, 1=Islam
+   6. Wife&#39;s now working?            (binary)           0=Yes, 1=No
+   7. Husband&#39;s occupation           (categorical)      1, 2, 3, 4
+   8. Standard-of-living index       (categorical)      1=low, 2, 3, 4=high
+   9. Media exposure                 (binary)           0=Good, 1=Not good
+   10. Contraceptive method used     (class attribute)  1=No-use 
+                                                        2=Long-term
+                                                        3=Short-term
+</code></pre>
+<p>column names WifeAge WifeEd HusbEd NumChild WifeRel WifeWork HusbOcc SOLindex Media Contraceptive</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">names</span>(cmc) &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;WifeAge&quot;</span>, <span class="st">&quot;WifeEd&quot;</span>, <span class="st">&quot;HusbEd&quot;</span>, <span class="st">&quot;NumChild&quot;</span>,
+                <span class="st">&quot;WifeRel&quot;</span>, <span class="st">&quot;WifeWork&quot;</span>, <span class="st">&quot;HusbOcc&quot;</span>, <span class="st">&quot;SOLindex&quot;</span>, 
+                <span class="st">&quot;Media&quot;</span>, <span class="st">&quot;Contraceptive&quot;</span>)</code></pre></div>
+<p>create the factors</p>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p><img src="HWickham_data-science.png" width="662" /></p>
+<p>
+<small>
+<center>
+<em>Image Copyright: Hadley Wickham <a href="http://r4ds.had.co.nz/introduction.html">“R for Data Science”</a></em> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="cc-by-nc-nd.png" width="32" /></a>
+</center>
+</small>
+</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(cars)</code></pre></div>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
-<div id="session-info" class="section level2">
-<h2>Session Info</h2>
-<p>Website was last updated on Tue Jan 24 14:21:21 2017 and built under the following <code>sessionInfo()</code>:</p>
-<p>Session information:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sessionInfo</span>()</code></pre></div>
-<pre><code>## R version 3.3.2 (2016-10-31)
-## Platform: x86_64-w64-mingw32/x64 (64-bit)
-## Running under: Windows 10 x64 (build 14393)
-## 
-## locale:
-## [1] LC_COLLATE=English_United States.1252 
-## [2] LC_CTYPE=English_United States.1252   
-## [3] LC_MONETARY=English_United States.1252
-## [4] LC_NUMERIC=C                          
-## [5] LC_TIME=English_United States.1252    
-## 
-## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  methods   base     
-## 
-## loaded via a namespace (and not attached):
-##  [1] backports_1.0.4 magrittr_1.5    rprojroot_1.1   tools_3.3.2    
-##  [5] htmltools_0.3.5 yaml_2.1.14     Rcpp_0.12.8     stringi_1.1.2  
-##  [9] rmarkdown_1.3   knitr_1.15.1    stringr_1.1.0   digest_0.6.10  
-## [13] evaluate_0.10</code></pre>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="Contraceptive_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 <hr>

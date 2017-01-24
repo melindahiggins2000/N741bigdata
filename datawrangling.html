@@ -712,6 +712,58 @@ df &lt;-<span class="st"> </span><span class="kw">data.frame</span>(v2,v.char,v.
 </table>
 </div>
 </div>
+<div id="worked-example-from-the-uci-data-repository" class="section level2">
+<h2>Worked Example from the UCI Data Repository</h2>
+<p>The following dataset comes from the <a href="http://archive.ics.uci.edu/ml/">UCI Data Repository</a>. The dataset we’ll use is the Contraceptive Method Choice dataset. The information on this dataset is provided at <a href="http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice" class="uri">http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice</a>. If you click on the “Data Folder” you can download the RAW data <code>cmc.data</code> which is a comma delimited format dataset (i.e. it is a CSV formatted file) and the description of the data included, the variable names and associated codes for the values included which is in the <code>cmc.names</code> file. See “Data Folder”&quot; at <a href="http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/" class="uri">http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/</a></p>
+<div id="read-in-data" class="section level3">
+<h3>Read-in data</h3>
+<p><strong>NOTE:</strong> Download the 2 files from the UCI Data Repository for the Contraceptive Method Choice and put them in the directory where you have this RMD <code>rmarkdown</code> file.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
+cmc &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;cmc.data&quot;</span>, <span class="dt">col_names=</span><span class="ot">FALSE</span>)</code></pre></div>
+<pre><code>## Parsed with column specification:
+## cols(
+##   X1 = col_integer(),
+##   X2 = col_integer(),
+##   X3 = col_integer(),
+##   X4 = col_integer(),
+##   X5 = col_integer(),
+##   X6 = col_integer(),
+##   X7 = col_integer(),
+##   X8 = col_integer(),
+##   X9 = col_integer(),
+##   X10 = col_integer()
+## )</code></pre>
+</div>
+<div id="apply-the-codebook---variable-names-and-coding-used" class="section level3">
+<h3>Apply the codebook - variable names and coding used</h3>
+<p><em>PLACEHOLDER</em> - code to be added for labeling the data and adding the coding levels and descriptions (i.e. creating the factors).</p>
+</div>
+<div id="summarize-the-dataset" class="section level3">
+<h3>Summarize the dataset</h3>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(cmc)</code></pre></div>
+<pre><code>##        X1              X2              X3             X4        
+##  Min.   :16.00   Min.   :1.000   Min.   :1.00   Min.   : 0.000  
+##  1st Qu.:26.00   1st Qu.:2.000   1st Qu.:3.00   1st Qu.: 1.000  
+##  Median :32.00   Median :3.000   Median :4.00   Median : 3.000  
+##  Mean   :32.54   Mean   :2.959   Mean   :3.43   Mean   : 3.261  
+##  3rd Qu.:39.00   3rd Qu.:4.000   3rd Qu.:4.00   3rd Qu.: 4.000  
+##  Max.   :49.00   Max.   :4.000   Max.   :4.00   Max.   :16.000  
+##        X5               X6               X7              X8       
+##  Min.   :0.0000   Min.   :0.0000   Min.   :1.000   Min.   :1.000  
+##  1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.:1.000   1st Qu.:3.000  
+##  Median :1.0000   Median :1.0000   Median :2.000   Median :3.000  
+##  Mean   :0.8506   Mean   :0.7495   Mean   :2.138   Mean   :3.134  
+##  3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.:3.000   3rd Qu.:4.000  
+##  Max.   :1.0000   Max.   :1.0000   Max.   :4.000   Max.   :4.000  
+##        X9             X10      
+##  Min.   :0.000   Min.   :1.00  
+##  1st Qu.:0.000   1st Qu.:1.00  
+##  Median :0.000   Median :2.00  
+##  Mean   :0.074   Mean   :1.92  
+##  3rd Qu.:0.000   3rd Qu.:3.00  
+##  Max.   :1.000   Max.   :3.00</code></pre>
+</div>
+</div>
 <div id="tidy-data" class="section level2">
 <h2>TIDY Data</h2>
 <p>We’ll use the following functions as we go through this semester, for now, let’s review the following package(s) and the whole <code>TIDYVERSE</code> which is very helpful for working with data in many different formats and structures.</p>
