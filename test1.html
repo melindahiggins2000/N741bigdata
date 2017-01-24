@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Melinda Higgins" />
 
+<meta name="date" content="2017-01-23" />
 
-<title>Reproducible Research: January 18, 2017</title>
+<title>test1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,6 +28,48 @@
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #dddddd; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { font-weight: bold; } /* Keyword */
+code > span.dt { color: #800000; } /* DataType */
+code > span.dv { color: #0000ff; } /* DecVal */
+code > span.bn { color: #0000ff; } /* BaseN */
+code > span.fl { color: #800080; } /* Float */
+code > span.ch { color: #ff00ff; } /* Char */
+code > span.st { color: #dd0000; } /* String */
+code > span.co { color: #808080; font-style: italic; } /* Comment */
+code > span.al { color: #00ff00; font-weight: bold; } /* Alert */
+code > span.fu { color: #000080; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #ff0000; font-weight: bold; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #ff00ff; } /* SpecialChar */
+code > span.vs { color: #dd0000; } /* VerbatimString */
+code > span.ss { color: #dd0000; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { } /* Variable */
+code > span.cf { } /* ControlFlow */
+code > span.op { } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { font-weight: bold; } /* Preprocessor */
+code > span.at { } /* Attribute */
+code > span.do { color: #808080; font-style: italic; } /* Documentation */
+code > span.an { color: #808080; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #808080; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #808080; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -399,99 +443,39 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Reproducible Research: January 18, 2017</h1>
+<h1 class="title toc-ignore">test1</h1>
+<h4 class="author"><em>Melinda Higgins</em></h4>
+<h4 class="date"><em>January 23, 2017</em></h4>
 
 </div>
 
 
-<div id="reproducible-research-principles-january-18-2017" class="section level2">
-<h2>Reproducible Research Principles: : January 18, 2017</h2>
-<p><a href="http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/N741/master/Reproducible%20Research.html">Presentation from Vicki Hertzberg</a></p>
-<p>To get us started on the path to learning and using reproducible research principles, this week we will focus on:</p>
-<ol style="list-style-type: decimal">
-<li>Setting up RStudio with Git connected to Github enabling version control (tracking the code, analysis and documentation process)</li>
-<li>Writing your 1st Rmarkdown file combining R code and documentation to create a data analysis report.</li>
-</ol>
+<div id="r-markdown" class="section level2">
+<h2>R Markdown</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p><img src="HWickham_data-science.png" width="662" /></p>
+<p>
+<small>
+<center>
+<em>Image Copyright: Hadley Wickham <a href="http://r4ds.had.co.nz/introduction.html">“R for Data Science”</a></em> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="cc-by-nc-nd.png" width="32" /></a>
+</center>
+</small>
+</p>
+<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">summary</span>(cars)</code></pre></div>
+<pre><code>##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00</code></pre>
 </div>
-<div id="using-version-control" class="section level2">
-<h2>Using Version Control</h2>
-<div id="link-rstudio-to-github-using-git" class="section level3">
-<h3>Link RStudio to Github using Git</h3>
-<ol style="list-style-type: decimal">
-<li>Login to your Github account.</li>
-<li><p>Click on Repositories or Click New Repository <img src="repo01.JPG" alt="repo01.JPG" /></p></li>
-<li><p>Create a new repository “n741repo1”, type in a description, and initialize with a README file. Click “Create Repository” <img src="repo02.JPG" alt="repo02.JPG" />. LEAVE YOUR BROWSER OPEN at your Github repository website.</p></li>
-<li><p>Start RStudio. Click File/New Project. Choose “Version Control” <img src="newproj01.JPG" alt="newproj01.JPG" /></p></li>
-<li><p>Choose Git <img src="newproj02.JPG" alt="newproj02.JPG" /></p></li>
-<li><p>To get the URL for the Github repo - go back to your browser, click on the GREEN button “Clone or Download”. Right below the button it will open another window. For this example we will “Clone with HTTPS”. Click the little box with the arrow in it just to the right of the URL to “Copy the URL to the clipboard”. <img src="newproj03.JPG" alt="newproj03.JPG" /></p></li>
-<li><p>Now we will “paste” this URL into the RStudio window to complete our project set-up connecting RStudio to Github via Git in your new R project. “Paste” in the URL in the top box for “Repository URL”. This will autopopulate the “Project directory Name” - USE THIS NAME. In the bottom box, make sure you select the directory where you want this new project directory to be placed (e.g. C:/MyRFiles) or a location you are using to manage all of your files for this course. <img src="newproj04.JPG" alt="newproj04.JPG" /></p></li>
-</ol>
-</div>
-<div id="new-r-project-files" class="section level3">
-<h3>New R Project Files</h3>
-<ol start="8" style="list-style-type: decimal">
-<li>In RStudio, your project will now have 3 files in it (bottom right panel of screenshot below):</li>
-</ol>
-<ul>
-<li>README.md - this is the README file in your Github repo</li>
-<li>n741repo1.Rproj - this is the R project configuration file for your project settings in RStudio</li>
-<li>.gitignore - this is a listing for Git to ignore.</li>
-</ul>
-<p>If everything worked correctly, you’ll now see the word Git in a little vertical box at the top of the screen, right under the “Tools” menu. You will also notice in the top right window, 3 tabs “Environment”, “History”, and “Git”. <img src="newproj05.JPG" alt="newproj05.JPG" /></p>
-<ol start="9" style="list-style-type: decimal">
-<li>Click on the “Git” tab. You’ll notice that there are little yellow ? question marks which indicates that <code>n741repo1.Rproj</code> and <code>.gitignore</code> are as yet untracked. This is because these files were created by RStudio locally and these have not been added (a) to the Github repository and (b) have not yet been “brought under version control”. <img src="git01.JPG" alt="git01.JPG" /></li>
-</ol>
-</div>
-<div id="stage-and-commit-new-files" class="section level3">
-<h3>Stage and Commit New Files</h3>
-<ol start="10" style="list-style-type: decimal">
-<li>To add these files to our Github repository and “bring them under version control”, click on “Commit”. This will open another window. In this new window, click on the check boxes to the left of the file names in the top left window under “Staged”. As soon as you click on these boxes, the little yellow ?s will turn to green As indicating that these files have been “added” to this “commit.” <img src="git02.JPG" alt="git02.JPG" /></li>
-</ol>
-<p>BEFORE you click the “Commit” button, type in a description of what was changed or added in this “commit” - something like “added new r project files”. After typing in your description, click the “Commit” button. After cliking “Commit” you should see a confirmation message. <img src="git03.JPG" alt="git03.JPG" /> <img src="git04.JPG" alt="git04.JPG" /></p>
-</div>
-<div id="push-files-to-github-repository" class="section level3">
-<h3>PUSH Files to Github Repository</h3>
-<ol start="11" style="list-style-type: decimal">
-<li><p>“Commit” is the 1st step. The files are NOT YET added to the repository - they are NOT YET under version control. To do so, we need to PUSH the files we’ve committed up to Github. To PUSH the files up to Github, click on the GREEN UP ARROW and see the message generated. <img src="git05.JPG" alt="git05.JPG" /></p></li>
-<li><p>Go to Github and see that the files have been added to your repository. <img src="git06.JPG" alt="git06.JPG" /></p></li>
-</ol>
-<p>You’ll notice at the top left there is a clock symbol that now says “2 commits”. Click on this symbol. This shows the 1st “commit” when we created the repo with the readme and the 2nd “commit” was the files we just added after creating the R project. Using this view, you can click on each “commit” and review every version, every change that occured from the time the repo was created. <em>“Voilà”</em> you never have to create long file names with odd naming schemes to keep track of which version of the file(s) as you make changes and updates. <img src="git07.JPG" alt="git07.JPG" /></p>
-<ol start="13" style="list-style-type: decimal">
-<li>Let’s make some changes to the README.md file - open the README file and add some new text and save the file. You’ll notice in the Git TAB (top right), the README file now shows with a BLUE M indicating that the file has been modified. <img src="git08.JPG" alt="git08.JPG" /></li>
-</ol>
-<p>Next “commit” those changes - click the box under “staged and then click”commit&quot; and type in a message for this “commit”. In this window we can easily see what the differences are in the bottom panel. The text in GREEN is the new text we added. <img src="git09.JPG" alt="git09.JPG" /></p>
-<ol start="14" style="list-style-type: decimal">
-<li>NEXT, PUSH the new README.md file up to the Github repo. Then go to the Github repo website and refresh - you should now see your changes to the README file. <img src="git10.JPG" alt="git10.JPG" /></li>
-</ol>
-</div>
-<div id="make-changes-online-using-github" class="section level3">
-<h3>Make Changes Online Using Github</h3>
-<ol start="15" style="list-style-type: decimal">
-<li><p>Let’s see what happens if we make changes in the Github repo and then PULL those changes down to your R Project folder. In your Github repo, click on the link for the README.md file. This opens the file into a window where you can view the “Raw” file, see who to “Blame” for various edits and commits and review the “History” of the file. If you click on the pencil icon, you’ll be able to edit the README file and save your changes using the browser editor. Remember to add a commit message and then click the GREEN button “Commit Changes”. <img src="git11.JPG" alt="git11.JPG" /> <img src="git12.JPG" alt="git12.JPG" /> <img src="git13.JPG" alt="git13.JPG" /></p></li>
-<li><p>Check your Github repo - you’ll see your new changes. <img src="git14.JPG" alt="git14.JPG" /></p></li>
-</ol>
-</div>
-<div id="pull-updates-from-github-down-to-rstudio" class="section level3">
-<h3>PULL Updates from Github Down to RStudio</h3>
-<ol start="17" style="list-style-type: decimal">
-<li>Now let’s go update our R project with these new changes. This time we PULL the changes from Github down to our local R project. <img src="git15.JPG" alt="git15.JPG" /></li>
-</ol>
-<p>The resulting Git PULL message should confirm the updates. You’ll then see the changes to your README file in your RStudio project. <img src="git16.JPG" alt="git16.JPG" /> <img src="git17.JPG" alt="git17.JPG" /></p>
-<ol start="18" style="list-style-type: decimal">
-<li><strong>Congratulations</strong> you have now successfully:</li>
-</ol>
-<ul>
-<li>established a Github repo</li>
-<li>enabled version control and tracking using Git</li>
-<li>created an R project linked to your Github repo</li>
-<li>and brought all of your files under version control and tracking with full backup.</li>
-</ul>
-</div>
-</div>
-<div id="rmarkdown-example-with-gapminder" class="section level2">
-<h2>RMarkdown Example with Gapminder</h2>
-<p><a href="https://github.com/melindahiggins2000/N741gapminder1">Github Repo for N741 Gapminder Example</a></p>
-<p><a href="http://htmlpreview.github.com/?https://raw.githubusercontent.com/melindahiggins2000/N741gapminder1/master/GapminderMarkdown.html">Worked Example in HTML</a></p>
+<div id="including-plots" class="section level2">
+<h2>Including Plots</h2>
+<p>You can also embed plots, for example:</p>
+<p><img src="test1_files/figure-html/pressure-1.png" width="672" /></p>
+<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 
 <hr>
