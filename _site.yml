@@ -22,10 +22,6 @@ navbar:
       menu:
         - text: "Overview"
           href: syllabus.html
-        - text: "Article Critique"
-          href: articleCritique.html
-        - text: "Short Paper"
-          href: shortPaper.html
         - text: "Final Project"
           href: finalProject.html
     - text: "Resources"

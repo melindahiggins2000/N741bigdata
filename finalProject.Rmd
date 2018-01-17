@@ -2,6 +2,8 @@
 title: "Comprehensive Final Project"
 ---
 
+_** TO BE UPDATED FOR SPRING 2018 **_
+
 ## Instructions and Expectations
 
 * [Final Project Directions via "vhertzb" Github repo](http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/Project-Milestone-1/master/Final_Project.html)
