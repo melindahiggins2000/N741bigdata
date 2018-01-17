@@ -37,15 +37,10 @@ This course uses a variety of teaching methods, including readings, case present
 
 ## EVALUATIONS & GRADING
 
---- 
-
-ITEM                                    | WEIGHT
-----------------------------------------|-------
-Manuscript critiques (4 total, 10% each) |	40%
-Short paper adding big data analytics to a health-related research study | 10%
-Presentation of paper to class | 15%
-Final Big Data Project (presentation and report) | 35%
---- 
+Assignment               | Points 
+------------------------:|:--------
+Homework (8 total, 5% each) | 40 points
+Final Big Data Project (presentation and report) | 60 points
 
 _**Class participation is expected.**_
 
@@ -56,20 +51,13 @@ _**Class participation is expected.**_
 ## TEXTBOOKS (Recommended):
 
 * R in Action: Data Analysis and Graphics with R, Kabacoff R, 2015.
-* LaTeX Beginner’s Guide, Kottwitz S, 2011
-* LaTeX Cookbook, Kottwitz S, 2015.
-* Practical LaTeX, Grätzer G, 2014
 
-_NB – all but the last book of the 5 listed above are available online through the Emory Safari Books Online site. Use the following URL: [http://pid.emory.edu/dzfb2](http://pid.emory.edu/dzfb2)_
+_The books listed above are available online through the Emory Safari Books Online site. Use the following URL: [http://pid.emory.edu/dzfb2](http://pid.emory.edu/dzfb2)_
 
 ## COURSE REQUIREMENTS & ASSIGNMENTS
 
 Successful completion of the course objectives will be determined by performance with the following course assignments:
 
-1.	[Manuscript critiques](./articleCritique.html) For each application area, up to five selected journal articles will be posted; students will be expected to provide a short (one-page) critique for one article from each of the topic areas, each time focusing on the analytic technique used, evaluating its appropriateness, its value added to the study, and any ethical implications for its inclusion. Articles and critiques will be discussed in class.
+1. Homeworks - Homework assignments will comprise applications of techniques learned in class to different data sets.
 
-2.	[Short paper](./shortPaper.html) One short (~10 pages, double-spaced and single-sided) paper detailing a selected big data analytic methodology relevant to the student’s proposed area of research or particular interest.
-
-3.	[Comprehensive Final Project](./finalProject.html) A practicum/exemplar presentation of the student’s skills and knowledge for obtaining, analyzing and presenting results from Big Data sources to address an issue of interest in healthcare.
-
-
+2. One comprehensive final project – a practicum/exemplar presentation of the student’s skills and knowledge for obtaining, analyzing and presenting results from Big Data sources to address an issue of interest in healthcare.

@@ -11,3 +11,7 @@ _“This class is supported by DataCamp, the most intuitive learning platform fo
 
 
 **Datacamp** [https://www.datacamp.com/groups/education](https://www.datacamp.com/groups/education) is an online learning platform. For education, Datacamp provides courses for FREE while students are actively enrolled in participating courses. We have arranged for you to have access to these courses while you are enrolled at Emory University in N741.
+
+You should have access to the course site at [https://www.datacamp.com/groups/big-data-analytics-for-healthcare-nrsg-741](https://www.datacamp.com/groups/big-data-analytics-for-healthcare-nrsg-741).
+
+
