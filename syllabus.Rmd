@@ -38,7 +38,7 @@ This course uses a variety of teaching methods, including readings, case present
 ## EVALUATIONS & GRADING
 
 Assignment               | Points 
-------------------------:|:--------
+:------------------------|:--------
 Homework (8 total, 5% each) | 40 points
 Final Big Data Project (presentation and report) | 60 points
 
