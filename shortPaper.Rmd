@@ -1,0 +1,33 @@
+---
+title: "Short Paper"
+---
+
+## Directions: 
+
+Select a big data analytic technique that you anticipate using in your research. In no more than 10 double spaced single sided pages (Arial 11, 0.5 margins all around) excluding figures, tables, diagrams and references, address the following:
+
+## Sections to be included:
+
+1.	Overview of the big data analytic technique
+    a.	What is it?
+    b.	What is it designed to do?
+
+2.	Nuts and bolts
+    a.	How does it work?
+    b.	What are its strengths and limitations?
+    c.	Are there any particular pitfalls?
+
+3.	Fidelity, reliability, validity, reproducibility
+    a.	What measures are needed to ensure fidelity, reliability, validity, and reproducibility? 
+    b.	How might these be reported in future publications?
+
+4.	Overview of your research question
+    a.	How might you anticipate incorporating the big data analytic technique in your research?
+
+5.	Alternative approaches
+    a.	Compare and contrast big data analytic approaches that might be used to address your research question.
+
+6.	Ethical considerations
+
+7.	Conclusions
+

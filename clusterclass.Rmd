@@ -1,0 +1,13 @@
+---
+title: "Unsupervised Learning (formerly Clustering and Classification)"
+---
+
+## Unsupervised Learning (formerly Clustering and Classification)
+
+This was originally going to be "Clustering and Classification" but is now a lecture/lesson on Unsupervised Learning.
+
+### Github Repositories with Data and RMD files for this Lesson 10
+
+* [https://github.com/vhertzb/Lesson10](https://github.com/vhertzb/Lesson10) - examples and r markdown files demonstrating cluster analysis and classification and other unsupervised learning
+* [https://github.com/melindahiggins2000/N741UnsupervisedLearning](https://github.com/melindahiggins2000/N741UnsupervisedLearning) - more examples of unsupervised learning using `Rcmdr` and `rattle` packages.
+

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Reproducible Research: January 18, 2017</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 54px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+
+.section h2 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h3 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h4 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h5 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+.section h6 {
+  padding-top: 59px;
+  margin-top: -59px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">N741 Spring 2018</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-archive"></span>
+     
+    Lessons
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="intro.html">1. 01/11/2017 Introduction</a>
+    </li>
+    <li>
+      <a href="repres.html">2. 01/18/2017 Reproducible Research</a>
+    </li>
+    <li>
+      <a href="datawrangling.html">3. 01/25/2017 Data Wrangling</a>
+    </li>
+    <li>
+      <a href="eda.html">4. 02/01/2017 Exploratory Data Analysis</a>
+    </li>
+    <li>
+      <a href="models.html">5. 02/08/2017 Models - Linear and Logistic</a>
+    </li>
+    <li>
+      <a href="prediction.html">6. 02/15/2017 Prediction</a>
+    </li>
+    <li>
+      <a href="machinelearn.html">7. 02/22/2017 More Data (&amp; Code) Wrangling</a>
+    </li>
+    <li>
+      <a href="bagboost.html">8. 03/01/2017 Interacting and Visualizing Data</a>
+    </li>
+    <li>
+      <a href="break.html">9. 03/08/2017 No class – Spring Break</a>
+    </li>
+    <li>
+      <a href="randomforest.html">10. 03/15/2017 Supervised Learning</a>
+    </li>
+    <li>
+      <a href="clusterclass.html">11. 03/22/2017 Unsupervised Learning</a>
+    </li>
+    <li>
+      <a href="kernelsvm.html">12. 03/29/2017 Microbiome</a>
+    </li>
+    <li>
+      <a href="natlang.html">13. 04/05/2017 More Microbiome and AWS</a>
+    </li>
+    <li>
+      <a href="inclass.html">14. 04/12/2017 In-class Project Help</a>
+    </li>
+    <li>
+      <a href="projpres.html">15. 04/19 &amp; 26/2017 Project presentations</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="files.html">
+    <span class="fa fa-files-o"></span>
+     
+    Files
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-users"></span>
+     
+    Instructors
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-file-text"></span>
+     
+    Syllabus
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="syllabus.html">Overview</a>
+    </li>
+    <li>
+      <a href="articleCritique.html">Article Critique</a>
+    </li>
+    <li>
+      <a href="shortPaper.html">Short Paper</a>
+    </li>
+    <li>
+      <a href="finalProject.html">Final Project</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-cog"></span>
+     
+    Useful Stuff
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="textbook.html">Textbook Website</a>
+    </li>
+    <li>
+      <a href="UCI.html">UCI Data Repository</a>
+    </li>
+    <li>
+      <a href="help.html">R, RStudio. Git, Github Links/Help</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="colophon.html">
+    <span class="fa fa-info-circle"></span>
+     
+    Colophon
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Reproducible Research: January 18, 2017</h1>
+
+</div>
+
+
+<div id="reproducible-research-principles-january-18-2017" class="section level2">
+<h2>Reproducible Research Principles: : January 18, 2017</h2>
+<p><a href="http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/N741/master/Reproducible%20Research.html">Presentation from Vicki Hertzberg</a></p>
+<p>To get us started on the path to learning and using reproducible research principles, this week we will focus on:</p>
+<ol style="list-style-type: decimal">
+<li>Setting up RStudio with Git connected to Github enabling version control (tracking the code, analysis and documentation process)</li>
+<li>Writing your 1st Rmarkdown file combining R code and documentation to create a data analysis report.</li>
+</ol>
+</div>
+<div id="using-version-control" class="section level2">
+<h2>Using Version Control</h2>
+<div id="link-rstudio-to-github-using-git" class="section level3">
+<h3>Link RStudio to Github using Git</h3>
+<ol style="list-style-type: decimal">
+<li>Login to your Github account.</li>
+<li><p>Click on Repositories or Click New Repository <img src="repo01.JPG" alt="repo01.JPG" /></p></li>
+<li><p>Create a new repository “n741repo1”, type in a description, and initialize with a README file. Click “Create Repository” <img src="repo02.JPG" alt="repo02.JPG" />. LEAVE YOUR BROWSER OPEN at your Github repository website.</p></li>
+<li><p>Start RStudio. Click File/New Project. Choose “Version Control” <img src="newproj01.JPG" alt="newproj01.JPG" /></p></li>
+<li><p>Choose Git <img src="newproj02.JPG" alt="newproj02.JPG" /></p></li>
+<li><p>To get the URL for the Github repo - go back to your browser, click on the GREEN button “Clone or Download”. Right below the button it will open another window. For this example we will “Clone with HTTPS”. Click the little box with the arrow in it just to the right of the URL to “Copy the URL to the clipboard”. <img src="newproj03.JPG" alt="newproj03.JPG" /></p></li>
+<li><p>Now we will “paste” this URL into the RStudio window to complete our project set-up connecting RStudio to Github via Git in your new R project. “Paste” in the URL in the top box for “Repository URL”. This will autopopulate the “Project directory Name” - USE THIS NAME. In the bottom box, make sure you select the directory where you want this new project directory to be placed (e.g. C:/MyRFiles) or a location you are using to manage all of your files for this course. <img src="newproj04.JPG" alt="newproj04.JPG" /></p></li>
+</ol>
+</div>
+<div id="new-r-project-files" class="section level3">
+<h3>New R Project Files</h3>
+<ol start="8" style="list-style-type: decimal">
+<li>In RStudio, your project will now have 3 files in it (bottom right panel of screenshot below):</li>
+</ol>
+<ul>
+<li>README.md - this is the README file in your Github repo</li>
+<li>n741repo1.Rproj - this is the R project configuration file for your project settings in RStudio</li>
+<li>.gitignore - this is a listing for Git to ignore.</li>
+</ul>
+<p>If everything worked correctly, you’ll now see the word Git in a little vertical box at the top of the screen, right under the “Tools” menu. You will also notice in the top right window, 3 tabs “Environment”, “History”, and “Git”. <img src="newproj05.JPG" alt="newproj05.JPG" /></p>
+<ol start="9" style="list-style-type: decimal">
+<li>Click on the “Git” tab. You’ll notice that there are little yellow ? question marks which indicates that <code>n741repo1.Rproj</code> and <code>.gitignore</code> are as yet untracked. This is because these files were created by RStudio locally and these have not been added (a) to the Github repository and (b) have not yet been “brought under version control”. <img src="git01.JPG" alt="git01.JPG" /></li>
+</ol>
+</div>
+<div id="stage-and-commit-new-files" class="section level3">
+<h3>Stage and Commit New Files</h3>
+<ol start="10" style="list-style-type: decimal">
+<li>To add these files to our Github repository and “bring them under version control”, click on “Commit”. This will open another window. In this new window, click on the check boxes to the left of the file names in the top left window under “Staged”. As soon as you click on these boxes, the little yellow ?s will turn to green As indicating that these files have been “added” to this “commit.” <img src="git02.JPG" alt="git02.JPG" /></li>
+</ol>
+<p>BEFORE you click the “Commit” button, type in a description of what was changed or added in this “commit” - something like “added new r project files”. After typing in your description, click the “Commit” button. After cliking “Commit” you should see a confirmation message. <img src="git03.JPG" alt="git03.JPG" /> <img src="git04.JPG" alt="git04.JPG" /></p>
+</div>
+<div id="push-files-to-github-repository" class="section level3">
+<h3>PUSH Files to Github Repository</h3>
+<ol start="11" style="list-style-type: decimal">
+<li><p>“Commit” is the 1st step. The files are NOT YET added to the repository - they are NOT YET under version control. To do so, we need to PUSH the files we’ve committed up to Github. To PUSH the files up to Github, click on the GREEN UP ARROW and see the message generated. <img src="git05.JPG" alt="git05.JPG" /></p></li>
+<li><p>Go to Github and see that the files have been added to your repository. <img src="git06.JPG" alt="git06.JPG" /></p></li>
+</ol>
+<p>You’ll notice at the top left there is a clock symbol that now says “2 commits”. Click on this symbol. This shows the 1st “commit” when we created the repo with the readme and the 2nd “commit” was the files we just added after creating the R project. Using this view, you can click on each “commit” and review every version, every change that occured from the time the repo was created. <em>“Voilà”</em> you never have to create long file names with odd naming schemes to keep track of which version of the file(s) as you make changes and updates. <img src="git07.JPG" alt="git07.JPG" /></p>
+<ol start="13" style="list-style-type: decimal">
+<li>Let’s make some changes to the README.md file - open the README file and add some new text and save the file. You’ll notice in the Git TAB (top right), the README file now shows with a BLUE M indicating that the file has been modified. <img src="git08.JPG" alt="git08.JPG" /></li>
+</ol>
+<p>Next “commit” those changes - click the box under “staged and then click”commit&quot; and type in a message for this “commit”. In this window we can easily see what the differences are in the bottom panel. The text in GREEN is the new text we added. <img src="git09.JPG" alt="git09.JPG" /></p>
+<ol start="14" style="list-style-type: decimal">
+<li>NEXT, PUSH the new README.md file up to the Github repo. Then go to the Github repo website and refresh - you should now see your changes to the README file. <img src="git10.JPG" alt="git10.JPG" /></li>
+</ol>
+</div>
+<div id="make-changes-online-using-github" class="section level3">
+<h3>Make Changes Online Using Github</h3>
+<ol start="15" style="list-style-type: decimal">
+<li><p>Let’s see what happens if we make changes in the Github repo and then PULL those changes down to your R Project folder. In your Github repo, click on the link for the README.md file. This opens the file into a window where you can view the “Raw” file, see who to “Blame” for various edits and commits and review the “History” of the file. If you click on the pencil icon, you’ll be able to edit the README file and save your changes using the browser editor. Remember to add a commit message and then click the GREEN button “Commit Changes”. <img src="git11.JPG" alt="git11.JPG" /> <img src="git12.JPG" alt="git12.JPG" /> <img src="git13.JPG" alt="git13.JPG" /></p></li>
+<li><p>Check your Github repo - you’ll see your new changes. <img src="git14.JPG" alt="git14.JPG" /></p></li>
+</ol>
+</div>
+<div id="pull-updates-from-github-down-to-rstudio" class="section level3">
+<h3>PULL Updates from Github Down to RStudio</h3>
+<ol start="17" style="list-style-type: decimal">
+<li>Now let’s go update our R project with these new changes. This time we PULL the changes from Github down to our local R project. <img src="git15.JPG" alt="git15.JPG" /></li>
+</ol>
+<p>The resulting Git PULL message should confirm the updates. You’ll then see the changes to your README file in your RStudio project. <img src="git16.JPG" alt="git16.JPG" /> <img src="git17.JPG" alt="git17.JPG" /></p>
+<ol start="18" style="list-style-type: decimal">
+<li><strong>Congratulations</strong> you have now successfully:</li>
+</ol>
+<ul>
+<li>established a Github repo</li>
+<li>enabled version control and tracking using Git</li>
+<li>created an R project linked to your Github repo</li>
+<li>and brought all of your files under version control and tracking with full backup.</li>
+</ul>
+</div>
+</div>
+<div id="rmarkdown-example-with-gapminder" class="section level2">
+<h2>RMarkdown Example with Gapminder</h2>
+<p><a href="https://github.com/melindahiggins2000/N741gapminder1">Github Repo for N741 Gapminder Example</a></p>
+<p><a href="http://htmlpreview.github.com/?https://raw.githubusercontent.com/melindahiggins2000/N741gapminder1/master/GapminderMarkdown.html">Worked Example in HTML</a></p>
+</div>
+
+<hr>
+
+<p>Copyright &copy; <a href="http://melindahiggins2000.github.io/web2">Melinda Higgins, Ph.D.</a>. All contents under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">(CC) BY-NC-SA license</a>,<img src="ccbyncsa_88x31.png" alt="CC-BY-NC-SA" style="width:88px;height:31px;"> unless otherwise noted.
+</p>
+
+<p>
+	<a href=mailto:melinda.higgins@emory.edu>Feedback, Comments (email me)?</a> 
+</p>
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+---
+title: "N741 Big Data Analytics"
+---
+
+## COURSE NUMBER, TITLE:		
+NRSG 741, Big Data Analytics for Healthcare
+
+## COURSE DESCRIPTION
+
+This course will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.
+
+## COURSE OBJECTIVES
+
+At the end of this course the student will be able to successfully:
+
+1.	Demonstrate knowledge of the principles undergirding the tools of big data analysis in health related research.
+2.	Identify the potential of, and challenges to, incorporating big data analytics to improve the development and testing of precision medicine / nursing interventions.
+3.	Understand the principles of reproducible research and implement an appropriate workflow for data analysis and manuscript / report generation.
+4.	Effectively critique published research of health related studies conducted by using big data theoretical frameworks and research techniques.
+5.	Analyze ethical issues related to the use of big data analytics in health related research
+6.	Demonstrate knowledge of how data are gathered, stored, managed, and analyzed for big data analytics.
+
+## TEACHING AND LEARNING
+
+This course uses a variety of teaching methods, including readings, case presentations, lectures, practical skills application discussion sessions, simulation, and projects.

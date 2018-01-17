@@ -1,0 +1,48 @@
+---
+title: "More on Data (and Code) Wrangling"
+---
+
+## More on Data (and Code) Wrangling
+
+Originally, today's lecture (2/22/2017) was going to cover "Machine Learning Tasks." However, we have decided to take today's lecture to spend some more time on data wrangling and "code" wrangling.
+
+Please see Github repository [https://github.com/melindahiggins2000/Lecture7Foreal](https://github.com/melindahiggins2000/Lecture7Foreal) and HTML file [https://cdn.rawgit.com/melindahiggins2000/Lecture7Foreal/master/Lecture7.html](https://cdn.rawgit.com/melindahiggins2000/Lecture7Foreal/master/Lecture7.html).
+
+## Schedule Check-in
+
+**COMPLETED**
+
+1. 01/11/2017 - Intros to Course, Data Science, R, RStudio, and Rmarkdown
+2. 01/18/2017 - Reproducible Research Principles and Pipelines
+3. 01/25/2017 - Data Wrangling (part 1)
+    + DUE - Homework 1
+4. 02/01/2017 - Exploratory Data Analysis (EDA), Summary Stats, and Graphics Visualizations
+    + DUE - Project Milestone
+5. 02/08/2017 - Linear Regression Modeling
+    + DUE - Homework 2
+6. 02/15/2017 - Logistic Regression (introduction to "generalized" linear modeling) and Predictions
+    + DUE - Homework 3 (extended to 02/19/2017)
+7. 02/22/2017 - Data Wrangling (part 2) and "Code" Wrangling _(instead of machine learning tasks)_
+    + DUE - Homework 4
+    
+**TO DO**
+
+8. 03/01/2017 - Bagging and Boosting
+    + DUE - Short Papers
+9. 03/08/2017 - **NO CLASS - EMORY SPRING BREAK**
+10. 03/15/2017 - Random Forests and Generalized Additive Models (GAMs)
+    + DUE - Project Milestone 2
+11. 03/22/2017 - Clustering and Classification
+    + DUE - Homework 5
+12. 03/29/2017 - Kernels and Support Vector Machines (SVMs)
+    + DUE - Homework 6
+13. 04/05/2017 - Natural Language Processing
+    + DUE - Homework 7
+14. 04/12/2017 - OPEN for in class project work and help
+    + DUE - Homework 8
+15. 04/19/2017 - Project Presentations (week 1)
+    + DUE - Project Milestone 3 (papers)
+16. 04/26/2017 - Project Presentations (week 2)
+    + DUE - Presentation Files for 
+        + (A) short paper presentation and 
+        + (B) project presentation

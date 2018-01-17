@@ -1,0 +1,33 @@
+---
+title: "Comprehensive Final Project"
+---
+
+## Instructions and Expectations
+
+* [Final Project Directions via "vhertzb" Github repo](http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/Project-Milestone-1/master/Final_Project.html)
+
+**The link above has the FINAL Official Instructions and 3 Milestones for your Final Project.**
+
+## Syllabus - General Project Overview
+
+### Directions: 
+
+The final project is designed to be an exemplar for the students to demonstrate the knowledge and skills they learned throughout the course. Specifically, the project should show that they know how to find appropriate data sources, integrate and prepare the data for analysis, perform the appropriate analyses to address their research question of interest and present their findings in a format that is understandable and proposes a plan of action based on their findings. The final project will be completed in phases with defined milestones throughout the course so that the students will be able to pace out the work effort and get continuous feedback.
+
+### In General - Project Milestones
+
+1.	Develop a research question to address an issue of concern in healthcare.
+
+2.	Identify data sources to address the research question
+
+a.	Define the process for requesting and obtaining the data
+b.	Discuss pros and cons of the identified data sources and any limitations or bias present
+
+3.	Combine data sources as needed; clean and prepare data as needed to prepare for analysis
+
+4.	Describe final dataset (descriptive statistics) and outline methods and steps for data analysis to address research question
+
+5.	Complete data analysis; compile results; create tables and figures to visualize and communicate findings
+
+6.	Complete final report and present findings to class.
+

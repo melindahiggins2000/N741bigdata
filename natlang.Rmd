@@ -1,0 +1,11 @@
+---
+title: "More Microbiome and AWS (formerly Natural Language Processing)"
+---
+
+## More Microbiome and AWS (formerly Natural Language Processing)
+
+Today is the 2nd part of the lesson on working with microbiome data. 
+
+We will be learning how to move beyond pretty bar plots and scatter plots of principal coordinates to learning about assessing function. Dr. Hertzberg will demonstrate a new tool that improves on `PICRUSt`, with no installation necessary.
+
+FYI - Information on `PICRUSt` can be found at [http://picrust.github.io/picrust/](http://picrust.github.io/picrust/)

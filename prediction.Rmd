@@ -1,0 +1,22 @@
+---
+title: "Prediction"
+---
+
+## Lecture/Lesson on Prediction
+
+Today's lesson will focus on the details and considerations for predictive modeling. Some useful links are:
+
+* Website for book "Clinical Prediction Models" by Ewout W. Steyerberg, see [http://www.clinicalpredictionmodels.org/](http://www.clinicalpredictionmodels.org/)
+* also see the "seven steps for development and an ABCD for validation" paper based on the GUSTO dataset, posted at [http://www.clinicalpredictionmodels.org/doku.php?id=rcode_and_data:start](http://www.clinicalpredictionmodels.org/doku.php?id=rcode_and_data:start)
+* additional presentations by these authors, see [http://www.clinicalpredictionmodels.org/doku.php?id=presentations:start](http://www.clinicalpredictionmodels.org/doku.php?id=presentations:start)
+* Also see the paper "To Explain or to Predict" by Galit Shmueli [https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf](https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf); Statistical Science; 2010, Vol. 25, No. 3, 289–310; DOI: 10.1214/10-STS330.
+* There is also a helpful "cheatsheet" for Predictive Modeling at [https://dzone.com/refcardz/machine-learning-predictive](https://dzone.com/refcardz/machine-learning-predictive). _Note: D-zone requires you to subscribe to access/download the PDF._
+
+## Github Repositories
+
+Dr. Hertzberg & Dr. Higgins have both posted information and exercises for today's lecture on Github. Their repositories for today are provided below. Please feel free to download or fork these repositories.
+
+* [https://github.com/vhertzb/Prediction-1](https://github.com/vhertzb/Prediction-1)
+* [https://github.com/melindahiggins2000/N741predict](https://github.com/melindahiggins2000/N741predict)
+
+

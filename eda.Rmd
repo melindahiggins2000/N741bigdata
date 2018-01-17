@@ -1,0 +1,15 @@
+---
+title: "Exploratory Data Analysis"
+---
+
+## Exploratory Data Analysis
+
+### Vicki's slides
+
+Vicki's slides from today can be viewed at [https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/](https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/)
+
+### R Exercise on EDA - Github Repository
+
+Go to the Github Repository at [https://github.com/melindahiggins2000/N741EDA](https://github.com/melindahiggins2000/N741EDA) - feel free to fork this repository to your own Github account to use for today's lecture.
+
+The HTML view for today's lecture is at [https://htmlpreview.github.io/?https://raw.githubusercontent.com/melindahiggins2000/N741EDA/master/N741eda.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/melindahiggins2000/N741EDA/master/N741eda.html)

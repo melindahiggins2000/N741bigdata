@@ -1,0 +1,81 @@
+name: "N741 Big Data Analytics for Healthcare"
+output_dir: "docs"
+navbar:
+  title: "N741 Spring 2018"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Lessons"
+      icon: fa-archive
+      menu:
+        - text: "1. 01/11/2017 Introduction"
+          href: intro.html
+        - text: "2. 01/18/2017 Reproducible Research"
+          href: repres.html
+        - text: "3. 01/25/2017 Data Wrangling"
+          href: datawrangling.html
+        - text: "4. 02/01/2017 Exploratory Data Analysis"
+          href: eda.html
+        - text: "5. 02/08/2017 Models - Linear and Logistic"
+          href: models.html
+        - text: "6. 02/15/2017 Prediction"
+          href: prediction.html
+        - text: "7. 02/22/2017 More Data (& Code) Wrangling"
+          href: machinelearn.html
+        - text: "8. 03/01/2017 Interacting and Visualizing Data"
+          href: bagboost.html
+        - text: "9. 03/08/2017 No class – Spring Break"
+          href: break.html          
+        - text: "10. 03/15/2017 Supervised Learning"
+          href: randomforest.html
+        - text: "11. 03/22/2017 Unsupervised Learning"
+          href: clusterclass.html
+        - text: "12. 03/29/2017 Microbiome"
+          href: kernelsvm.html
+        - text: "13. 04/05/2017 More Microbiome and AWS"
+          href: natlang.html
+        - text: "14. 04/12/2017 In-class Project Help"
+          href: inclass.html
+        - text: "15. 04/19 & 26/2017 Project presentations"
+          href: projpres.html
+    - text: "Files"
+      icon: fa-files-o
+      href: files.html
+    - text: "Instructors"
+      icon: fa-users
+      href: about.html
+    - text: "Syllabus"
+      icon: fa-file-text
+      menu:
+        - text: "Overview"
+          href: syllabus.html
+        - text: "Article Critique"
+          href: articleCritique.html
+        - text: "Short Paper"
+          href: shortPaper.html
+        - text: "Final Project"
+          href: finalProject.html
+    - text: "Useful Stuff"
+      icon: fa-cog
+      menu:
+        - text: "Textbook Website"
+          href: textbook.html
+        - text: "UCI Data Repository"
+          href: UCI.html
+        - text: "R, RStudio. Git, Github Links/Help"
+          href: help.html
+  right:
+    - text: "Colophon"
+      icon: fa-info-circle
+      href: colophon.html
+output:
+  html_document:
+    theme: lumen
+    toc: true
+    toc_float: true
+    highlight: kate
+    include:
+      after_body: footer.html
+    css: [styles.css, font-awesome-4.7.0/css/font-awesome.css]
+    self_contained: yes

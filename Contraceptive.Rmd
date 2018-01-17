@@ -1,0 +1,96 @@
+---
+title: "test1"
+author: "Melinda Higgins"
+date: "January 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+See [http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice](http://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice)
+
+See data folder at [http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/](http://archive.ics.uci.edu/ml/machine-learning-databases/cmc/)
+
+read in dataset
+
+load the library(tidyverse) which loads the readr package for which we'll use read_csv()
+
+```{r}
+library(tidyverse)
+cmc <- read_csv("cmc.data", col_names=FALSE)
+```
+
+From the cmc.names text file
+
+```
+7. Attribute Information:
+
+   1. Wife's age                     (numerical)
+   2. Wife's education               (categorical)      1=low, 2, 3, 4=high
+   3. Husband's education            (categorical)      1=low, 2, 3, 4=high
+   4. Number of children ever born   (numerical)
+   5. Wife's religion                (binary)           0=Non-Islam, 1=Islam
+   6. Wife's now working?            (binary)           0=Yes, 1=No
+   7. Husband's occupation           (categorical)      1, 2, 3, 4
+   8. Standard-of-living index       (categorical)      1=low, 2, 3, 4=high
+   9. Media exposure                 (binary)           0=Good, 1=Not good
+   10. Contraceptive method used     (class attribute)  1=No-use 
+                                                        2=Long-term
+                                                        3=Short-term
+
+```
+column names
+WifeAge
+WifeEd
+HusbEd
+NumChild
+WifeRel
+WifeWork
+HusbOcc
+SOLindex
+Media
+Contraceptive
+
+```{r}
+names(cmc) <- c("WifeAge", "WifeEd", "HusbEd", "NumChild",
+                "WifeRel", "WifeWork", "HusbOcc", "SOLindex", 
+                "Media", "Contraceptive")
+```
+
+create the factors
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+```{r echo=FALSE}
+knitr::include_graphics("HWickham_data-science.png",
+                        dpi=75)
+```
+
+<p><small><center>_Image Copyright: Hadley Wickham ["R for Data Science"](http://r4ds.had.co.nz/introduction.html)_ [`r knitr::include_graphics("cc-by-nc-nd.png",
+                        dpi=1200)`](https://creativecommons.org/licenses/by-nc-nd/4.0/) </center></small></p>
+                        
+```{r echo=FALSE}
+# knitr::include_graphics("cc-by-nc-nd.png",
+#                         dpi=1200)
+```
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

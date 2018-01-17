@@ -1,0 +1,12 @@
+---
+title: "Machine Learning - Supervised Techniques (formerly Random Forest)"
+---
+
+## Machine Learning - Supervised Techniques (formerly Random Forest)
+
+Today (03/15/2017) was originally planned to cover random forests, which is a supervised "machine learning" or "data mining" method. However, today's lecture/lesson will still cover Random Forests which is a supervised learning method. We will also cover classification and regression trees (precursor to random forests). We will also introduce the `rattle` package which has a nice GUI (graphical user interface) for performing "data mining" or "machine learning" methods - supervised and unsupervised (we'll cover next week).
+
+* Github Repo 1: [https://github.com/vhertzb/Lesson-9](https://github.com/vhertzb/Lesson-9)
+* Github Repo 2: [https://github.com/melindahiggins2000/N741SupervisedLearning](https://github.com/melindahiggins2000/N741SupervisedLearning)
+
+

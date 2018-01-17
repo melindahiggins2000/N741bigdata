@@ -1,0 +1,71 @@
+---
+title: "Lessons"
+---
+
+## 1.	01/11/2016 Topic:	Introduction and Welcome
+
+* Introduction to the Course
+* What is data science?
+* R and RStudio
+* Rmarkdown reports
+
+## 2. 01/18/2016 Topic:	Reproducible Research Principles and Pipelines
+
+Info here on lesson 2
+
+## 3.	01/25/2016 Topic: Data Wrangling
+
+info here on lesson 3
+
+## 4. 02/01/2016 Topic: Exploratory Data Analysis
+
+Info on lesson 4
+
+EDA
+Summary Statistics
+Visualization
+Shiny
+
+## 5.	02/08/2016 Topic: Models, Linear and Logistic, Prediction
+
+info here on lesson 5
+
+## 6. 02/15/2016 Topic: Machine Learning Tasks
+
+info here on lesson 6
+
+## 7. 02/22/2016 Topic: Bagging and boosting
+
+info here on lesson 7
+
+## 8. 03/01/2016 Topic: Random forests and general additive models
+
+info here on lesson 8
+
+## 9. 03/08/2016 Topic: No class – spring break
+
+No class - SPRING BREAK
+
+## 10. 03/15/2016 Topic: Clustering and classification
+
+info on lesson 10
+
+## 11. 03/22/2016	Topic: Kernels and SVMs
+
+info on lesson 11
+
+## 12. 03/29/2016 Topic: Natural language processing
+
+info here on lesson 12
+
+## 13. 04/05/2016 Topic: Open for project work
+
+Open for help on projects
+
+## 14. 04/12/2016 Topic: Project presentations
+
+In class Project Presentations
+
+## 15. 04/19/2016 Topic: Project presentations
+
+In class Project Presentations

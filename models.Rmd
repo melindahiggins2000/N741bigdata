@@ -1,0 +1,14 @@
+---
+title: "Modeling - Linear & Logistic"
+---
+
+## Modeling - Linear - training and testing models
+
+For today's lecture & R exercises and Homework 3 - please fork a copy of Vicki's Github Repository "Regression-1" [https://github.com/vhertzb/Regression-1](https://github.com/vhertzb/Regression-1).
+
+We will also be using the "R Commander" package, see more info at [http://www.rcommander.com/](http://www.rcommander.com/) and at CRAN [https://cran.r-project.org/web/packages/Rcmdr/index.html](https://cran.r-project.org/web/packages/Rcmdr/index.html). So, please make sure you have `Rcmdr` installed. 
+
+## Modeling - Logistic
+
+Also see Github Repo [https://github.com/melindahiggins2000/N741linearlogmodels](https://github.com/melindahiggins2000/N741linearlogmodels).
+

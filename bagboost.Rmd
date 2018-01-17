@@ -1,0 +1,17 @@
+---
+title: "Interacting and Visualizing Data (formerly Bagging & Boosting)"
+---
+
+## Interacting and Visualizing Data (formerly Bagging & Boosting)
+
+This week was originally planned for boosting and bagging. However, instead we spent more time on working in R, RStudio and Rmarkdown for producing reports and other interactive ways of visualizing and interacting with the data.
+
+See:
+
+* Github Repo 1: [https://github.com/melindahiggins2000/N741interactive](https://github.com/melindahiggins2000/N741interactive)
+
+* Github Repo 2: [https://github.com/vhertzb/Week8](https://github.com/vhertzb/Week8)
+
+
+
+

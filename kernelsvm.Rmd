@@ -1,0 +1,19 @@
+---
+title: "Microbiome (formerly Kernels and SVMs)"
+---
+
+## Microbiome (formerly Kernels and SVMs)
+
+Today we begin a a two-part lesson on working with and processing microbiome data.
+
+### Github Repositories
+
+* [https://github.com/vhertzb/Lesson11](https://github.com/vhertzb/Lesson11)
+    - Beginning in this session and continuing into the next we will explore the world of microbiome data. We will start with the analysis of 16s rRNA sequences, fresh from the sequencer. We will use the R program `dada2` to create what is commonly called an OTUtable from the sequences. We will then use the R program `phyloseq` to analyze these data. Finally we will explore the functional aspects of these data.
+    - also see [https://github.com/vhertzb/Lesson-9](https://github.com/vhertzb/Lesson-9) instructions for "Homework 6" in the `HW6.pdf` file.
+    
+* [https://github.com/melindahiggins2000/N741hmwk6](https://github.com/melindahiggins2000/N741hmwk6)
+    - has instructions for setting up `dada2` package and all associated files in the `HW6.Rmd` file and in the script `hmwk6script.R`.
+    - NOTE: When installing `dada2` you may need to also install associated package or update associated packages. This can take some time 10-20 minutes or longer. It is further noted that several people did have to install the `stringi` package which seems to be the longest to install.
+
+

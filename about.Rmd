@@ -1,0 +1,35 @@
+---
+title: "About the Instructors"
+---
+
+## Vicki Hertzberg <i class="fa fa-github fa-1x"></i> [Vicki's **Github** Repositories](https://github.com/vhertzb)
+
+[Dr. Vicki Stover Hertzberg,  FASA](http://nursing.emory.edu/faculty-and-research/directory/profile.html?id=3040) is an internationally-recognized expert on “big data” and its impact on health care. She is widely known for her work measuring the social contacts in emergency departments and disease transmission on aircraft carriers. Her research has been funded by the National Institute of Neurological Disorders and Stroke, the National Institute of Environmental Health, and the National Institute of Allergy and Infectious Disease. Her work has been published in high-impact journals, including the _New England Journal of Medicine_, _PLOS One_, and _Pediatrics_. 
+
+### Contact Information
+
+> Vicki Stover Hertzberg, PhD <br>
+  Professor <br>
+  Nell Hodgson Woodruff School of Nursing <br>
+  Office 244, office hours by appointment <br>
+  Office phone: 404-727-1881 <br>
+  Email: [vhertzb@emory.edu](mailto: vhertzb@emory.edu) <br>
+
+--- 
+
+## Melinda Higgins <i class="fa fa-github fa-1x"></i> [Melinda's **Github** Repositories](https://github.com/melindahiggins2000)
+
+[Melinda Higgins, Ph.D.](http://nursing.emory.edu/faculty-and-research/directory/profile.html?id=980) holds dual degrees in Chemometrics and Statistics. She has over 20 years research experience focused on pattern recognition, characterization and modeling of high-dimensional, multivariate datasets. She provides statistical and data management consultation for faculty and students at all stages of research. She also conducts workshops, lectures and courses on statistical methods and software (including SPSS, SAS, R and power/sample size packages PASS and G*Power).
+
+You can also get additional information about Melinda at [http://melindahiggins2000.github.io/web2/](http://melindahiggins2000.github.io/web2/)
+
+### Contact Information
+
+> Melinda Higgins, PhD <br>
+  Associate Professor <br>
+  Nell Hodgson Woodruff School of Nursing <br>
+  Office 260, office hours by appointment <br>
+  Office phone: 404-727-5180 <br>
+  Email: [mkhiggi@emory.edu](mailto: mkhiggi@emory.edu) <br>
+  
+  
