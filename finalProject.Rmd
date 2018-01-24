@@ -2,7 +2,13 @@
 title: "Comprehensive Final Project"
 ---
 
-_** TO BE UPDATED FOR SPRING 2018 **_
+***
+<center>
+<div style="color:red">
+_**TO BE UPDATED FOR SPRING 2018**_
+</div>
+</center>
+***
 
 ## Instructions and Expectations
 
