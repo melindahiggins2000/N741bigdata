@@ -61,3 +61,24 @@ Successful completion of the course objectives will be determined by performance
 1. Homeworks - Homework assignments will comprise applications of techniques learned in class to different data sets.
 
 2. One comprehensive final project – a practicum/exemplar presentation of the student’s skills and knowledge for obtaining, analyzing and presenting results from Big Data sources to address an issue of interest in healthcare.
+
+## Calendar Schedule for Lectures & Homework
+
+Session	| Date | Topic                                        	| Assignment DUE
+----------|--------:|-----------------------------------------------|--------------
+1	| 01/17 | Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports	| 
+2	| 01/24  | Reproducible Research Principles and Pipelines	| 
+3	| 01/31  | Data Wrangling	| H01 
+4	| 02/07  | More on Data (and Code) Wrangling	| Project Milestone 01 
+5	| 02/14  | Exploratory Data Analysis; Summary Statistics; Visualization 	| H02 
+6	| 02/21  | Reproducible reporting,  presentation methods, and working with text (regular expressions)	| H03 
+7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H04 
+8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	| H05 
+9	| 03/14  | - **SPRING BREAK NO CLASS** -	| 
+10	| 03/21  | Models – Linear and Logistic; Prediction	| 
+11	| 03/28  | Machine learning – supervised methods	| Project Milestone 02
+12	| 04/04  | Machine learning – unsupervised methods	| H06 
+13	| 04/11  | Network science	| H07 
+14	| 04/18  | Metabolomics	| H08 
+15	| 04/25  | To Amazon and beyond with the cloud	| 
+16	| 05/02  | Project presentations	| Papers (Project Milestone 3); Presentation files for A) short paper presentation and B) project  
