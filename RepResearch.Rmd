@@ -1,0 +1,12 @@
+---
+title: "Reproducible Research"
+---
+
+## Highlights - Slides
+
+* [Slides - History & Importance of Reproducibility & Transparency](m1_lesson01.html)
+* [Slides - Literate Programming & Dynamic Documentation](m1_lesson02.html)
+* [Slides - Reproducible Principles, Practices & Examples](m1_lesson03.html)
+* [Slides - Reproducible Components](m1_lesson04.html)
+
+## aaa

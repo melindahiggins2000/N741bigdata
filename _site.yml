@@ -12,7 +12,7 @@ navbar:
         - text: "1. 01/17/2017 Introduction"
           href: intro.html
         - text: "2. 01/23/2017 Introduction"
-          href: intro.html
+          href: RepResearch.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
