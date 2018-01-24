@@ -44,5 +44,5 @@ b.	Discuss pros and cons of the identified data sources and any limitations or b
 | - Paper | 20 points |
 | - Presentation to class | 15 points |
 | - Slide Deck | 10 points |
-## Grading/Points
+
 
