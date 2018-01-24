@@ -1,0 +1,11 @@
+---
+title: "Homework 1: DUE 01/31/2018"
+---
+
+## Homework 1
+
+* see "HW1_20180124.docx", which can be downloaded from the Github Repository [https://github.com/melindahiggins2000/N741_Lecture2_20180124](https://github.com/melindahiggins2000/N741_Lecture2_20180124)
+* see Example Report at [https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html](https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html)
+* see instructional video for help at [https://youtu.be/WlqyYwwEC8w](https://youtu.be/WlqyYwwEC8w)
+* and other helpful Videos for N741 at [https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741](https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741)
+

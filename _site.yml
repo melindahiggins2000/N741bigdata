@@ -13,6 +13,11 @@ navbar:
           href: intro.html
         - text: "2. 01/23/2017 Reproducible Research"
           href: RepResearch.html
+    - text: "Homework"
+      icon: fa-tasks
+      menu:
+        - text: "Homework 1: DUE 01/31/2018"
+          href: hmwk1.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
