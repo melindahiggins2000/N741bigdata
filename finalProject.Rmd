@@ -2,14 +2,6 @@
 title: "Comprehensive Final Project"
 ---
 
-***
-<center>
-<div style="color:red">
-_**TO BE UPDATED FOR SPRING 2018**_
-</div>
-</center>
-***
-
 ## Instructions and Expectations
 
 * [Final Project Directions via "vhertzb" Github repo](http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/Project-Milestone-1/master/Final_Project.html)
@@ -38,4 +30,19 @@ b.	Discuss pros and cons of the identified data sources and any limitations or b
 5.	Complete data analysis; compile results; create tables and figures to visualize and communicate findings
 
 6.	Complete final report and present findings to class.
+
+## GRADING
+
+| Assignment                                      | Points |
+|:-----------------------------------------------|:--------|
+| Homework (8 total, 5% each) | 40 points |
+| Final Big Data Project (presentation and report) | 60 points (breakdown below) |
+|================================================|=========|
+| Milestone 1: 1-2 page document describing your idea | 5 points |
+| Milestone 2: approximately 10 page document showing here you are going - initial DRAFT report | 10 points |
+| Milestone 3: FINAL |   |
+| - Paper | 20 points |
+| - Presentation to class | 15 points |
+| - Slide Deck | 10 points |
+## Grading/Points
 

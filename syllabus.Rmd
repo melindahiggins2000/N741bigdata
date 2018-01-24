@@ -37,10 +37,17 @@ This course uses a variety of teaching methods, including readings, case present
 
 ## EVALUATIONS & GRADING
 
-Assignment               | Points 
-:------------------------|:--------
-Homework (8 total, 5% each) | 40 points
-Final Big Data Project (presentation and report) | 60 points
+| Assignment                                      | Points |
+|:-----------------------------------------------|:--------|
+| Homework (8 total, 5% each) | 40 points |
+| Final Big Data Project (presentation and report) | 60 points (breakdown below) |
+|================================================|=========|
+| Milestone 1: 1-2 page document describing your idea | 5 points |
+| Milestone 2: approximately 10 page document showing here you are going - initial DRAFT report | 10 points |
+| Milestone 3: FINAL |   |
+| - Paper | 20 points |
+| - Presentation to class | 15 points |
+| - Slide Deck | 10 points |
 
 _**Class participation is expected.**_
 
