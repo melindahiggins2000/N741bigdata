@@ -37,6 +37,10 @@ navbar:
           href: help.html
         - text: "Datacamp"
           href: datacamp.html
+        - text: "Fix Installing Packages"
+          href: fixInstallPkgs.html
+        - text: "GIT/Github Cheatsheet"
+          href: githelp.html
   right:
     - text: "Colophon"
       icon: fa-info-circle
