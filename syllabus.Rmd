@@ -75,8 +75,8 @@ Session	| Date | Topic                                        	| Assignment DUE
 ----------|--------:|-----------------------------------------------|--------------
 1	| 01/17 | Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports	| 
 2	| 01/24  | Reproducible Research Principles and Pipelines	| 
-3	| 01/31  | Data Wrangling	| H01 
-4	| 02/07  | More on Data (and Code) Wrangling	| Project Milestone 01 
+3	| 01/31  | Data Wrangling	| 
+4	| 02/07  | More on Data (and Code) Wrangling	| H01 & Project Milestone 01 
 5	| 02/14  | Exploratory Data Analysis; Summary Statistics; Visualization 	| H02 
 6	| 02/21  | Reproducible reporting,  presentation methods, and working with text (regular expressions)	| H03 
 7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H04 
