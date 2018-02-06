@@ -1,0 +1,12 @@
+---
+title: "Reproducible Research (part 2)"
+---
+
+This week we will continue 
+
+* learning about Rmarkdown, 
+* installing and loading packages in R
+* working through the Gapminder Example to set up Homework 1
+
+We will also have a guest lecture from Dr. Michelle Wright, "NuRsing Reproducible Research into the 21st Century", on her experiences working with R and using reproducible research workflow principles working on a large research team. Her presentation also includes a humorous video on reproducible research, see [https://youtu.be/N2zK3sAtr-4](https://youtu.be/N2zK3sAtr-4).
+

@@ -4,7 +4,9 @@ title: "Comprehensive Final Project"
 
 ## Instructions and Expectations
 
-* [Final Project Directions via "vhertzb" Github repo](http://htmlpreview.github.com/?https://raw.githubusercontent.com/vhertzb/Project-Milestone-1/master/Final_Project.html)
+* Final Project Directions via "vhertzb" Github repo [https://github.com/vhertzb/Project-Milestone-1](https://github.com/vhertzb/Project-Milestone-1)
+
+* see the HTML file at [https://cdn.rawgit.com/vhertzb/Project-Milestone-1/master/Final_Project.html](https://cdn.rawgit.com/vhertzb/Project-Milestone-1/master/Final_Project.html)
 
 **The link above has the FINAL Official Instructions and 3 Milestones for your Final Project.**
 

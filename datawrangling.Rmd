@@ -1,8 +1,8 @@
 ---
-title: 'Data Wrangling: January 25, 2017'
+title: 'Data Wrangling'
 ---
 
-## Data Wrangling: January 25, 2017
+## Data Wrangling
 
 For today's class, we will be working with the "N741 Data Wrangling" Github repository [https://github.com/melindahiggins2000/N741DataWrangling](https://github.com/melindahiggins2000/N741DataWrangling).
 

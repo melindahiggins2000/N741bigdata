@@ -76,13 +76,13 @@ Session	| Date | Topic                                        	| Assignment DUE
 1	| 01/17 | Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports	| 
 2	| 01/24  | Reproducible Research Principles and Pipelines	| 
 3	| 01/31  | Data Wrangling	| 
-4	| 02/07  | More on Data (and Code) Wrangling	| H01 & Project Milestone 01 
-5	| 02/14  | Exploratory Data Analysis; Summary Statistics; Visualization 	| H02 
-6	| 02/21  | Reproducible reporting,  presentation methods, and working with text (regular expressions)	| H03 
-7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H04 
-8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	| H05 
+4	| 02/07  | More on Data (and Code) Wrangling	| H01
+5	| 02/14  | Exploratory Data Analysis; Summary Statistics; Visualization 	| Project Milestone 01 
+6	| 02/21  | Reproducible reporting,  presentation methods, and working with text (regular expressions)	| H02 
+7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H03 
+8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	| H04 
 9	| 03/14  | - **SPRING BREAK NO CLASS** -	| 
-10	| 03/21  | Models – Linear and Logistic; Prediction	| 
+10	| 03/21  | Models – Linear and Logistic; Prediction	| H05
 11	| 03/28  | Machine learning – supervised methods	| Project Milestone 02
 12	| 04/04  | Machine learning – unsupervised methods	| H06 
 13	| 04/11  | Network science	| H07 
