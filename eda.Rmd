@@ -2,9 +2,11 @@
 title: "Exploratory Data Analysis, Summary Stats & Visualization"
 ---
 
-## Github repository for today
+## Github repositories for today
 
-[https://github.com/melindahiggins2000/N741_Lecture5_20180214](https://github.com/melindahiggins2000/N741_Lecture5_20180214)
+* Part 1 - [https://github.com/melindahiggins2000/N741_Lecture5_20180214](https://github.com/melindahiggins2000/N741_Lecture5_20180214) - this Github repository provides examples using the `car` package with the `Leinhardt` dataset which will help with Homework 2
+
+* Part 2 - [https://github.com/melindahiggins2000/Lecture7Foreal](https://github.com/melindahiggins2000/Lecture7Foreal) - this Github repository covers additional examples working with `dplyr` and `ggplot2` working with a `Pesticides` dataset - this repository was adapted from N741 2017 Lecture 7.
 
 ## Exploratory Data Analysis, Summary Statistics & Visualization
 
