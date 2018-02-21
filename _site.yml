@@ -19,6 +19,8 @@ navbar:
           href: datawrangling.html
         - text: "5. 02/14/2018 EDA"
           href: eda.html
+        - text: "6. 02/21/2018 Data Presentation and Text as Data"
+          href: lesson6.html
     - text: "Homework"
       icon: fa-tasks
       menu:
@@ -26,6 +28,8 @@ navbar:
           href: hmwk1.html
         - text: "Homework 2: DUE 02/21/2018"
           href: hmwk2.html
+        - text: "Homework 3: DUE 02/28/2018"
+          href: hmwk3.html
     - text: "Files"
       icon: fa-files-o
       href: files.html

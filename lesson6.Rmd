@@ -1,0 +1,12 @@
+---
+title: "Data Presentation (Shiny) & Text (as data) Manipulation"
+---
+
+## Github repository
+
+* [https://github.com/vhertzb/2018week6](https://github.com/vhertzb/2018week6)
+
+## Lecture Materials for Today
+
+* [https://cdn.rawgit.com/vhertzb/2018week6/master/Week6.html](https://cdn.rawgit.com/vhertzb/2018week6/master/Week6.html)
+

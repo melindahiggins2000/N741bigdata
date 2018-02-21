@@ -1,0 +1,10 @@
+---
+title: "Homework 3: DUE 02/28/2018"
+---
+
+## Homework 3
+
+* Github repo for Homework 3 [https://github.com/vhertzb/2018week6](https://github.com/vhertzb/2018week6)
+
+* View Homework 3 in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_2018.html](https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_2018.html)
+
