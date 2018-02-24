@@ -21,6 +21,10 @@ navbar:
           href: eda.html
         - text: "6. 02/21/2018 Data Presentation and Text as Data"
           href: lesson6.html
+        - text: "7. 02/28/2018 Microbiome Analysis - part 1"
+          href: lesson78.html
+        - text: "8. 02/28/2018 Microbiome Analysis - part 2"
+          href: lesson78.html
     - text: "Homework"
       icon: fa-tasks
       menu:
