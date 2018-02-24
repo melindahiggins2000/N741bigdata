@@ -15,15 +15,18 @@ See details at [https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.htm
 ## Prep Work for `dada2` Tutorial - Instructions
 
 However, if you would like to come and work along with us through the exercises (hands-on), please come prepared with the following:
+
 1. A laptop with R and RStudio installed:
     a. Download R [https://cran.r-project.org/](https://cran.r-project.org/)
     b. Download RStudio [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download) 
+    
     
 2. Install these R packages ahead of time
     a. tidyverse from CRAN [https://cran.r-project.org/web/packages/tidyverse/index.html](https://cran.r-project.org/web/packages/tidyverse/index.html) 
     b. dada2 from Bioconductor [https://www.bioconductor.org/packages/release/bioc/html/dada2.html](https://www.bioconductor.org/packages/release/bioc/html/dada2.html) 
     c. phyloseq from Bioconductor [https://bioconductor.org/packages/release/bioc/html/phyloseq.html](https://bioconductor.org/packages/release/bioc/html/phyloseq.html) 
     d. ShortRead from Bioconductor [http://bioconductor.org/packages/release/bioc/html/ShortRead.html](http://bioconductor.org/packages/release/bioc/html/ShortRead.html) 
+
 
 3. See setup details at [https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html](https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html) 
 
