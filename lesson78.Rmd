@@ -2,6 +2,12 @@
 title: "Microbiome Analysis - `dada2` Tutorial"
 ---
 
+## `dada2` exercise
+
+* see `vhertzb` Github repo at [https://github.com/vhertzb/2018Week7](https://github.com/vhertzb/2018Week7)
+
+* HTML file with notes [https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html](https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html)
+
 ## Complete Homework 3 - `dada2` prep work
 
 The next 2 classes (lessons 7 and 8) will introduce and work through the data analysis tutorial using the `dada2` `R` package. Complete [Homework 3](https://melindahiggins2000.github.io/N741bigdata/hmwk3.html) to be sure you are prepared to work through these exercises. 
