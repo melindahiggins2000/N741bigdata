@@ -2,6 +2,12 @@
 title: "Microbiome Analysis - `dada2` Tutorial"
 ---
 
+## part 2 03/07/2018
+
+* files for part 2 of the `dada2` exercise at located in the Github repo at [https://github.com/vhertzb/2018Week8](https://github.com/vhertzb/2018Week8)
+
+* See lecture in HTML at [https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html](https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html)
+
 ## `dada2` exercise
 
 * see `vhertzb` Github repo at [https://github.com/vhertzb/2018Week7](https://github.com/vhertzb/2018Week7)

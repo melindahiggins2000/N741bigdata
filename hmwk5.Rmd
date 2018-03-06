@@ -1,0 +1,10 @@
+---
+title: "Homework 5: DUE 03/21/2018"
+---
+
+## Homework 5
+
+* Github repo for Homework 5 at [https://github.com/vhertzb/2018Week8](https://github.com/vhertzb/2018Week8) 
+
+* View Homework 5 in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018Week8/master/HW5_2018.html](https://cdn.rawgit.com/vhertzb/2018Week8/master/HW5_2018.html)
+

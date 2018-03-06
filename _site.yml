@@ -36,6 +36,8 @@ navbar:
           href: hmwk3.html
         - text: "Homework 4: DUE 03/07/2018"
           href: hmwk4.html
+        - text: "Homework 5: DUE 03/21/2018"
+          href: hmwk5.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
