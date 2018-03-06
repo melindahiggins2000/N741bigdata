@@ -11,3 +11,10 @@ title: "Homework 2: DUE 02/21/2018"
 * Homework 2 as a PDF [https://github.com/melindahiggins2000/N741Homework2/blob/master/Homework_2.pdf](https://github.com/melindahiggins2000/N741Homework2/blob/master/Homework_2.pdf)
 
 * Homework 2 as a DOCX [https://github.com/melindahiggins2000/N741Homework2/blob/master/Homework_2.docx](https://github.com/melindahiggins2000/N741Homework2/blob/master/Homework_2.docx) - click DOWNLOAD
+
+## Homework 2 - ANSWER KEY
+
+The Github repo for Homework 2 Answer Key is [https://github.com/melindahiggins2000/N741Spring2018_Homework2Key](https://github.com/melindahiggins2000/N741Spring2018_Homework2Key)
+
+View the Homework 2 Answer Key in HTML (as a webpage) at [https://cdn.rawgit.com/melindahiggins2000/N741Spring2018_Homework2Key/master/Homework2Key.html](https://cdn.rawgit.com/melindahiggins2000/N741Spring2018_Homework2Key/master/Homework2Key.html)
+
