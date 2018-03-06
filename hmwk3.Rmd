@@ -8,3 +8,7 @@ title: "Homework 3: DUE 02/28/2018"
 
 * View Homework 3 in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html](https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html)
 
+## Homework 3 - ANSWER KEY
+
+* Github repo for the Answer Key files [https://github.com/melindahiggins2000/N741Spring2018_Homework3Key](https://github.com/melindahiggins2000/N741Spring2018_Homework3Key)
+
