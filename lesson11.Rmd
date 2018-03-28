@@ -1,0 +1,13 @@
+---
+title: "Models – Linear and Logistic; Prediction"
+---
+
+## Github repos for today
+
+* Linear Regression []()
+
+* Logistic Regression repo [https://github.com/melindahiggins2000/N741_lecture11_27March2018](https://github.com/melindahiggins2000/N741_lecture11_27March2018)
+    + HTML [https://melindahiggins2000.github.io/N741_lecture11_27March2018/logisticReg.html](https://melindahiggins2000.github.io/N741_lecture11_27March2018/logisticReg.html)
+    + R Script [https://github.com/melindahiggins2000/N741_lecture11_27March2018/blob/master/lesson11_logreg_Rcode.R](https://github.com/melindahiggins2000/N741_lecture11_27March2018/blob/master/lesson11_logreg_Rcode.R)
+    
+    

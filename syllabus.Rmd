@@ -82,10 +82,10 @@ Session	| Date | Topic                                        	| Assignment DUE
 7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H03 
 8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	| H04 
 9	| 03/14  | - **SPRING BREAK NO CLASS** -	| 
-10	| 03/21  | Models – Linear and Logistic; Prediction	| H05
-11	| 03/28  | Machine learning – supervised methods	| Project Milestone 02
-12	| 04/04  | Machine learning – unsupervised methods	| H06 
-13	| 04/11  | Network science	| H07 
-14	| 04/18  | Metabolomics	| H08 
+10	| 03/21  | NO CLASS - SNRS  | H05
+11  | 03/28  | Models – Linear and Logistic; Prediction	| Project Milestone 2
+11	| 04/04  | Machine learning – supervised methods	| H06
+12	| 04/11  | Machine learning – unsupervised methods	| H07 
+13	| 04/18  | Network science	| H08 
 15	| 04/25  | To Amazon and beyond with the cloud	| 
 16	| 05/02  | Project presentations	| Papers (Project Milestone 3); Presentation files for A) short paper presentation and B) project  
