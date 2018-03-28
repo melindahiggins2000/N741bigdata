@@ -4,7 +4,11 @@ title: "Models – Linear and Logistic; Prediction"
 
 ## Github repos for today
 
-* Linear Regression []()
+* Linear Regression
+    + Repo 1 - linear regression [https://github.com/vhertzb/2018week9](https://github.com/vhertzb/2018week9)
+    + HTML Content Linear Regression [https://cdn.rawgit.com/vhertzb/2018week9/2f2ea142/2018week9.html?raw=true](https://cdn.rawgit.com/vhertzb/2018week9/2f2ea142/2018week9.html?raw=true)
+    + Repo 2 - prediction [https://github.com/vhertzb/2018week9prediction](https://github.com/vhertzb/2018week9prediction)
+    + HTML Content on GzLM and Prediction [https://cdn.rawgit.com/vhertzb/2018week9prediction/master/2018week9prediction.html](https://cdn.rawgit.com/vhertzb/2018week9prediction/master/2018week9prediction.html)
 
 * Logistic Regression repo [https://github.com/melindahiggins2000/N741_lecture11_27March2018](https://github.com/melindahiggins2000/N741_lecture11_27March2018)
     + HTML [https://melindahiggins2000.github.io/N741_lecture11_27March2018/logisticReg.html](https://melindahiggins2000.github.io/N741_lecture11_27March2018/logisticReg.html)
