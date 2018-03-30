@@ -1,0 +1,10 @@
+---
+title: "Homework 6: DUE 04/06/2018"
+---
+
+## Homework 6
+
+* Github repo for Homework 6 at [https://github.com/melindahiggins2000/N741Spring2018_Homework6](https://github.com/melindahiggins2000/N741Spring2018_Homework6)
+
+* View Homework 6 Assignment in HTML (as a webpage) at [https://melindahiggins2000.github.io/N741Spring2018_Homework6/homework6.html](https://melindahiggins2000.github.io/N741Spring2018_Homework6/homework6.html)
+
