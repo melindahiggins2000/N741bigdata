@@ -84,7 +84,7 @@ Session	| Date | Topic                                        	| Assignment DUE
 9	| 03/14  | - **SPRING BREAK NO CLASS** -	| 
 10	| 03/21  | NO CLASS - SNRS  | H05
 11  | 03/28  | Models – Linear and Logistic; Prediction	| Project Milestone 2
-11	| 04/04  | Machine learning – supervised methods	| H06
+11	| 04/04  | Machine learning – supervised methods	| H06 due 04/06/2018
 12	| 04/11  | Machine learning – unsupervised methods	| H07 
 13	| 04/18  | Network science	| H08 
 15	| 04/25  | To Amazon and beyond with the cloud	| 
