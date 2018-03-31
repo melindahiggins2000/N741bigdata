@@ -80,9 +80,9 @@ Session	| Date | Topic                                        	| Assignment DUE
 5	| 02/14  | Exploratory Data Analysis; Summary Statistics; Visualization 	| Project Milestone 01 
 6	| 02/21  | Reproducible reporting,  presentation methods, and working with text (regular expressions)	| H02 
 7	| 02/28  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| H03 
-8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	| H04 
+8	| 03/07  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued) **NO CLASS - WATER MAIN BREAK - CAMPUS CLOSED**	| H04 
 9	| 03/14  | - **SPRING BREAK NO CLASS** -	| 
-10	| 03/21  | NO CLASS - SNRS  | H05
+10	| 03/21  | **NO CLASS - SNRS CONFERENCE** | H05
 11  | 03/28  | Models – Linear and Logistic; Prediction	| Project Milestone 2
 11	| 04/04  | Machine learning – supervised methods	| H06 due 04/06/2018
 12	| 04/11  | Machine learning – unsupervised methods	| H07 
