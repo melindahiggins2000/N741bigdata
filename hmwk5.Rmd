@@ -8,3 +8,9 @@ title: "Homework 5: DUE 03/21/2018"
 
 * View Homework 5 in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018Week8/master/HW5_2018.html](https://cdn.rawgit.com/vhertzb/2018Week8/master/HW5_2018.html)
 
+## Homework 5 - ANSWER KEY
+
+* Github repo for Homework 5 Answer Key [https://github.com/melindahiggins2000/N741Spring2018_Homework5Key](https://github.com/melindahiggins2000/N741Spring2018_Homework5Key)
+
+* View Homework 5 Answer Key in HTML [https://melindahiggins2000.github.io/N741Spring2018_Homework5Key/Homework5_AnswerKey.html](https://melindahiggins2000.github.io/N741Spring2018_Homework5Key/Homework5_AnswerKey.html)
+

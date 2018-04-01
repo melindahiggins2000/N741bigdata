@@ -8,3 +8,8 @@ title: "Homework 4: DUE 03/07/2018"
 
 * View Homework 4 in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018Week7/master/HW4_2018.html](https://cdn.rawgit.com/vhertzb/2018Week7/master/HW4_2018.html)
 
+## Homework 4 - ANSWER KEY
+
+* Github repo for Homework 4 Answer Key [https://github.com/melindahiggins2000/N741Spring2018_Homework4Key](https://github.com/melindahiggins2000/N741Spring2018_Homework4Key)
+
+* View Homework 4 Answer Key in HTML [https://melindahiggins2000.github.io/N741Spring2018_Homework4Key/Homework4_AnswerKey.html](https://melindahiggins2000.github.io/N741Spring2018_Homework4Key/Homework4_AnswerKey.html)
