@@ -1,0 +1,20 @@
+---
+title: "Supervised Learning Methods"
+---
+
+## Supervised Learning
+
+The easiest way to think about supervised learning is that you have a "target" or set of group classes already defined and you want to create a model that defines or predicts these classes (or "target").
+
+Last week you already learned one such method - logistic regression (and really even linear regression) are "supervised" learning methods, since both create models that "best explain or define" the relationship of the predictor/independent variables with your "target" or "outcome" of interest. 
+
+Today's lecture will expand upon those principles with additional supervised learning/modeling methods.
+
+## Github repo & Lecture Notes for today
+
+* Github repo [https://github.com/vhertzb/Lesson-9](https://github.com/vhertzb/Lesson-9)
+* HTML Lecture notes [https://cdn.rawgit.com/vhertzb/Lesson-9/7a1fa290/Lesson9.html?raw=true](https://cdn.rawgit.com/vhertzb/Lesson-9/7a1fa290/Lesson9.html?raw=true)
+
+## `rattle` package
+
+We will also explore the `rattle` package in today's class. You can install it from the CRAN repository [https://cran.r-project.org/web/packages/rattle/index.html](https://cran.r-project.org/web/packages/rattle/index.html).

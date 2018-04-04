@@ -28,6 +28,8 @@ navbar:
         - text: "9. 10. March 21, 24 - NO CLASS"
         - text: "11. Models – Linear and Logistic; Prediction"
           href: lesson11.html
+        - text: "12. Supervised Learning Methods"
+          href: lesson12.html
     - text: "Homework"
       icon: fa-tasks
       menu:
