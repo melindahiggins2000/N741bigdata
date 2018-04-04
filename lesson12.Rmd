@@ -12,8 +12,8 @@ Today's lecture will expand upon those principles with additional supervised lea
 
 ## Github repo & Lecture Notes for today
 
-* Github repo [https://github.com/vhertzb/Lesson-9](https://github.com/vhertzb/Lesson-9)
-* HTML Lecture notes [https://cdn.rawgit.com/vhertzb/Lesson-9/7a1fa290/Lesson9.html?raw=true](https://cdn.rawgit.com/vhertzb/Lesson-9/7a1fa290/Lesson9.html?raw=true)
+* Github repo [https://github.com/vhertzb/2018week10](https://github.com/vhertzb/2018week10)
+* HTML Lecture notes [https://cdn.rawgit.com/vhertzb/2018week10/342ca505/2018week10.html?raw=true](https://cdn.rawgit.com/vhertzb/2018week10/342ca505/2018week10.html?raw=true)
 
 ## `rattle` package
 
