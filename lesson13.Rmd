@@ -1,0 +1,18 @@
+---
+title: "Unsupervised Learning Methods"
+---
+
+## Unsupervised Learning
+
+The easiest way to think about unsupervised learning is that you want to find underlying "clusters" or "components" that help explain the variability in the data - which can consider all of the variables in the data even without a specific outcome(s) in mind.
+
+## Github repos & Lecture Notes for today
+
+* Part 1
+    + Github Repo 1 []()
+    + HTML Lecture Notes 1 []()
+* Part 2
+    + Github Repo 2 [https://github.com/melindahiggins2000/N741UnsupervisedLearning](https://github.com/melindahiggins2000/N741UnsupervisedLearning)
+    + HTML Lecture Notes 2 [https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html](https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html)
+    
+    

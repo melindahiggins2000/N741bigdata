@@ -8,9 +8,9 @@ title: "Homework 7: DUE 04/11/2018"
 
 * View Homework 7 Assignment in HTML (as a webpage) at [https://melindahiggins2000.github.io/N741Spring2018_Homework7/homework7.html](https://melindahiggins2000.github.io/N741Spring2018_Homework7/homework7.html)
 
-## Homework 6 - ANSWER KEY
+## Homework 7 - ANSWER KEY
 
-* Github repo for Homework 6 Answer Key - _to be posted after DUE DATE 04/06/2018_
+* Github repo for Homework 7 Answer Key - _to be posted after DUE DATE 04/11/2018_
 
-* View Homework 6 Answer Key in HTML - _to be posted after DUE DATE 04/06/2018_
+* View Homework 7 Answer Key in HTML - _to be posted after DUE DATE 04/11/2018_
 

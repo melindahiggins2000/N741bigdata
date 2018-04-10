@@ -30,6 +30,8 @@ navbar:
           href: lesson11.html
         - text: "12. Supervised Learning Methods"
           href: lesson12.html
+        - text: "13. Unsupervised Learning Methods"
+          href: lesson13.html
     - text: "Homework"
       icon: fa-tasks
       menu:
@@ -47,6 +49,8 @@ navbar:
           href: hmwk6.html
         - text: "Homework 7: DUE 04/11/2018"
           href: hmwk7.html
+        - text: "Homework 8: DUE 04/18/2018"
+          href: hmwk8.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
