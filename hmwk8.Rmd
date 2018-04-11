@@ -6,7 +6,7 @@ title: "Homework 8: DUE 04/18/2018"
 
 * Github repo for Homework 8 at [https://github.com/vhertzb/2018week11](https://github.com/vhertzb/2018week11)
 
-* View Homework 7 Assignment in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html](https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html)
+* View Homework 8 Assignment in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html](https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html)
 
 ## Homework 8 - ANSWER KEY
 
