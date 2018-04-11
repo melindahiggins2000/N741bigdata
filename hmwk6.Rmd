@@ -10,7 +10,7 @@ title: "Homework 6: DUE 04/06/2018"
 
 ## Homework 6 - ANSWER KEY
 
-* Github repo for Homework 6 Answer Key - _to be posted after DUE DATE 04/06/2018_
+* Github repo for Homework 6 Answer Key [https://github.com/melindahiggins2000/N741Spring2018_Homework6Key](https://github.com/melindahiggins2000/N741Spring2018_Homework6Key)
 
-* View Homework 6 Answer Key in HTML - _to be posted after DUE DATE 04/06/2018_
+* View Homework 6 Answer Key in HTML [https://melindahiggins2000.github.io/N741Spring2018_Homework6Key/homework6_answerKey.html](https://melindahiggins2000.github.io/N741Spring2018_Homework6Key/homework6_answerKey.html)
 
