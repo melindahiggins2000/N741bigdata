@@ -9,8 +9,8 @@ The easiest way to think about unsupervised learning is that you want to find un
 ## Github repos & Lecture Notes for today
 
 * Part 1
-    + Github Repo 1 []()
-    + HTML Lecture Notes 1 []()
+    + Github Repo 1 [https://github.com/vhertzb/2018week11](https://github.com/vhertzb/2018week11)
+    + HTML Lecture Notes 1 [https://cdn.rawgit.com/vhertzb/2018week11/1debc8ed/Week11.html?raw=true](https://cdn.rawgit.com/vhertzb/2018week11/1debc8ed/Week11.html?raw=true)
 * Part 2
     + Github Repo 2 [https://github.com/melindahiggins2000/N741UnsupervisedLearning](https://github.com/melindahiggins2000/N741UnsupervisedLearning)
     + HTML Lecture Notes 2 [https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html](https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html)
