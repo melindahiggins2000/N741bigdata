@@ -2,11 +2,11 @@
 title: "Homework 8: DUE 04/18/2018"
 ---
 
-## Homework 8
+## Homework 8 _corrections posted 4/13/2018_
 
-* Github repo for Homework 8 at [https://github.com/vhertzb/2018week11](https://github.com/vhertzb/2018week11)
+* Github repo for Homework 8 at [https://github.com/melindahiggins2000/2018week11](https://github.com/melindahiggins2000/2018week11)
 
-* View Homework 8 Assignment in HTML (as a webpage) at [https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html](https://cdn.rawgit.com/vhertzb/2018week11/master/HW8.html)
+* View Homework 8 Assignment in HTML (as a webpage) at [https://melindahiggins2000.github.io/2018week11/HW8_corrected.html](https://melindahiggins2000.github.io/2018week11/HW8_corrected.html)
 
 ## Homework 8 - ANSWER KEY
 
