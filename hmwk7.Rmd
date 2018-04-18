@@ -10,7 +10,10 @@ title: "Homework 7: DUE 04/11/2018"
 
 ## Homework 7 - ANSWER KEY
 
-* Github repo for Homework 7 Answer Key - _to be posted after DUE DATE 04/11/2018_
+* Github repo for Homework 7 Answer Key [https://github.com/melindahiggins2000/N741Spring2018_Homework7Key](https://github.com/melindahiggins2000/N741Spring2018_Homework7Key)
 
-* View Homework 7 Answer Key in HTML - _to be posted after DUE DATE 04/11/2018_
+* View Homework 7 Answer Key in HTML
+    + Both `cesd` and `mcs` models together [https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_both.html](https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_both.html)
+    + `cesd` models only [https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_cesd.html](https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_cesd.html)
+    + `mcs` models only [https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_mcs.html](https://melindahiggins2000.github.io/N741Spring2018_Homework7Key/homework7_answerKey_mcs.html)
 

@@ -32,6 +32,8 @@ navbar:
           href: lesson12.html
         - text: "13. Unsupervised Learning Methods"
           href: lesson13.html
+        - text: "14. Networks"
+          href: lesson14.html
     - text: "Homework"
       icon: fa-tasks
       menu:

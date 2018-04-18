@@ -1,0 +1,11 @@
+---
+title: "Networks"
+---
+
+## Github repos & Lecture Notes for today
+
+* Github Repo [https://github.com/vhertzb/2018week12](https://github.com/vhertzb/2018week12)
+
+* HTML View Output of RMD file [https://cdn.rawgit.com/vhertzb/2018week12/5330555e/2018week12.html](https://cdn.rawgit.com/vhertzb/2018week12/5330555e/2018week12.html)
+
+**DOWNLOAD** the PowerPoint Slides to view them on your computer if you wish - the `*.pptx` file is located at [https://github.com/vhertzb/2018week12/blob/master/Networks%20Intro%20lecture%2020180418.pptx?raw=true](https://github.com/vhertzb/2018week12/blob/master/Networks%20Intro%20lecture%2020180418.pptx?raw=true)
