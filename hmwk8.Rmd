@@ -10,7 +10,7 @@ title: "Homework 8: DUE 04/18/2018"
 
 ## Homework 8 - ANSWER KEY
 
-* Github repo for Homework 8 Answer Key - _to be posted after DUE DATE 04/18/2018_
+* Github repo for Homework 8 Answer Key [https://github.com/melindahiggins2000/N741Spring2018_Homework8Key](https://github.com/melindahiggins2000/N741Spring2018_Homework8Key)
 
-* View Homework 8 Answer Key in HTML - _to be posted after DUE DATE 04/18/2018_
+* View Homework 8 Answer Key in HTML [https://melindahiggins2000.github.io/N741Spring2018_Homework8Key/HW8_corrected_answerKey.html](https://melindahiggins2000.github.io/N741Spring2018_Homework8Key/HW8_corrected_answerKey.html)
 
