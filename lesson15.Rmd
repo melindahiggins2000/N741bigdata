@@ -1,0 +1,15 @@
+---
+title: "Web Scraping and AWS"
+---
+
+# Guest Lecture by Steve Pittard
+
+LinkedIn Bio [https://www.linkedin.com/in/stephen-pittard-925645b6/](https://www.linkedin.com/in/stephen-pittard-925645b6/)
+
+## Github repo, R code, and slides for today
+
+* **Github** Repo [https://github.com/pittardsp/nursing_2018](https://github.com/pittardsp/nursing_2018)
+
+* **Slides** in PDF [https://github.com/pittardsp/nursing_2018/blob/master/son_rvest_scrape.pdf](https://github.com/pittardsp/nursing_2018/blob/master/son_rvest_scrape.pdf)
+
+* **R code** for the web-scraping example of the Dialysis blog using `rvest` [https://github.com/pittardsp/nursing_2018/blob/master/son.R](https://github.com/pittardsp/nursing_2018/blob/master/son.R)

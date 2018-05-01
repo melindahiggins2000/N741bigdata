@@ -34,6 +34,8 @@ navbar:
           href: lesson13.html
         - text: "14. Networks"
           href: lesson14.html
+        - text: "15. Web Scraping and AWS"
+          href: lesson15.html
     - text: "Homework"
       icon: fa-tasks
       menu:
