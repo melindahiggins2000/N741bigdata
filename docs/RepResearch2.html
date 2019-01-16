@@ -23,7 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -79,8 +80,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -96,7 +103,6 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
-
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -116,6 +122,43 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -137,18 +180,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -257,7 +359,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2018</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -278,45 +380,22 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="intro.html">1. 01/17/2018 Introduction</a>
+      <a href="intro.html">1. Introduction, Getting Setup and Started</a>
     </li>
-    <li>
-      <a href="RepResearch.html">2. 01/24/2018 Reproducible Research</a>
-    </li>
-    <li>
-      <a href="RepResearch2.html">3. 01/31/2018 Reproducible Research (cont'd)</a>
-    </li>
-    <li>
-      <a href="datawrangling.html">4. 02/07/2018 Data Wrangling</a>
-    </li>
-    <li>
-      <a href="eda.html">5. 02/14/2018 EDA</a>
-    </li>
-    <li>
-      <a href="lesson6.html">6. 02/21/2018 Data Presentation and Text as Data</a>
-    </li>
-    <li>
-      <a href="lesson78.html">7. 02/28/2018 Microbiome Analysis - part 1</a>
-    </li>
-    <li>
-      <a href="lesson78.html">CANCELLED - WATER MAIN BREAK - 8. 02/28/2018 Microbiome Analysis - part 2</a>
-    </li>
-    <li class="dropdown-header">9. 10. March 21, 24 - NO CLASS</li>
-    <li>
-      <a href="lesson11.html">11. Models – Linear and Logistic; Prediction</a>
-    </li>
-    <li>
-      <a href="lesson12.html">12. Supervised Learning Methods</a>
-    </li>
-    <li>
-      <a href="lesson13.html">13. Unsupervised Learning Methods</a>
-    </li>
-    <li>
-      <a href="lesson14.html">14. Networks</a>
-    </li>
-    <li>
-      <a href="lesson15.html">15. Web Scraping and AWS</a>
-    </li>
+    <li class="dropdown-header">2. Reproducible Research</li>
+    <li class="dropdown-header">3. Data Wrangling</li>
+    <li class="dropdown-header">4. More on Data Wrangling</li>
+    <li class="dropdown-header">5. Exploratory Data Analysis</li>
+    <li class="dropdown-header">6. Text/web scraping &amp; Working with text</li>
+    <li class="dropdown-header">7. Microbiome Analysis - part 1</li>
+    <li class="dropdown-header">8. Microbiome Analysis - part 2</li>
+    <li class="dropdown-header">9. SPRING BREAK - NO CLASS</li>
+    <li class="dropdown-header">10. Metabolomics analysis</li>
+    <li class="dropdown-header">11. Models – Linear and Logistic; Prediction</li>
+    <li class="dropdown-header">12. Machine Learning - Supervised Learning</li>
+    <li class="dropdown-header">13. Machine Learning - Unsupervised Learning</li>
+    <li class="dropdown-header">14. Network Science</li>
+    <li class="dropdown-header">15. To the cloud and beyond - AWS</li>
   </ul>
 </li>
 <li class="dropdown">
@@ -329,29 +408,15 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1.html">Homework 1: DUE 02/07/2018</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/30/2019</a>
     </li>
-    <li>
-      <a href="hmwk2.html">Homework 2: DUE 02/21/2018</a>
-    </li>
-    <li>
-      <a href="hmwk3.html">Homework 3: DUE 02/28/2018</a>
-    </li>
-    <li>
-      <a href="hmwk4.html">Homework 4: DUE 03/07/2018</a>
-    </li>
-    <li>
-      <a href="hmwk5.html">Homework 5: DUE 03/21/2018</a>
-    </li>
-    <li>
-      <a href="hmwk6.html">Homework 6: DUE 04/06/2018</a>
-    </li>
-    <li>
-      <a href="hmwk7.html">Homework 7: DUE 04/11/2018</a>
-    </li>
-    <li>
-      <a href="hmwk8.html">Homework 8: DUE 04/18/2018</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/13/2019</li>
+    <li class="dropdown-header">Homework 3: DUE 02/20/2019</li>
+    <li class="dropdown-header">Homework 4: DUE 03/06/2019</li>
+    <li class="dropdown-header">Homework 5: DUE 03/20/2019</li>
+    <li class="dropdown-header">Homework 6: DUE 04/03/2019</li>
+    <li class="dropdown-header">Homework 7: DUE 04/10/2019</li>
+    <li class="dropdown-header">Homework 8: DUE 04/17/2019</li>
   </ul>
 </li>
 <li>

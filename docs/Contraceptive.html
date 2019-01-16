@@ -25,11 +25,12 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
+<style type="text/css" data-origin="pandoc">
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
 a.sourceLine:empty { height: 1.2em; position: absolute; }
@@ -96,7 +97,29 @@ code span.st { color: #bf0303; } /* String */
 code span.va { color: #0057ae; } /* Variable */
 code span.vs { color: #bf0303; } /* VerbatimString */
 code span.wa { color: #bf0303; } /* Warning */
+
 </style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -155,8 +178,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -172,7 +201,6 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
-
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -192,6 +220,43 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -213,18 +278,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -333,7 +457,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2018</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -354,45 +478,22 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="intro.html">1. 01/17/2018 Introduction</a>
+      <a href="intro.html">1. Introduction, Getting Setup and Started</a>
     </li>
-    <li>
-      <a href="RepResearch.html">2. 01/24/2018 Reproducible Research</a>
-    </li>
-    <li>
-      <a href="RepResearch2.html">3. 01/31/2018 Reproducible Research (cont'd)</a>
-    </li>
-    <li>
-      <a href="datawrangling.html">4. 02/07/2018 Data Wrangling</a>
-    </li>
-    <li>
-      <a href="eda.html">5. 02/14/2018 EDA</a>
-    </li>
-    <li>
-      <a href="lesson6.html">6. 02/21/2018 Data Presentation and Text as Data</a>
-    </li>
-    <li>
-      <a href="lesson78.html">7. 02/28/2018 Microbiome Analysis - part 1</a>
-    </li>
-    <li>
-      <a href="lesson78.html">CANCELLED - WATER MAIN BREAK - 8. 02/28/2018 Microbiome Analysis - part 2</a>
-    </li>
-    <li class="dropdown-header">9. 10. March 21, 24 - NO CLASS</li>
-    <li>
-      <a href="lesson11.html">11. Models – Linear and Logistic; Prediction</a>
-    </li>
-    <li>
-      <a href="lesson12.html">12. Supervised Learning Methods</a>
-    </li>
-    <li>
-      <a href="lesson13.html">13. Unsupervised Learning Methods</a>
-    </li>
-    <li>
-      <a href="lesson14.html">14. Networks</a>
-    </li>
-    <li>
-      <a href="lesson15.html">15. Web Scraping and AWS</a>
-    </li>
+    <li class="dropdown-header">2. Reproducible Research</li>
+    <li class="dropdown-header">3. Data Wrangling</li>
+    <li class="dropdown-header">4. More on Data Wrangling</li>
+    <li class="dropdown-header">5. Exploratory Data Analysis</li>
+    <li class="dropdown-header">6. Text/web scraping &amp; Working with text</li>
+    <li class="dropdown-header">7. Microbiome Analysis - part 1</li>
+    <li class="dropdown-header">8. Microbiome Analysis - part 2</li>
+    <li class="dropdown-header">9. SPRING BREAK - NO CLASS</li>
+    <li class="dropdown-header">10. Metabolomics analysis</li>
+    <li class="dropdown-header">11. Models – Linear and Logistic; Prediction</li>
+    <li class="dropdown-header">12. Machine Learning - Supervised Learning</li>
+    <li class="dropdown-header">13. Machine Learning - Unsupervised Learning</li>
+    <li class="dropdown-header">14. Network Science</li>
+    <li class="dropdown-header">15. To the cloud and beyond - AWS</li>
   </ul>
 </li>
 <li class="dropdown">
@@ -405,29 +506,15 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1.html">Homework 1: DUE 02/07/2018</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/30/2019</a>
     </li>
-    <li>
-      <a href="hmwk2.html">Homework 2: DUE 02/21/2018</a>
-    </li>
-    <li>
-      <a href="hmwk3.html">Homework 3: DUE 02/28/2018</a>
-    </li>
-    <li>
-      <a href="hmwk4.html">Homework 4: DUE 03/07/2018</a>
-    </li>
-    <li>
-      <a href="hmwk5.html">Homework 5: DUE 03/21/2018</a>
-    </li>
-    <li>
-      <a href="hmwk6.html">Homework 6: DUE 04/06/2018</a>
-    </li>
-    <li>
-      <a href="hmwk7.html">Homework 7: DUE 04/11/2018</a>
-    </li>
-    <li>
-      <a href="hmwk8.html">Homework 8: DUE 04/18/2018</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/13/2019</li>
+    <li class="dropdown-header">Homework 3: DUE 02/20/2019</li>
+    <li class="dropdown-header">Homework 4: DUE 03/06/2019</li>
+    <li class="dropdown-header">Homework 5: DUE 03/20/2019</li>
+    <li class="dropdown-header">Homework 6: DUE 04/03/2019</li>
+    <li class="dropdown-header">Homework 7: DUE 04/10/2019</li>
+    <li class="dropdown-header">Homework 8: DUE 04/17/2019</li>
   </ul>
 </li>
 <li>
@@ -520,27 +607,27 @@ div.tocify {
 <p>read in dataset</p>
 <p>load the library(tidyverse) which loads the readr package for which we’ll use read_csv()</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</a></code></pre></div>
-<pre><code>## -- Attaching packages ----------------</code></pre>
-<pre><code>## v ggplot2 2.2.1     v purrr   0.2.4
-## v tibble  1.4.2     v dplyr   0.7.4
-## v tidyr   0.8.0     v stringr 1.3.0
-## v readr   1.1.1     v forcats 0.3.0</code></pre>
-<pre><code>## -- Conflicts -------------------------
+<pre><code>## -- Attaching packages ---- tidyverse 1.2.1 --</code></pre>
+<pre><code>## v ggplot2 3.1.0     v purrr   0.2.5
+## v tibble  2.0.1     v dplyr   0.7.8
+## v tidyr   0.8.2     v stringr 1.3.1
+## v readr   1.3.1     v forcats 0.3.0</code></pre>
+<pre><code>## -- Conflicts ------- tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()</code></pre>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">cmc &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;cmc.data&quot;</span>, <span class="dt">col_names=</span><span class="ot">FALSE</span>)</a></code></pre></div>
 <pre><code>## Parsed with column specification:
 ## cols(
-##   X1 = col_integer(),
-##   X2 = col_integer(),
-##   X3 = col_integer(),
-##   X4 = col_integer(),
-##   X5 = col_integer(),
-##   X6 = col_integer(),
-##   X7 = col_integer(),
-##   X8 = col_integer(),
-##   X9 = col_integer(),
-##   X10 = col_integer()
+##   X1 = col_double(),
+##   X2 = col_double(),
+##   X3 = col_double(),
+##   X4 = col_double(),
+##   X5 = col_double(),
+##   X6 = col_double(),
+##   X7 = col_double(),
+##   X8 = col_double(),
+##   X9 = col_double(),
+##   X10 = col_double()
 ## )</code></pre>
 <p>From the cmc.names text file</p>
 <pre><code>7. Attribute Information:
@@ -566,11 +653,11 @@ div.tocify {
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p><img src="HWickham_data-science.png" width="662" /></p>
+<p><img src="HWickham_data-science.png" /><!-- --></p>
 <p>
 <small>
 <center>
-<em>Image Copyright: Hadley Wickham <a href="http://r4ds.had.co.nz/introduction.html">“R for Data Science”</a></em> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="cc-by-nc-nd.png" width="32" /></a>
+<em>Image Copyright: Hadley Wickham <a href="http://r4ds.had.co.nz/introduction.html">“R for Data Science”</a></em> <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img src="cc-by-nc-nd.png" /><!-- --></a>
 </center>
 </small>
 </p>

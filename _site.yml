@@ -1,7 +1,7 @@
 name: "N741 Big Data Analytics for Healthcare"
 output_dir: "docs"
 navbar:
-  title: "N741 Spring 2018"
+  title: "N741 Spring 2019"
   left:
     - text: "Home"
       icon: fa-home
@@ -9,52 +9,34 @@ navbar:
     - text: "Lessons"
       icon: fa-archive
       menu:
-        - text: "1. 01/17/2018 Introduction"
+        - text: "1. Introduction, Getting Setup and Started"
           href: intro.html
-        - text: "2. 01/24/2018 Reproducible Research"
-          href: RepResearch.html
-        - text: "3. 01/31/2018 Reproducible Research (cont'd)"
-          href: RepResearch2.html
-        - text: "4. 02/07/2018 Data Wrangling"
-          href: datawrangling.html
-        - text: "5. 02/14/2018 EDA"
-          href: eda.html
-        - text: "6. 02/21/2018 Data Presentation and Text as Data"
-          href: lesson6.html
-        - text: "7. 02/28/2018 Microbiome Analysis - part 1"
-          href: lesson78.html
-        - text: "CANCELLED - WATER MAIN BREAK - 8. 02/28/2018 Microbiome Analysis - part 2"
-          href: lesson78.html
-        - text: "9. 10. March 21, 24 - NO CLASS"
+        - text: "2. Reproducible Research"
+        - text: "3. Data Wrangling"
+        - text: "4. More on Data Wrangling"
+        - text: "5. Exploratory Data Analysis"
+        - text: "6. Text/web scraping & Working with text"
+        - text: "7. Microbiome Analysis - part 1"
+        - text: "8. Microbiome Analysis - part 2"
+        - text: "9. SPRING BREAK - NO CLASS"
+        - text: "10. Metabolomics analysis"
         - text: "11. Models – Linear and Logistic; Prediction"
-          href: lesson11.html
-        - text: "12. Supervised Learning Methods"
-          href: lesson12.html
-        - text: "13. Unsupervised Learning Methods"
-          href: lesson13.html
-        - text: "14. Networks"
-          href: lesson14.html
-        - text: "15. Web Scraping and AWS"
-          href: lesson15.html
+        - text: "12. Machine Learning - Supervised Learning"
+        - text: "13. Machine Learning - Unsupervised Learning"
+        - text: "14. Network Science"
+        - text: "15. To the cloud and beyond - AWS"
     - text: "Homework"
       icon: fa-tasks
       menu:
-        - text: "Homework 1: DUE 02/07/2018"
-          href: hmwk1.html
-        - text: "Homework 2: DUE 02/21/2018"
-          href: hmwk2.html
-        - text: "Homework 3: DUE 02/28/2018"
-          href: hmwk3.html
-        - text: "Homework 4: DUE 03/07/2018"
-          href: hmwk4.html
-        - text: "Homework 5: DUE 03/21/2018"
-          href: hmwk5.html
-        - text: "Homework 6: DUE 04/06/2018"
-          href: hmwk6.html
-        - text: "Homework 7: DUE 04/11/2018"
-          href: hmwk7.html
-        - text: "Homework 8: DUE 04/18/2018"
-          href: hmwk8.html
+        - text: "Homework 1: DUE 01/30/2019"
+          href: hmwk1_2019.html
+        - text: "Homework 2: DUE 02/13/2019"
+        - text: "Homework 3: DUE 02/20/2019"
+        - text: "Homework 4: DUE 03/06/2019"
+        - text: "Homework 5: DUE 03/20/2019"
+        - text: "Homework 6: DUE 04/03/2019"
+        - text: "Homework 7: DUE 04/10/2019"
+        - text: "Homework 8: DUE 04/17/2019"
     - text: "Files"
       icon: fa-files-o
       href: files.html
