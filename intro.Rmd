@@ -13,6 +13,7 @@ _**Open discussion**_
 ## Introductory Slides
 
 * [Lecture 1 Slides](https://github.com/melindahiggins2000/N741bigdata/raw/master/Lecture%201%2020180116.pptx) - right click and save if you wish
+* [Introduction to Reproducible Research](https://github.com/melindahiggins2000/N741bigdata/raw/master/module_01.pdf) - right click to save PDF or click to view
 
 ## Software Tools and Resources
 
