@@ -1,15 +1,20 @@
 ---
-title: "Homework 1: DUE 02/07/2018"
+title: "Homework 1: DUE 01/30/2019"
 ---
 
 ## Homework 1
 
-* see "HW1_20180124.docx", which can be downloaded from the Github Repository [https://github.com/melindahiggins2000/N741_Lecture2_20180124](https://github.com/melindahiggins2000/N741_Lecture2_20180124)
-* see Example Report at [https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html](https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html)
-* see instructional video for help at [https://youtu.be/WlqyYwwEC8w](https://youtu.be/WlqyYwwEC8w)
-* and other helpful Videos for N741 at [https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741](https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741)
+Fork or download this Github repository to get the files you need for Homework 01: [https://github.com/melindahiggins2000/N741_Homework01_RMarkdown](https://github.com/melindahiggins2000/N741_Homework01_RMarkdown)
 
-## Homework 1 - ANSWER KEY
+Complete the following:
 
-See Github repository with ANSWER KEY code and documents at [https://github.com/melindahiggins2000/N741Homework1Key](https://github.com/melindahiggins2000/N741Homework1Key).
+1. Change the title of the report
+2. Change the author of the report to your name
+3. Add an additional sentence or two in the `"Specific statistics within text"` section that embeds the numeric result for the median height, standard deviation of the heights plus the minimum and maximum heights.
+    - _HINT: the functions you will need are `median()`, `sd()`, `min()` and `max()`._
+4. Add a section that also displays a histogram of the number of rings for the abalones. Add a few sentences about this distribution - what do you observe?
+5. Add a section with another scatterplot of the `wholeWeight` (plotted on the y-axis) against the `shuckedWeight` (plotted on the x-axis). Color the points by `sex`. Add a sentence or two on what you see? Does anything seem off or unusual?
+6. `knit` your report to HTML or DOC format and then save as a PDF to turn in on Canvas. 
+    - Optional - you may also `knit` directly to PDF if you wish to install an optional `latex` package such as `MikTex` or `MacTex` or install the `tinytex` `R` package. Learn more at [https://yihui.name/tinytex/](https://yihui.name/tinytex/).
 
+NOTE: You should have 8 sections in your final updated report for Homework 01.

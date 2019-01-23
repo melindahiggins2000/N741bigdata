@@ -12,21 +12,11 @@ title: "Reproducible Research"
 
 ## Homework 1
 
-* see "HW1_20180124.docx", which can be downloaded from the Github Repository [https://github.com/melindahiggins2000/N741_Lecture2_20180124](https://github.com/melindahiggins2000/N741_Lecture2_20180124)
-* see Example Report at [https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html](https://melindahiggins2000.github.io/N741_Lecture2_20180124/Gapminder_Markdown_20180124.html)
-* see instructional video for help at [https://youtu.be/WlqyYwwEC8w](https://youtu.be/WlqyYwwEC8w)
-* and other helpful Videos for N741 at [https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741](https://melindahiggins2000.github.io/N741bigdata/files.html#_youtube_videos_for_n741)
-
-## Highlights - Slides _(all built using `markdown` in RStudio)_
-
-* [Slides - History & Importance of Reproducibility & Transparency](m1_lesson01.html)
-* [Slides - Literate Programming & Dynamic Documentation](m1_lesson02.html)
-* [Slides - Reproducible Principles, Practices & Examples](m1_lesson03.html)
-* [Slides - Reproducible Components](m1_lesson04.html)
+Homework 1 is now posted on Github at [https://github.com/melindahiggins2000/N741_Homework01_RMarkdown](https://github.com/melindahiggins2000/N741_Homework01_RMarkdown). Feel free to "FORK" this repository to your Github account or click "Clone or Download" and download the ZIP file to your computer.
 
 ## Hands-On
 
-Now let's put everything together.
+Not it is your turn to try everything out.
 
 ## Github
 
