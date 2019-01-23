@@ -12,6 +12,7 @@ navbar:
         - text: "1. Introduction, Getting Setup and Started"
           href: intro.html
         - text: "2. Reproducible Research"
+          href: RepResearch.html
         - text: "3. Data Wrangling"
         - text: "4. More on Data Wrangling"
         - text: "5. Exploratory Data Analysis"

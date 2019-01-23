@@ -1,0 +1,102 @@
+SITE at end of Spring 2018 - made backup on 1/22/2019
+
+name: "N741 Big Data Analytics for Healthcare"
+output_dir: "docs"
+navbar:
+  title: "N741 Spring 2018"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Lessons"
+      icon: fa-archive
+      menu:
+        - text: "1. 01/17/2018 Introduction"
+          href: intro.html
+        - text: "2. 01/24/2018 Reproducible Research"
+          href: RepResearch.html
+        - text: "3. 01/31/2018 Reproducible Research (cont'd)"
+          href: RepResearch2.html
+        - text: "4. 02/07/2018 Data Wrangling"
+          href: datawrangling.html
+        - text: "5. 02/14/2018 EDA"
+          href: eda.html
+        - text: "6. 02/21/2018 Data Presentation and Text as Data"
+          href: lesson6.html
+        - text: "7. 02/28/2018 Microbiome Analysis - part 1"
+          href: lesson78.html
+        - text: "CANCELLED - WATER MAIN BREAK - 8. 02/28/2018 Microbiome Analysis - part 2"
+          href: lesson78.html
+        - text: "9. 10. March 21, 24 - NO CLASS"
+        - text: "11. Models – Linear and Logistic; Prediction"
+          href: lesson11.html
+        - text: "12. Supervised Learning Methods"
+          href: lesson12.html
+        - text: "13. Unsupervised Learning Methods"
+          href: lesson13.html
+        - text: "14. Networks"
+          href: lesson14.html
+        - text: "15. Web Scraping and AWS"
+          href: lesson15.html
+    - text: "Homework"
+      icon: fa-tasks
+      menu:
+        - text: "Homework 1: DUE 02/07/2018"
+          href: hmwk1.html
+        - text: "Homework 2: DUE 02/21/2018"
+          href: hmwk2.html
+        - text: "Homework 3: DUE 02/28/2018"
+          href: hmwk3.html
+        - text: "Homework 4: DUE 03/07/2018"
+          href: hmwk4.html
+        - text: "Homework 5: DUE 03/21/2018"
+          href: hmwk5.html
+        - text: "Homework 6: DUE 04/06/2018"
+          href: hmwk6.html
+        - text: "Homework 7: DUE 04/11/2018"
+          href: hmwk7.html
+        - text: "Homework 8: DUE 04/18/2018"
+          href: hmwk8.html
+    - text: "Files"
+      icon: fa-files-o
+      href: files.html
+    - text: "Instructors"
+      icon: fa-users
+      href: about.html
+    - text: "Syllabus"
+      icon: fa-file-text
+      menu:
+        - text: "Overview"
+          href: syllabus.html
+        - text: "Final Project"
+          href: finalProject.html
+    - text: "Resources"
+      icon: fa-cog
+      menu:
+        - text: "Textbook Website"
+          href: textbook.html
+        - text: "UCI Data Repository"
+          href: UCI.html
+        - text: "R, RStudio. Git, Github Links/Help"
+          href: help.html
+        - text: "Datacamp"
+          href: datacamp.html
+        - text: "Fix Installing Packages"
+          href: fixInstallPkgs.html
+        - text: "GIT/Github Cheatsheet"
+          href: githelp.html
+  right:
+    - text: "Colophon"
+      icon: fa-info-circle
+      href: colophon.html
+output:
+  html_document:
+    theme: lumen
+    toc: true
+    toc_float: true
+    highlight: kate
+    include:
+      after_body: footer.html
+    css: [styles.css, font-awesome-4.7.0/css/font-awesome.css]
+    self_contained: yes
+

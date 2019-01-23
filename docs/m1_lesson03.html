@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Module 1 - Lesson 03</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+  <meta name="date" content="2019-01-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Module 1 - Lesson 03',
+                        subtitle: 'Reproducible Principles, Practices &amp; Examples',
+                useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  '<a href="https://melindahiggins.netlify.com/">Melinda K. Higgins, PhD.</a>' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <style>
+  div.footnotes {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 0.5em;
+  }
+  </style>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('slide:not(.backdrop):not(.title-slide)').append('<div class=\"footnotes\">');
+  
+    $('footnote').each(function(index) {
+      var text  = $(this).html();
+      var fnNum = (index+1).toString();
+      $(this).html(fnNum.sup());
+  
+      var footnote   = fnNum + '. ' + text + '<br/>';
+      var oldContent = $(this).parents('slide').children('div.footnotes').html();
+      var newContent = oldContent + footnote;
+      $(this).parents('slide').children('div.footnotes').html(newContent);
+    });
+  });
+  </script>
+  <link href="site_libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="site_libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="site_libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="site_libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="site_libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    summary {
+      display: list-item;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">2019-01-22<br><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="by-nc-sa-4.0-88x31.png" style="border-width:0" src="images/by-nc-sa-4.0-88x31.png" /></a></p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Outline</h2></hgroup><article  id="outline">
+
+<ul>
+<li>Reproducible Principles</li>
+<li>Standard Practices</li>
+<li>Journalism - 538.com</li>
+<li>Telling Stories with Data</li>
+<li>Transparency - Journal of Biostatsatistics</li>
+<li>Speed - 2001 outbreak of <em>E.Coli 0104:H4</em></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Reproducible Principles - Process &amp; Structure</h2></hgroup><article  id="reproducible-principles---process-structure">
+
+<ul>
+<li>Organization</li>
+<li>Clear Documentation</li>
+<li>Standardized</li>
+<li>Centralized</li>
+<li>Efficiency</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>10 Simple Rules for Reproducible Computational Research<footnote>Sandve, G.K.; Nekrutenko, A.; Taylor, J.; Hovig, E. (2013) &ldquo;Ten Simple Rules for Reproducible Computational Research&rdquo; PLOS Computational Biology, 9(10).<a href='https://doi.org/10.1371/journal.pcbi.1003285' title=''>https://doi.org/10.1371/journal.pcbi.1003285</a></footnote></h2></hgroup><article  id="simple-rules-for-reproducible-computational-researchsandve-g.k.-nekrutenko-a.-taylor-j.-hovig-e.-2013-ten-simple-rules-for-reproducible-computational-research-plos-computational-biology-910.httpsdoi.org10.1371journal.pcbi.1003285">
+
+<span style="font-size: 20px;">
+
+<div class="columns-1">
+<ol>
+<li>For every result, keep track of how it was produced</li>
+<li>Avoid Manual Data Manipulation Steps</li>
+<li>Archive the Exact Version of All External Programs Used</li>
+<li>Version Control All Custom Scripts</li>
+<li>Record All Intermediate Results, When POssible in Standardized Formats</li>
+<li>For Analyses that include randomness, note underlying random seeds</li>
+<li>Always Store Raw Data Behind Plots</li>
+<li>Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to be Inspected</li>
+<li>Connect Textual Statements to Underlying Results</li>
+<li>Provide Public Access to Scripts, Runs, and Results</li>
+</ol>
+
+</span></div>
+
+</article></slide><slide class=""><hgroup><h2>Standard Practices</h2></hgroup><article  id="standard-practices">
+
+<p><em>Think about your own work…</em></p>
+
+<ul>
+<li>What do you want to automate?</li>
+<li>What could you re-use?
+
+<ul>
+<li>code, files, formatting, graphics, logos, header, footer, boilerplate</li>
+</ul></li>
+<li>What should you share with your team?</li>
+<li>What do you find yourself doing over and over?
+
+<ul>
+<li>correcting or reformatting</li>
+</ul></li>
+<li>If you won the lottery today (and left your job), what do you need to tell your replacement so they can pick up where you left off and complete your current tasks?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Journalism - 538.com</h2></hgroup><article  id="journalism---538.com">
+
+<p>538.com <a href='http://fivethirtyeight.com/' title=''>http://fivethirtyeight.com/</a> hosts stories and opinion pieces covering poll analyses, politics, economics, health, popular culture, and sports. The founder, Nate Silver, and the 538 team are best known for their political polling and forecasting during the United States Presidential and related elections since 2008. ESPN now owns 538.com (as of 2013) retaining Nate Silver as the Editor-in-Chief.</p>
+
+<p>Most of their articles provide references and links to the original data sources plus details on how their figures, analyses and statistical models were developed. They also host the data, code and details behind their analyses on Github <a href='https://github.com/fivethirtyeight/' title=''>https://github.com/fivethirtyeight/</a>.</p>
+
+<p>We will work with some of these datasets in our exercises later in this course and work with the <code>fivethirtyeight</code> R package <a href='https://cran.r-project.org/web/packages/fivethirtyeight/' title=''>https://cran.r-project.org/web/packages/fivethirtyeight/</a>.</p>
+
+</article></slide><slide class=""><hgroup><h2>Telling Stories with Data</h2></hgroup><article  id="telling-stories-with-data">
+
+<p>Andrew Flowers (economist, data scientist, journalist and former writer for fivethirtyeight.com) presented &ldquo;Finding and Telling Stories with R&rdquo; at the 2017 RStudio Conference (Orlando, FL).</p>
+
+<p>The webinar recording of his presentation is available online <a href='https://www.rstudio.com/resources/videos/finding-and-telling-stories-with-r/' title=''>https://www.rstudio.com/resources/videos/finding-and-telling-stories-with-r/</a>.</p>
+
+<p>In his presentation, he highlights the various aspects of &ldquo;data journalism&rdquo; and importance of workflow, data processing and transparency in analysis and communication - all key aspects of reproducibility. Andrew Flowers is also a contributor to the <code>fivethirtyeight</code> R package.</p>
+
+</article></slide><slide class=""><hgroup><h2><strong>Transparency</strong> - Journal of Biostatsatistics</h2></hgroup><article  id="transparency---journal-of-biostatsatistics">
+
+<p>&ldquo;Our reproducible research policy is for papers in the journal to be kite-marked <strong>D</strong> if the data on which they are based are freely available, <strong>C</strong> if the authors’ code is freely available, and <strong>R</strong> if both data and code are available, and our Associate Editor for Reproducibility is able to use these to reproduce the results in the paper. Data and code are published electronically on the journal’s website as Supplementary Materials.&rdquo;</p>
+
+<p><a href='https://academic.oup.com/biostatistics/pages/General_Instructions' title=''>https://academic.oup.com/biostatistics/pages/General_Instructions</a></p>
+
+<p>Example of an article marked <strong>R</strong>:</p>
+
+<ul>
+<li>Air pollution and health in Scotland: a multicity study; by Duncan Lee; Claire Ferguson ; and Richard Mitchell; Biostatistics, Volume 10, Issue 3, 1 July 2009, Pages 409–423, <a href='https://doi.org/10.1093/biostatistics/kxp010' title=''>https://doi.org/10.1093/biostatistics/kxp010</a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Speed - 2001 outbreak of <em>E.Coli 0104:H4</em></h2></hgroup><article  id="speed---2001-outbreak-of-e.coli-0104h4">
+
+<p>In 2001 there was an outbreak of <em>E.Coli 0104:H4</em> that killed 50 people in Europe <a href='http://dx.doi.org/10.5524/100001' title=''>http://dx.doi.org/10.5524/100001</a>.</p>
+
+<p>Researchers at BGI <em>(formally the Beijing Genomics Institute)</em> worked in collaboration with the Medical Center in Hamburg-Eppendorf to rapidly sequence the genome of the pathogen. Given the severity of the outbreak, the team announced and released the genome via Twitter to the world-wide community of microbial genomicists.</p>
+
+<p>A Github repository was established <a href='https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki' title=''>https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki</a> to &ldquo;crowdsource&rdquo; analysis and research to find a treatment.</p>
+
+<p>People started contributing their work in under <strong>24 HOURS</strong> and within <strong>5 DAYS!!</strong> a bacterial agent was proposed to kill the pathogen. <em><strong>This case, highlights the importance of these methods and work practices not only for speed and efficiency but also in rapidly addressing problems and developing solutions that can save lives.</strong></em></p>
+
+</article></slide><slide class=""><hgroup><h2>Next in Lesson 04 …</h2></hgroup><article  id="next-in-lesson-04">
+
+<p>Breakdown of Reproducible Components</p></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
