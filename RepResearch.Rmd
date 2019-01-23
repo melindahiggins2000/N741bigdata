@@ -2,6 +2,10 @@
 title: "Reproducible Research"
 ---
 
+## Reproducible Research Slides
+
+* History and Importance [https://melindahiggins2000.github.io/SNRS2018_ReproducibleResearch/module_01.html#1](https://melindahiggins2000.github.io/SNRS2018_ReproducibleResearch/module_01.html#1)
+
 ## V. Hertzberg Slides
 
 * Reproducible Research Slides [https://melindahiggins2000.github.io/N741_Lecture2_20180124/Reproducible%20Research%2020180124.html#/](https://melindahiggins2000.github.io/N741_Lecture2_20180124/Reproducible%20Research%2020180124.html#/) - built using the Rpres format in RStudio
