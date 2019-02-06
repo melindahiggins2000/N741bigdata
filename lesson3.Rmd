@@ -1,0 +1,61 @@
+---
+title: "Getting Started Git, Github and Data Wrangling"
+---
+
+## Getting started with GIT and Github
+
+By now you should have installed GIT on your computer and created a Github account. As a quick reminder here are the links:
+
+* Download and Install GIT from [https://git-scm.com/](https://git-scm.com/)
+* Create/Login to Github at [https://github.com/](https://github.com/)
+
+## Rmarkdown and Homework 01
+
+We will also go through the Rmarkdown document and associated R code to get you started working with a dataset and running some statistics and making some plots with R code. See the files at the Github repository for Homework 2.
+
+* [https://github.com/melindahiggins2000/N741_Homework01_RMarkdown](https://github.com/melindahiggins2000/N741_Homework01_RMarkdown)
+* FORK this repository to your Github account. You can choose your personal account (which is PUBLIC) or choose the "Emory SON N741 Course" organization options (which is PRIVATE).
+* Once you have a copy of this repository create an R project.
+
+### Create an R Project Linked to Github
+
+1. Open RStudio
+2. Click File/New Project
+3. Choose Version Control
+4. Choose GIT
+5. Go to YOUR Github repository for Homework 2, click "Clone or Download" and click the little icon to the right of the URL to copy the link to the clipboard
+6. Go back to RStudio and paste in the URL
+7. Make sure the "Project Directory Name" matches the name of the repository.
+8. Make sure you are creating the new project directory in the folder on your ocmputer you prefer.
+
+### Work on your homework - RStudio Project
+
+Now you are working in your repository.
+
+1. Open the RMD file - this is the Rmarkdown file with text and code combined.
+2. To get help on Rmarkdown, click Help/Markdown Quick Reference. You can also get help online at [https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/) and at [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
+3. Follow the instructions for the homework to update your document and R code as needed.
+4. SAVE YOUR WORK. When you are finished "KNIT" your document by clicking on the little blue icon that looks like a ball of yarn, and choose "Knit to HTML" or "Knit to Word". Once you have created these files you can then save the document as a PDF.
+5. OPTIONAL - if you want to "Knit to PDF" directly inside RStudio, you need to install a `LaTeX` compiler. 
+    - option 1 (recommended) - install the `tinytex` R package - click on Tools/Install Packages and type in `tinytex`. Follow the instructions at [https://yihui.name/tinytex/](https://yihui.name/tinytex/) - after installing run these 2 lines of code in your console:
+        - `tinytex::install_tinytex()` to make sure the package is installed and ready to go
+        - `tinytex::pdflatex('test.tex')` - to test if a PDF document gets created
+    - option 2 (for those that want to do more with `LaTeX`) - If you want to do more with `LaTeX` you'll need a standalone program. Here are the download sites and installation options for Windows or Mac users:
+        - Windows [https://miktex.org/howto/install-miktex](https://miktex.org/howto/install-miktex)
+        - Mac
+            - either MikTex [https://miktex.org/howto/install-miktex-mac](https://miktex.org/howto/install-miktex-mac)
+            - or MacTex [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
+            
+### Save and Submit your homework
+
+1. Make sure you save all your files in your homework repository
+2. Backup/Sync your files with your Github repository
+3. Click on Terminal tab (next to Console)
+4. Type in these GIT commands
+    - `git status` to see your updated files
+    - `git add .` to add all currently changed or new files
+    - `git commit -m "my message here"` to commit your files, include an informative message about this commit
+    - `git push` to move these changes up to the cloud to your Github repository
+    - `git status` to check to make sure everything is ready to go
+5. SUBMIT your homework file(s) - usually a PDF document - to Canvas by the posted deadline
+

@@ -11,7 +11,7 @@
 
 
 
-<title>Machine Learning - Supervised Techniques (formerly Random Forest)</title>
+<title>Homework 1: DUE 02/13/2019</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -505,18 +505,62 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Machine Learning - Supervised Techniques (formerly Random Forest)</h1>
+<h1 class="title toc-ignore">Homework 1: DUE 02/13/2019</h1>
 
 </div>
 
 
-<div id="machine-learning---supervised-techniques-formerly-random-forest" class="section level2">
-<h2>Machine Learning - Supervised Techniques (formerly Random Forest)</h2>
-<p>Today (03/15/2017) was originally planned to cover random forests, which is a supervised “machine learning” or “data mining” method. However, today’s lecture/lesson will still cover Random Forests which is a supervised learning method. We will also cover classification and regression trees (precursor to random forests). We will also introduce the <code>rattle</code> package which has a nice GUI (graphical user interface) for performing “data mining” or “machine learning” methods - supervised and unsupervised (we’ll cover next week).</p>
-<ul>
-<li>Github Repo 1: <a href="https://github.com/vhertzb/Lesson-9" class="uri">https://github.com/vhertzb/Lesson-9</a></li>
-<li>Github Repo 2: <a href="https://github.com/melindahiggins2000/N741SupervisedLearning" class="uri">https://github.com/melindahiggins2000/N741SupervisedLearning</a></li>
-</ul>
+<div id="homework-2" class="section level2">
+<h2>Homework 2</h2>
+<p>FORK this Github repository to get started <a href="https://github.com/melindahiggins2000/N741_Homework02_DataWrangling" class="uri">https://github.com/melindahiggins2000/N741_Homework02_DataWrangling</a></p>
+</div>
+<div id="due-date-is-13-february-2019" class="section level1">
+<h1><em>Due Date</em> is 13 February 2019</h1>
+<p>This homework is meant to further your <code>dplyr</code> and <code>ggplot2</code> skills. ## Abalones Dataset from UCI Repository</p>
+<p>For this homework, you will keep working with the <code>abalone</code> dataset from the UCI data repository at <a href="https://archive.ics.uci.edu/ml/datasets/abalone" class="uri">https://archive.ics.uci.edu/ml/datasets/abalone</a>.</p>
+<p>Use tools within the <code>dplyr</code> package as much as possible to answer the following questions.</p>
+<div id="question-1-what-kind-of-r-object-is-the-abalone-dataset" class="section level5">
+<h5><strong>Question 1:</strong> What kind of R object is the <code>abalone</code> dataset?</h5>
+</div>
+<div id="question-2-how-many-observations-are-in-the-abalone-dataset" class="section level5">
+<h5><strong>Question 2:</strong> How many observations are in the <code>abalone</code> dataset?</h5>
+</div>
+<div id="question-3-for-shucked-weight-how-many-abalones-weigh-more-than-0.8-grams" class="section level5">
+<h5><strong>Question 3:</strong> For shucked weight, how many abalones weigh more than 0.8 grams?</h5>
+</div>
+<div id="question-4-how-many-abalones-have-shucked-weights-larger-than-their-whole-weight" class="section level5">
+<h5><strong>Question 4:</strong> How many abalones have shucked weights larger than their whole weight?</h5>
+<p><em>(HINT: create a new variable using mutate and then filter)</em></p>
+<hr />
+<p>Create a subset containing only infants <code>sex == &quot;I&quot;</code></p>
+</div>
+<div id="question-5-how-many-infants-are-in-this-subset" class="section level5">
+<h5><strong>Question 5:</strong> How many infants are in this subset?</h5>
+<hr />
+<p>Show off your <code>dplyr</code> skills with <code>group_by()</code></p>
+</div>
+<div id="question-6-what-is-the-average-whole-weight-for-each-abalone-sex-get-whole-weight-means-for-females-f-males-m-and-infants-i-separately" class="section level5">
+<h5><strong>Question 6:</strong> What is the average whole weight for each abalone sex (get whole weight means for females “F”, males “M” and infants “I” separately)?</h5>
+</div>
+<div id="question-7-get-the-means-for-the-abalone-length-and-height-by-sex" class="section level5">
+<h5><strong>Question 7:</strong> Get the means for the abalone length and height by sex?</h5>
+<hr />
+</div>
+<div id="test-your-graphing-skills-using-ggplot2" class="section level2">
+<h2>Test your graphing skills using <code>ggplot2</code></h2>
+<p>Using the <code>abalone</code> dataset, create the following graphics/figures using <code>ggplot()</code> and associated <code>geom_xxx()</code> functions.</p>
+<div id="question-8-create-a-histogram-of-abalone-whole-weight" class="section level5">
+<h5><strong>Question 8:</strong> Create a histogram of abalone whole weight</h5>
+<p><em>What do you notice about the distribution (any outliers or skewness)?</em></p>
+</div>
+<div id="question-9-create-side-by-side-boxplots-of-the-number-of-rings-by-gender" class="section level5">
+<h5><strong>Question 9:</strong> Create side-by-side boxplots of the number of rings by gender</h5>
+<p><em>HINT use <code>geom_boxplot</code> with x = sex and y = rings</em></p>
+</div>
+<div id="question-10-create-a-scatterplot-of-the-whole-weight-on-the-x-axis-and-shucked-weight-on-the-y-axis-and-color-the-points-by-sex" class="section level5">
+<h5><strong>Question 10:</strong> Create a scatterplot of the whole weight on the X axis and shucked weight on the Y axis and color the points by sex</h5>
+</div>
+</div>
 </div>
 
 <hr>

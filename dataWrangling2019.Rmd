@@ -1,0 +1,15 @@
+---
+title: "Data Wrangling"
+---
+
+## Today's Github repository
+
+The Github repository for today's class is [https://github.com/melindahiggins2000/N741_lesson04_dataWrangling](https://github.com/melindahiggins2000/N741_lesson04_dataWrangling)
+
+1. FORK a copy of this to your Github account (either your PUBLIC personal account or in the "Emory SON N741 Course" organization where you can have PRIVATE repositories).
+2. Create a NEW R PROJECT inside RStudio linked to your new repository
+3. Open the `exploreGapminder.R` file
+
+## Homework 2
+
+We will also discuss the next homework assignment, which is posted on Canvas and at [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling)
