@@ -18,6 +18,7 @@ navbar:
         - text: "4. More on Data Wrangling"
           href: dataWrangling2019.html
         - text: "5. Exploratory Data Analysis"
+          href: eda.html
         - text: "6. Text/web scraping & Working with text"
         - text: "7. Microbiome Analysis - part 1"
         - text: "8. Microbiome Analysis - part 2"
@@ -28,13 +29,15 @@ navbar:
         - text: "13. Machine Learning - Unsupervised Learning"
         - text: "14. Network Science"
         - text: "15. To the cloud and beyond - AWS"
-    - text: "Homework"
+    - text: "Assignments"
       icon: fa-tasks
       menu:
         - text: "Homework 1: DUE 02/06/2019"
           href: hmwk1_2019.html
         - text: "Homework 2: DUE 02/13/2019"
           href: hmwk2_2019.html
+        - text: "Project Milestone 1 DUE 02/13/2019"
+          href: pm1.html
         - text: "Homework 3: DUE 02/20/2019"
         - text: "Homework 4: DUE 03/06/2019"
         - text: "Homework 5: DUE 03/20/2019"

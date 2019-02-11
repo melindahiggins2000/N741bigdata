@@ -11,7 +11,7 @@
 
 
 
-<title>Microbiome (formerly Kernels and SVMs)</title>
+<title>Exploratory Data Analysis, Summary Stats &amp; Visualization</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -510,28 +510,53 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Microbiome (formerly Kernels and SVMs)</h1>
+<h1 class="title toc-ignore">Exploratory Data Analysis, Summary Stats &amp; Visualization</h1>
 
 </div>
 
 
-<div id="microbiome-formerly-kernels-and-svms" class="section level2">
-<h2>Microbiome (formerly Kernels and SVMs)</h2>
-<p>Today we begin a a two-part lesson on working with and processing microbiome data.</p>
-<div id="github-repositories" class="section level3">
-<h3>Github Repositories</h3>
+<div id="vickis-presentation-on-262019" class="section level2">
+<h2>Vicki’s presentation on 2/6/2019</h2>
+<p>Slides posted at <a href="https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html" class="uri">https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html</a></p>
+<p>— old 2018 —-</p>
+</div>
+<div id="github-repositories-for-today" class="section level2">
+<h2>Github repositories for today</h2>
 <ul>
-<li><a href="https://github.com/vhertzb/Lesson11" class="uri">https://github.com/vhertzb/Lesson11</a>
+<li><p>Part 1 - <a href="https://github.com/melindahiggins2000/N741_Lecture5_20180214" class="uri">https://github.com/melindahiggins2000/N741_Lecture5_20180214</a> - this Github repository provides examples using the <code>car</code> package with the <code>Leinhardt</code> dataset which will help with Homework 2</p></li>
+<li><p>Part 2 - <a href="https://github.com/melindahiggins2000/Lecture7Foreal" class="uri">https://github.com/melindahiggins2000/Lecture7Foreal</a> - this Github repository covers additional examples working with <code>dplyr</code> and <code>ggplot2</code> working with a <code>Pesticides</code> dataset - this repository was adapted from N741 2017 Lecture 7.</p></li>
+</ul>
+</div>
+<div id="exploratory-data-analysis-summary-statistics-visualization" class="section level2">
+<h2>Exploratory Data Analysis, Summary Statistics &amp; Visualization</h2>
+<p>Today’s lecture will get you up and running working with data frames, exploring your data with summary statistics and visualizations. You will be learning the “tidyverse” way of doing things in <code>R</code> using the <code>dplyr</code> and <code>ggplot2</code> packages. Learn more about these packages at:</p>
 <ul>
-<li>Beginning in this session and continuing into the next we will explore the world of microbiome data. We will start with the analysis of 16s rRNA sequences, fresh from the sequencer. We will use the R program <code>dada2</code> to create what is commonly called an OTUtable from the sequences. We will then use the R program <code>phyloseq</code> to analyze these data. Finally we will explore the functional aspects of these data.</li>
-<li>also see <a href="https://github.com/vhertzb/Lesson-9" class="uri">https://github.com/vhertzb/Lesson-9</a> instructions for “Homework 6” in the <code>HW6.pdf</code> file.</li>
-</ul></li>
-<li><a href="https://github.com/melindahiggins2000/N741hmwk6" class="uri">https://github.com/melindahiggins2000/N741hmwk6</a>
+<li><code>tidyverse</code> <a href="https://www.tidyverse.org/" class="uri">https://www.tidyverse.org/</a></li>
+<li><code>dplyr</code> <a href="http://dplyr.tidyverse.org/" class="uri">http://dplyr.tidyverse.org/</a></li>
+<li><code>ggplot2</code> <a href="http://ggplot2.tidyverse.org/" class="uri">http://ggplot2.tidyverse.org/</a></li>
+<li>Garrett Grolemund and Hadley Wickham’s book “R for Data Science” - specifically see these chapters:
 <ul>
-<li>has instructions for setting up <code>dada2</code> package and all associated files in the <code>HW6.Rmd</code> file and in the script <code>hmwk6script.R</code>.</li>
-<li>NOTE: When installing <code>dada2</code> you may need to also install associated package or update associated packages. This can take some time 10-20 minutes or longer. It is further noted that several people did have to install the <code>stringi</code> package which seems to be the longest to install.</li>
+<li>Chapter 3: Data Visualization <a href="http://r4ds.had.co.nz/data-visualisation.html" class="uri">http://r4ds.had.co.nz/data-visualisation.html</a></li>
+<li>Chapter 5: Data Transformation <a href="http://r4ds.had.co.nz/transform.html" class="uri">http://r4ds.had.co.nz/transform.html</a></li>
+<li>Chapter 7: Exploratory Data Analysis <a href="http://r4ds.had.co.nz/exploratory-data-analysis.html" class="uri">http://r4ds.had.co.nz/exploratory-data-analysis.html</a></li>
 </ul></li>
 </ul>
+<p>I also encourage you to explore these courses at Datacamp:</p>
+<ul>
+<li>Introduction to the Tidyverse <a href="https://www.datacamp.com/courses/introduction-to-the-tidyverse" class="uri">https://www.datacamp.com/courses/introduction-to-the-tidyverse</a></li>
+<li>Cleaning Data in R <a href="https://www.datacamp.com/courses/cleaning-data-in-r" class="uri">https://www.datacamp.com/courses/cleaning-data-in-r</a></li>
+<li>Exploratory Data Analysis in R: Case Study <a href="https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study" class="uri">https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study</a></li>
+<li>Data Manipulation in R with dplyr <a href="https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial" class="uri">https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial</a></li>
+<li>Data Visualization with ggplot2 (Part 1), (Part 2), and (Part 3)
+<ul>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-1" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-1</a></li>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-2" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-2</a></li>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3</a></li>
+</ul></li>
+</ul>
+<div id="vickis-slides-from-spring-2017" class="section level3">
+<h3>Vicki’s slides from Spring 2017</h3>
+<p>Vicki’s slides from today can be viewed at <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/" class="uri">https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/</a></p>
 </div>
 </div>
 

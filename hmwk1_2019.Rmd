@@ -18,3 +18,8 @@ Complete the following:
     - Optional - you may also `knit` directly to PDF if you wish to install an optional `latex` package such as `MikTex` or `MacTex` or install the `tinytex` `R` package. Learn more at [https://yihui.name/tinytex/](https://yihui.name/tinytex/).
 
 NOTE: You should have 8 sections in your final updated report for Homework 01.
+
+## ANSWER KEY for Homework 1
+
+The ANSWER KEY files for Homework 1 are now posted at [https://github.com/melindahiggins2000/N741_Homework01_RMarkdown](https://github.com/melindahiggins2000/N741_Homework01_RMarkdown).
+
