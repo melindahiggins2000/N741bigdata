@@ -6,11 +6,17 @@ title: "Exploratory Data Analysis, Summary Stats & Visualization"
 
 Slides posted at [https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html](https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html)
 
-## Guest Lecturers on 02/13/2019
+## More on Exploratory Data Analysis (EDA) 1:00-2:00
+
+* Github repo [https://github.com/melindahiggins2000/N741_lesson05_EDA](https://github.com/melindahiggins2000/N741_lesson05_EDA)
+* HTML for lecture [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_lesson05_EDA/blob/master/N741Lecture5.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_lesson05_EDA/blob/master/N741Lecture5.html)
+
+## Guest Lecturers on 02/13/2019 2:00-3:50
 
 * Lisa Elon
-    - biosketch summary
+    - biosketch summary: "While Lisa first concentrated on the sciences (BS and MS in Soil Science), she later found playing with numbers much more satisfying than growing peanuts. Lisa earned an MPH in biostatistics from Emory in 1997 and has been working as a collaborative biostatistician and instructor in Emory’s Rollins School of Public Health ever since. Her recent projects might be summarized as “germs on airplanes”, “agriculture workers in the heat of the day”, “latent TB is a mystery”, “passing the flu around the ER, who me?”, and “giving speeches is scary—and can affect your heart, especially if you are female”."
     - contact info [https://sph.emory.edu/faculty/profile/#!LELON](https://sph.emory.edu/faculty/profile/#!LELON)
 * Michelle Wright
     - biosketch summary [https://sites.utexas.edu/wrightlab/people/michelle-lynn-wright-phd-rn/](https://sites.utexas.edu/wrightlab/people/michelle-lynn-wright-phd-rn/)
+    - SLIDES []() right click "SaveAs"
     - PAPER "NuRsing Research in the 21st Century: R You Ready?" by Michelle Wright, Melinda Higgins, Jacquelyn Taylor, Vicki Hertzberg; PMID: 30384771; DOI: 10.1177/1099800418810514; PubMed Link [https://www.ncbi.nlm.nih.gov/pubmed/30384771](https://www.ncbi.nlm.nih.gov/pubmed/30384771); publisher link [https://doi.org/10.1177/1099800418810514](https://doi.org/10.1177/1099800418810514)
