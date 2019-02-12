@@ -18,5 +18,5 @@ Slides posted at [https://melindahiggins2000.github.io/N741_lesson04_dataWrangli
     - contact info [https://sph.emory.edu/faculty/profile/#!LELON](https://sph.emory.edu/faculty/profile/#!LELON)
 * Michelle Wright
     - biosketch summary [https://sites.utexas.edu/wrightlab/people/michelle-lynn-wright-phd-rn/](https://sites.utexas.edu/wrightlab/people/michelle-lynn-wright-phd-rn/)
-    - SLIDES []() right click "SaveAs"
+    - SLIDES [https://github.com/melindahiggins2000/N741bigdata/raw/master/R2019.pptx](https://github.com/melindahiggins2000/N741bigdata/raw/master/R2019.pptx) right click "SaveAs"
     - PAPER "NuRsing Research in the 21st Century: R You Ready?" by Michelle Wright, Melinda Higgins, Jacquelyn Taylor, Vicki Hertzberg; PMID: 30384771; DOI: 10.1177/1099800418810514; PubMed Link [https://www.ncbi.nlm.nih.gov/pubmed/30384771](https://www.ncbi.nlm.nih.gov/pubmed/30384771); publisher link [https://doi.org/10.1177/1099800418810514](https://doi.org/10.1177/1099800418810514)
