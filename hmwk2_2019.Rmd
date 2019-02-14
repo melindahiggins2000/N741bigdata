@@ -1,12 +1,12 @@
 ---
-title: "Homework 2: DUE 02/13/2019"
+title: "Homework 2: DUE 02/20/2019"
 ---
 
 ## Homework 2
 
 FORK this Github repository to get started [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling)
 
-# *Due Date* is 13 February 2019
+# *Due Date* is 20 February 2019
 
 This homework is meant to further your `dplyr` and `ggplot2` skills. 
 ## Abalones Dataset from UCI Repository
