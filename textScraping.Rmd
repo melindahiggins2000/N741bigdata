@@ -1,0 +1,28 @@
+---
+title: "Text Mining & Web Scraping"
+---
+
+## Guest Lecture 1 - Public Health Datasets
+
+* Fleetwood Loustalot, PhD, FNP, FAHA
+    - Centers for Disease Control and Prevention 
+    - Division for Heart Disease and Stroke Prevention 
+    - Atlanta, GA, USA
+    
+* Bio Summary: 
+    - Fleetwood Loustalot, PhD, FNP, FAHA is the Lead for the Epidemiology, Surveillance and Health Services Team in the Division for Heart Disease and Stroke Prevention (DHDSP) at the Centers for Disease Control and Prevention (CDC).  Fleetwood previously worked in clinical practice and has been working in public health for over 15 years. He joined CDC in 2008 as an Epidemic Intelligence Service fellow.  He has since been engaged in numerous domestic cardiovascular disease prevention and control projects, including the Department of Health and Human Services Healthy People program and the Million Hearts® initiative.  In addition, he has provided technical consultation on several global projects in Latin America and the Caribbean, the Middle East, Sub Saharan Africa and on the World Health Organization’s Global HEARTS initiative.  Fleetwood has specific expertise in cardiovascular disease surveillance, improvements in clinical management, and linking community and clinical programs.  He is a Commissioned Officer in the US Public Health Service, holding the rank of Captain.
+
+* Presentation []()
+
+## Guest Lecture 2 - Web Scraping
+
+* Steve Pittard, PhD.
+* Bio Summary: 
+* Presentation:
+* Online Book: "Web Scraping with R" [https://steviep42.github.io/webscraping/book/](https://steviep42.github.io/webscraping/book/)
+
+## Text Mining Exercise
+
+* Github Repo [https://github.com/vhertzb/2018week6](https://github.com/vhertzb/2018week6)
+* HTML Presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html](https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html)
+

@@ -20,6 +20,7 @@ navbar:
         - text: "5. Exploratory Data Analysis"
           href: eda.html
         - text: "6. Text/web scraping & Working with text"
+          href: textScraping.html
         - text: "7. Microbiome Analysis - part 1"
         - text: "8. Microbiome Analysis - part 2"
         - text: "9. SPRING BREAK - NO CLASS"
