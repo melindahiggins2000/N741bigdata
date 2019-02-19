@@ -12,16 +12,22 @@ title: "Text Mining & Web Scraping"
 * Bio Summary: 
     - Fleetwood Loustalot, PhD, FNP, FAHA is the Lead for the Epidemiology, Surveillance and Health Services Team in the Division for Heart Disease and Stroke Prevention (DHDSP) at the Centers for Disease Control and Prevention (CDC).  Fleetwood previously worked in clinical practice and has been working in public health for over 15 years. He joined CDC in 2008 as an Epidemic Intelligence Service fellow.  He has since been engaged in numerous domestic cardiovascular disease prevention and control projects, including the Department of Health and Human Services Healthy People program and the Million Hearts® initiative.  In addition, he has provided technical consultation on several global projects in Latin America and the Caribbean, the Middle East, Sub Saharan Africa and on the World Health Organization’s Global HEARTS initiative.  Fleetwood has specific expertise in cardiovascular disease surveillance, improvements in clinical management, and linking community and clinical programs.  He is a Commissioned Officer in the US Public Health Service, holding the rank of Captain.
 
-* Presentation []()
+* Presentation [https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx](https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx)
 
 ## Guest Lecture 2 - Web Scraping
 
 * Steve Pittard, PhD.
 * Bio Summary: 
-* Presentation:
-* Online Book: "Web Scraping with R" [https://steviep42.github.io/webscraping/book/](https://steviep42.github.io/webscraping/book/)
+    - Steve Pittard's background is in high performance computation specifically as it relates to the management, processing, and analysis of biological data. He has developed a number of  published methods and pipelines to detect and annotate variants, (SNPs and INDELS) in the Human Genome. He also possesses an expert knowledge in the architecture and implementation of computational infrastructure and software tools required to perform rapid ingestion of data for large scale processing and analysis.  Much of this experience comes as the result of co-directing a bioinformatics core facility, (BimCore), which was based on the delivery of analysis services to over 90 labs in the Emory University School of Medicine. Prior to joining Emory, Mr. Pittard worked extensively in the Aerospace industry at Lockheed-Martin Corporation where he created software to analyze and predict component failures in the cargo aircraft being manufactured by Lockheed. He also worked for Science Applications International where he designed software to acquire and monitor data within nuclear energy facilities throughout the United States. More recently he develops and teaches courses in the R Programming Language and Software Engineering within the Department of Biostatistics at The Rollins School of Public Health. He is the co-developer of OmicSeq [http://omicseq.org/welcome.htm](http://omicseq.org/welcome.htm) which is a genomics search engine designed to rapidly locate genes likely to be related to a larger set of query genes and/or pathways. Mr. Pittard is also a music analytics consultant for public relations organizations seeking to understand the social media profile of prominent clients. He also maintains a YouTube channel [https://www.youtube.com/user/biorsph/](https://www.youtube.com/user/biorsph/) which offers instructional videos relating to R and statistical concepts such as Principal Components Analysis. 
+* Presentation - based on online Book: "Web Scraping with R" [https://steviep42.github.io/webscraping/book/](https://steviep42.github.io/webscraping/book/)
 
 ## Text Mining Exercise
+
+#### 2019 Lecture
+
+TBA
+
+#### 2018 Lecture Notes
 
 * Github Repo [https://github.com/vhertzb/2018week6](https://github.com/vhertzb/2018week6)
 * HTML Presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html](https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html)
