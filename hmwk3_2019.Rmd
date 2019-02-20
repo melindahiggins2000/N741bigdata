@@ -4,4 +4,7 @@ title: "Homework 3: DUE 02/27/2019"
 
 ## Homework 3
 
-to be posted soon
+Assignment Instructions posted at [http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_homework.html](http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_homework.html)
+
+Github repo to get started [https://github.com/vhertzb/dada2-lesson](https://github.com/vhertzb/dada2-lesson)
+

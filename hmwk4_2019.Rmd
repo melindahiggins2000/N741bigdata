@@ -4,4 +4,6 @@ title: "Homework 4: DUE 03/06/2019"
 
 ## Homework 4
 
-to be posted soon
+Assignment Posted at [http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html](http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html)
+
+Github repo with Rmarkdown file to get started [https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW%20on%20text%20wrangling.Rmd](https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW%20on%20text%20wrangling.Rmd)
