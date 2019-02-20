@@ -23,9 +23,19 @@ title: "Text Mining & Web Scraping"
 
 ## Text Mining Exercise
 
-#### 2019 Lecture
+#### 2019 Lecture "Text Wrangling"
 
-TBA
+* Github repo [https://github.com/vhertzb/N741-Text-Wrangling](https://github.com/vhertzb/N741-Text-Wrangling)
+* HTML presentation [http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html](http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html)
+* R Packages you'll need for today's exercise:
+    - `RCurl`
+    - `tidyverse`
+    - `stringr`
+    - `rvest`
+    - `methods`
+    - `tm`
+    - `wordcloud`
+    - `RColorBrewer`
 
 #### 2018 Lecture Notes
 
