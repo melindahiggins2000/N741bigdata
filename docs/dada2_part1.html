@@ -11,7 +11,7 @@
 
 
 
-<title>More Microbiome and AWS (formerly Natural Language Processing)</title>
+<title>Microbiome Analysis - dada2 Tutorial - part 1</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -518,16 +518,63 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">More Microbiome and AWS (formerly Natural Language Processing)</h1>
+<h1 class="title toc-ignore">Microbiome Analysis - <code>dada2</code> Tutorial - part 1</h1>
 
 </div>
 
 
-<div id="more-microbiome-and-aws-formerly-natural-language-processing" class="section level2">
-<h2>More Microbiome and AWS (formerly Natural Language Processing)</h2>
-<p>Today is the 2nd part of the lesson on working with microbiome data.</p>
-<p>We will be learning how to move beyond pretty bar plots and scatter plots of principal coordinates to learning about assessing function. Dr. Hertzberg will demonstrate a new tool that improves on <code>PICRUSt</code>, with no installation necessary.</p>
-<p>FYI - Information on <code>PICRUSt</code> can be found at <a href="http://picrust.github.io/picrust/" class="uri">http://picrust.github.io/picrust/</a></p>
+<div id="part-1-2019---given-on-02272019" class="section level2">
+<h2>part 1 2019 - given on 02/27/2019</h2>
+<ul>
+<li>Github repo for <code>dada2</code> tutorial <a href="https://github.com/vhertzb/dada2-lesson" class="uri">https://github.com/vhertzb/dada2-lesson</a></li>
+<li>HTML lesson and presentation <a href="http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_workflow.html" class="uri">http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_workflow.html</a></li>
+</ul>
+</div>
+<div id="notes-from-2018" class="section level2">
+<h2>notes from 2018</h2>
+<div id="part-2-03072018" class="section level3">
+<h3>part 2 03/07/2018</h3>
+<ul>
+<li><p>files for part 2 of the <code>dada2</code> exercise at located in the Github repo at <a href="https://github.com/vhertzb/2018Week8" class="uri">https://github.com/vhertzb/2018Week8</a></p></li>
+<li><p>See lecture in HTML at <a href="https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html" class="uri">https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html</a></p></li>
+</ul>
+</div>
+<div id="dada2-exercise" class="section level3">
+<h3><code>dada2</code> exercise</h3>
+<ul>
+<li><p>see <code>vhertzb</code> Github repo at <a href="https://github.com/vhertzb/2018Week7" class="uri">https://github.com/vhertzb/2018Week7</a></p></li>
+<li><p>HTML file with notes <a href="https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html" class="uri">https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html</a></p></li>
+</ul>
+</div>
+<div id="more-details-on-dada2-r-package" class="section level3">
+<h3>2018 - More details on <code>dada2</code> <code>R</code> Package</h3>
+<ul>
+<li><code>dada2</code> homepage <a href="https://benjjneb.github.io/dada2/" class="uri">https://benjjneb.github.io/dada2/</a></li>
+</ul>
+</div>
+<div id="prep-work-for-dada2-tutorial---instructions-from-2018" class="section level3">
+<h3>Prep Work for <code>dada2</code> Tutorial - Instructions from 2018</h3>
+<p>However, if you would like to come and work along with us through the exercises (hands-on), please come prepared with the following:</p>
+<ol style="list-style-type: decimal">
+<li>A laptop with R and RStudio installed:
+<ol style="list-style-type: lower-alpha">
+<li>Download R <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></li>
+<li>Download RStudio <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></li>
+</ol></li>
+<li>Install these R packages ahead of time
+<ol style="list-style-type: lower-alpha">
+<li>tidyverse from CRAN <a href="https://cran.r-project.org/web/packages/tidyverse/index.html" class="uri">https://cran.r-project.org/web/packages/tidyverse/index.html</a></li>
+<li>dada2 from Bioconductor <a href="https://www.bioconductor.org/packages/release/bioc/html/dada2.html" class="uri">https://www.bioconductor.org/packages/release/bioc/html/dada2.html</a></li>
+<li>phyloseq from Bioconductor <a href="https://bioconductor.org/packages/release/bioc/html/phyloseq.html" class="uri">https://bioconductor.org/packages/release/bioc/html/phyloseq.html</a></li>
+<li>ShortRead from Bioconductor <a href="http://bioconductor.org/packages/release/bioc/html/ShortRead.html" class="uri">http://bioconductor.org/packages/release/bioc/html/ShortRead.html</a></li>
+</ol></li>
+<li><p>See setup details at <a href="https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html" class="uri">https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html</a></p></li>
+<li><p>Open RStudio – create a new project for this dada2 exercise – put it somewhere on your hard drive with a logical location, like <code>&quot;c:\dada2&quot;</code></p></li>
+<li><p>Then following along with the dada2 tutorial at <a href="https://benjjneb.github.io/dada2/tutorial.html" class="uri">https://benjjneb.github.io/dada2/tutorial.html</a> , you will need to download the Mothur MiSeq data from this link <a href="http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip" class="uri">http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip</a></p></li>
+<li><p>One you download the ZIP file, extract all of the files. There will be a subfolder called <code>“\MiSeq_SOP”</code> – copy this folder and its contents into the project folder you created above (e.g. <code>“c:\dada2”</code>)</p></li>
+<li><p>Next download, these 2 files “silva_nr_v132_train_set.fa.gz” and “silva_species_assignment_v132.fa.gz” from <a href="https://zenodo.org/record/1172783#.Wo2GM62ZMo8">https://zenodo.org/record/1172783#.Wo2GM62ZMo8)https://zenodo.org/record/1172783#.Wo2GM62ZMo8</a><a href="https://zenodo.org/record/1172783#.Wo2GM62ZMo8" class="uri">https://zenodo.org/record/1172783#.Wo2GM62ZMo8</a>) and put them into the <code>“C:\dada2\MiSeq_SOP”</code> directory</p></li>
+</ol>
+</div>
 </div>
 
 <hr>
