@@ -7,25 +7,27 @@ title: "Microbiome Analysis - `dada2` Tutorial - part 1"
 * Github repo for `dada2` tutorial [https://github.com/vhertzb/dada2-lesson](https://github.com/vhertzb/dada2-lesson)
 * HTML lesson and presentation [http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_workflow.html](http://htmlpreview.github.io/?https://github.com/vhertzb/dada2-lesson/blob/master/dada2_workflow.html)
 
+--- 
+
 ## notes from 2018
 
-### part 2 03/07/2018
+#### part 2 03/07/2018
 
 * files for part 2 of the `dada2` exercise at located in the Github repo at [https://github.com/vhertzb/2018Week8](https://github.com/vhertzb/2018Week8)
 
 * See lecture in HTML at [https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html](https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html)
 
-### `dada2` exercise
+#### 2018 `dada2` exercise
 
 * see `vhertzb` Github repo at [https://github.com/vhertzb/2018Week7](https://github.com/vhertzb/2018Week7)
 
 * HTML file with notes [https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html](https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html)
 
-### 2018 - More details on `dada2` `R` Package
+#### 2018 - More details on `dada2` `R` Package
 
 * `dada2` homepage [https://benjjneb.github.io/dada2/](https://benjjneb.github.io/dada2/)
 
-### Prep Work for `dada2` Tutorial - Instructions from 2018
+#### Prep Work for `dada2` Tutorial - Instructions from 2018
 
 However, if you would like to come and work along with us through the exercises (hands-on), please come prepared with the following:
 
