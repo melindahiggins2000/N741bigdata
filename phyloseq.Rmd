@@ -1,0 +1,9 @@
+---
+title: "Microbiome Analysis - `dada2` Tutorial - part 1"
+---
+
+## part 2 2019 - given on 03/06/2019 - on `phyloseq`
+
+* Github repo for `phyloseq` tutorial [https://github.com/vhertzb/phyloseq_lesson](https://github.com/vhertzb/phyloseq_lesson)
+* HTML lesson and presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/phyloseq.html](https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/phyloseq.html)
+

@@ -1,0 +1,28 @@
+---
+title: "Models - Linear and Logistic Regression"
+---
+
+## Regression
+
+* HTML lesson and presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/regression/blob/master/Regression.html](https://htmlpreview.github.io/?https://github.com/vhertzb/regression/blob/master/Regression.html)
+
+## Prediction
+
+* HTML lesson and presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/regression/blob/master/Prediction.html](https://htmlpreview.github.io/?https://github.com/vhertzb/regression/blob/master/Prediction.html)
+
+* Github repo for regression and prediction [https://github.com/vhertzb/regression](https://github.com/vhertzb/regression)
+
+## R Commander Tutorial
+
+Towards the end of class today we will also run through a demonstration of the `Rcmdr` package. This package provides a wonderful interface for regression models, graphics and even helps with writing R code and Rmarkdown!!
+
+* Install the `Rcmdr` package from CRAN - see [https://cran.r-project.org/web/packages/Rcmdr/index.html](https://cran.r-project.org/web/packages/Rcmdr/index.html)
+
+* Learn more about R Commander at [https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/](https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/)
+
+* Book on R Commander by John Fox [https://socialsciences.mcmaster.ca/jfox/Books/RCommander/](https://socialsciences.mcmaster.ca/jfox/Books/RCommander/)
+
+* Specific details about installing it on MAC's and PC's (and even Linux) [https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html](https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html)
+
+
+

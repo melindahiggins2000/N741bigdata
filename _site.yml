@@ -23,10 +23,12 @@ navbar:
           href: textScraping.html
         - text: "7. Microbiome Analysis - part 1"
           href: dada2_part1.html
-        - text: "8. Microbiome Analysis - part 2"
+        - text: "8. Microbiome Analysis - part 2 - phyloseq"
+          href: phyloseq.html
         - text: "9. SPRING BREAK - NO CLASS"
-        - text: "10. Metabolomics analysis"
+        - text: "10. Metabolomics analysis - delayed 2 weeks"
         - text: "11. Models – Linear and Logistic; Prediction"
+          href: regression.html
         - text: "12. Machine Learning - Supervised Learning"
         - text: "13. Machine Learning - Unsupervised Learning"
         - text: "14. Network Science"
@@ -45,6 +47,7 @@ navbar:
         - text: "Homework 4: DUE 03/06/2019"
           href: hmwk4_2019.html
         - text: "Homework 5: DUE 03/20/2019"
+          href: hmwk5_2019.html
         - text: "Homework 6: DUE 04/03/2019"
         - text: "Homework 7: DUE 04/10/2019"
         - text: "Homework 8: DUE 04/17/2019"

@@ -1,0 +1,11 @@
+---
+title: "Homework 5: DUE 03/20/2019"
+---
+
+## Homework 5
+
+* Assignment Posted at [https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/HW5.html](https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/HW5.html)
+
+* Download dataset from under "Modules" tab on Canvas [https://canvas.emory.edu/courses/56221/modules](https://canvas.emory.edu/courses/56221/modules)
+
+* Github repo [https://github.com/vhertzb/phyloseq_lesson](https://github.com/vhertzb/phyloseq_lesson)
