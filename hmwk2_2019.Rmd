@@ -2,6 +2,14 @@
 title: "Homework 2: DUE 02/20/2019"
 ---
 
+## ANSWER KEY Files
+
+* Github repo [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling)
+* R markdown file RMD [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.Rmd](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.Rmd)
+* HTML [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.html)
+* Word DOC [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/raw/master/N741Homework02_answerKey2019.docx](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/raw/master/N741Homework02_answerKey2019.docx)
+* PDF [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.pdf](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling/blob/master/N741Homework02_answerKey2019.pdf)
+
 ## Homework 2
 
 FORK this Github repository to get started [https://github.com/melindahiggins2000/N741_Homework02_DataWrangling](https://github.com/melindahiggins2000/N741_Homework02_DataWrangling)
