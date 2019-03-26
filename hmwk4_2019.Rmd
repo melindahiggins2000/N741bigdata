@@ -2,6 +2,17 @@
 title: "Homework 4: DUE 03/06/2019"
 ---
 
+## ANSWER KEY
+
+Answer Key Files:
+
+* Github repository [https://github.com/melindahiggins2000/N741_Homework04_textWrangling](https://github.com/melindahiggins2000/N741_Homework04_textWrangling)
+* R markdown file [https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.Rmd](https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.Rmd)
+* HTML report [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.html)
+* PDF report [https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.pdf](https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.pdf)
+* Word DOC report [https://github.com/melindahiggins2000/N741_Homework04_textWrangling/raw/master/Homework4_ANSWERKEY.docx](https://github.com/melindahiggins2000/N741_Homework04_textWrangling/raw/master/Homework4_ANSWERKEY.docx)
+
+
 ## Homework 4
 
 Assignment Posted at [http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html](http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html)

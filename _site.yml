@@ -30,6 +30,7 @@ navbar:
         - text: "11. Models – Linear and Logistic; Prediction"
           href: regression.html
         - text: "12. Machine Learning - Supervised Learning"
+          href: supervised.html
         - text: "13. Machine Learning - Unsupervised Learning"
         - text: "14. Network Science"
         - text: "15. To the cloud and beyond - AWS"

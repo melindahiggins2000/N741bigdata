@@ -1,0 +1,23 @@
+---
+title: "Supervised Learning"
+---
+
+## Supervised Learning - V. Hertzberg
+
+* Github repo [https://github.com/vhertzb/2018week10](https://github.com/vhertzb/2018week10)
+* HTML presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html](https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html)
+
+## Supervised Learning - M. Higgins
+
+* Github Repository [https://github.com/melindahiggins2000/N741SupervisedLearning](https://github.com/melindahiggins2000/N741SupervisedLearning)
+* Read the instructions in the README file.
+
+## The `rattle` package
+
+* `rattle` on CRAN [https://cran.r-project.org/web/packages/rattle/index.html](https://cran.r-project.org/web/packages/rattle/index.html)
+* Rattle Webpage-1 [https://rattle.togaware.com/](https://rattle.togaware.com/)
+* Rattle Webpage-2 [https://togaware.com/rattle/](https://togaware.com/rattle/)
+* BOOK: "Data Mining with Rattle and R: The Art of Excavating Data for Knowledge Discovery"; by Williams, Graham [https://www.springer.com/us/book/9781441998897](https://www.springer.com/us/book/9781441998897)
+* BOOK: "The Essentials of Data Science: Knowledge Discovery Using R", 1st Edition; by Graham J. Williams [https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005](https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005) and see more supporting code for this book at [https://togaware.com/onepager/](https://togaware.com/onepager/).
+
+
