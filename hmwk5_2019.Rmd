@@ -2,6 +2,11 @@
 title: "Homework 5: DUE 03/20/2019"
 ---
 
+## ANSWER KEY
+
+* Github repo [https://github.com/melindahiggins2000/N741Spring2018_Homework5Key](https://github.com/melindahiggins2000/N741Spring2018_Homework5Key)
+* HTML report [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741Spring2018_Homework5Key/blob/master/Homework5_AnswerKey.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741Spring2018_Homework5Key/blob/master/Homework5_AnswerKey.html)
+
 ## Homework 5
 
 * Assignment Posted at [https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/HW5.html](https://htmlpreview.github.io/?https://github.com/vhertzb/phyloseq_lesson/blob/master/HW5.html)
