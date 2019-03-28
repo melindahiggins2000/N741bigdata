@@ -2,12 +2,12 @@
 title: "Supervised Learning"
 ---
 
-## Supervised Learning - V. Hertzberg
+## Supervised Learning 2019 - V. Hertzberg
 
-* Github repo [https://github.com/vhertzb/2018week10](https://github.com/vhertzb/2018week10)
-* HTML presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html](https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html)
+* Github repo [https://github.com/vhertzb/ml_supervised/](https://github.com/vhertzb/ml_supervised/)
+* HTML presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html](https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html)
 
-## Supervised Learning - M. Higgins
+## Supervised Learning 2019 - M. Higgins `rattle` demo
 
 * Github Repository [https://github.com/melindahiggins2000/N741SupervisedLearning](https://github.com/melindahiggins2000/N741SupervisedLearning)
 * Read the instructions in the README file.
@@ -20,4 +20,7 @@ title: "Supervised Learning"
 * BOOK: "Data Mining with Rattle and R: The Art of Excavating Data for Knowledge Discovery"; by Williams, Graham [https://www.springer.com/us/book/9781441998897](https://www.springer.com/us/book/9781441998897)
 * BOOK: "The Essentials of Data Science: Knowledge Discovery Using R", 1st Edition; by Graham J. Williams [https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005](https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005) and see more supporting code for this book at [https://togaware.com/onepager/](https://togaware.com/onepager/).
 
+## 2018 presentation
 
+* Github repo [https://github.com/vhertzb/2018week10](https://github.com/vhertzb/2018week10)
+* HTML presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html](https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html)

@@ -1,0 +1,18 @@
+---
+title: 'Homework 6: DUE 04/03/2019'
+---
+
+## Homework 6
+
+* The repository for Homework 6 (due next Wed) is [https://github.com/melindahiggins2000/N741_Homework06_regression](https://github.com/melindahiggins2000/N741_Homework06_regression)
+
+* Homework 6 instructions can be viewed at [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework06_regression/blob/master/homework6.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework06_regression/blob/master/homework6.html) 
+
+* You are welcome to fork my Github repository to your own PUBLIC repository if you wish.
+
+* However, I also created individual PRIVATE repositories for each of you to use for creating RStudio projects linked to Github for this Homework 6 through Github classroom. Here are the instructions.
+
+* Please log into your Github account.
+
+* Then click on this link to accept the invitation to access your personal PRIVATE repository for Homework 6. [https://classroom.github.com/a/RSZBV06J](https://classroom.github.com/a/RSZBV06J) 
+
