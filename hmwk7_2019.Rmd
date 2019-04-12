@@ -1,0 +1,10 @@
+---
+title: 'Homework 7: DUE 04/17/2019'
+---
+
+## Homework 7
+
+* The Github repository for Homework 7 (due next Wed) is [https://github.com/melindahiggins2000/N741_Homework07_supervised](https://github.com/melindahiggins2000/N741_Homework07_supervised).
+
+* Homework 7 instructions can be viewed at [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework07_supervised/blob/master/Homework07_Spring2019.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework07_supervised/blob/master/Homework07_Spring2019.html).
+

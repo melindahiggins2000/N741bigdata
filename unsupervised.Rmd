@@ -1,0 +1,23 @@
+---
+title: "Unsupervised Learning"
+---
+
+## Unsupervised Learning 2019 - V. Hertzberg
+
+* Github repository [https://github.com/vhertzb/more-supervised-learning](https://github.com/vhertzb/more-supervised-learning)
+* HTML Presentation [https://htmlpreview.github.io/?https://github.com/vhertzb/more-supervised-learning/blob/master/More_Supervised_Learning.html](https://htmlpreview.github.io/?https://github.com/vhertzb/more-supervised-learning/blob/master/More_Supervised_Learning.html)
+
+## Unsupervised Learning 2019 - M. Higgins `rggobi` demo
+
+* Github repository [https://github.com/melindahiggins2000/N741UnsupervisedLearning](https://github.com/melindahiggins2000/N741UnsupervisedLearning) 
+* HTML Presentation [https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html](https://melindahiggins2000.github.io/N741UnsupervisedLearning/UnsupervisedLearning.html)
+
+## The `rggobi` package
+
+* `rggobi` package on CRAN [https://cran.r-project.org/web/packages/rggobi/index.html](https://cran.r-project.org/web/packages/rggobi/index.html)
+* "Ggobi" package [http://www.ggobi.org/](http://www.ggobi.org/)
+* The manual [http://www.ggobi.org/docs/](http://www.ggobi.org/docs/)
+* The book [http://www.ggobi.org/book/](http://www.ggobi.org/book/)
+* Demos and movies [http://www.ggobi.org/demos/](http://www.ggobi.org/demos/)
+* More on installing the package [http://www.ggobi.org/downloads/](http://www.ggobi.org/downloads/)
+* Specific suggestions for installing on MAC from Iowa State [https://www.stat.iastate.edu/ggobi-mac](https://www.stat.iastate.edu/ggobi-mac)

@@ -9,23 +9,39 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Melinda Higgins" />
 
+<meta name="date" content="2019-03-29" />
 
-<title>Homework 4: DUE 03/06/2019</title>
+<title>test rmd wrap</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -56,8 +72,6 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
 </head>
 
@@ -95,33 +109,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 54px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -252,101 +266,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -532,40 +451,41 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Homework 4: DUE 03/06/2019</h1>
+<h1 class="title toc-ignore">test rmd wrap</h1>
+<h4 class="author"><em>Melinda Higgins</em></h4>
+<h4 class="date"><em>March 29, 2019</em></h4>
 
 </div>
 
 
-<div id="answer-key" class="section level2">
-<h2>ANSWER KEY</h2>
-<p>Answer Key Files:</p>
-<ul>
-<li>Github repository <a href="https://github.com/melindahiggins2000/N741_Homework04_textWrangling" class="uri">https://github.com/melindahiggins2000/N741_Homework04_textWrangling</a></li>
-<li>R markdown file <a href="https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.Rmd" class="uri">https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.Rmd</a></li>
-<li>HTML report <a href="https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.html" class="uri">https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.html</a></li>
-<li>PDF report <a href="https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.pdf" class="uri">https://github.com/melindahiggins2000/N741_Homework04_textWrangling/blob/master/Homework4_ANSWERKEY.pdf</a></li>
-<li>Word DOC report <a href="https://github.com/melindahiggins2000/N741_Homework04_textWrangling/raw/master/Homework4_ANSWERKEY.docx" class="uri">https://github.com/melindahiggins2000/N741_Homework04_textWrangling/raw/master/Homework4_ANSWERKEY.docx</a></li>
-</ul>
+<div id="wrap-long-lines" class="section level1">
+<h1>Wrap long lines</h1>
+<p>Long lines in the output will not be (hard-)wrapped automatically unless you break them manually.</p>
+<pre class="r"><code>a &lt;- &#39;## &quot;stx2A; shiga-like toxin II A subunit encoded by bacteriophage BP-933W; K11006 shiga toxin subunit A&quot; &#39;
+a</code></pre>
+<pre><code>## [1] &quot;## \&quot;stx2A; shiga-like toxin II A subunit encoded by bacteriophage BP-933W; K11006 shiga toxin subunit A\&quot; &quot;</code></pre>
+<p>Perhaps you see it is wrapped in RStudio, but that is because <code>&lt;pre&gt;</code> has the CSS attribute <code>white-space: pre-wrap;</code>. For LaTeX output, the output is in the <code>verbatim</code> environment by default, which will not wrap long lines (everything is shown as is).</p>
+<p>You can redefine the output hook function so that you can instruct some chunks to hard-wrap their output lines, e.g.</p>
+<pre class="r"><code>library(knitr)
+hook_output = knit_hooks$get(&#39;output&#39;)
+knit_hooks$set(output = function(x, options) {
+  # this hook is used only when the linewidth option is not NULL
+  if (!is.null(n &lt;- options$linewidth)) {
+    x = knitr:::split_lines(x)
+    # any lines wider than n should be wrapped
+    if (any(nchar(x) &gt; n)) x = strwrap(x, width = n)
+    x = paste(x, collapse = &#39;\n&#39;)
+  }
+  hook_output(x, options)
+})</code></pre>
+<p>Now see the output of <code>a</code> (note <code>linewidth</code> is not a default <strong>knitr</strong> option):</p>
+<pre class="r"><code>a</code></pre>
+<pre><code>## [1] &quot;## \&quot;stx2A; shiga-like toxin II A subunit encoded
+by bacteriophage BP-933W; K11006 shiga toxin subunit A\&quot; &quot;</code></pre>
 </div>
-<div id="homework-4" class="section level2">
-<h2>Homework 4</h2>
-<p>Assignment Posted at <a href="http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html" class="uri">http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW_on_text_wrangling.html</a></p>
-<p>Github repo with Rmarkdown file to get started <a href="https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW%20on%20text%20wrangling.Rmd">https://github.com/vhertzb/N741-Text-Wrangling/blob/master/HW%20on%20text%20wrangling.Rmd</a></p>
-</div>
-
-<hr>
-
-<p>Copyright &copy; <a href="http://melindahiggins2000.github.io/web2">Melinda Higgins, Ph.D.</a>. All contents under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">(CC) BY-NC-SA license</a>,<img src="ccbyncsa_88x31.png" alt="CC-BY-NC-SA" style="width:88px;height:31px;"> unless otherwise noted.
-</p>
-
-<p>
-	<a href=mailto:melinda.higgins@emory.edu>Feedback, Comments (email me)?</a> 
-</p>
 
 
-</div>
-</div>
+
 
 </div>
 

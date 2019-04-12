@@ -32,6 +32,7 @@ navbar:
         - text: "12. Machine Learning - Supervised Learning"
           href: supervised.html
         - text: "13. Machine Learning - Unsupervised Learning"
+          href: unsupervised.html
         - text: "14. Network Science"
         - text: "15. To the cloud and beyond - AWS"
     - text: "Assignments"
@@ -51,8 +52,9 @@ navbar:
           href: hmwk5_2019.html
         - text: "Homework 6: DUE 04/03/2019"
           href: hmwk6_2019.html
-        - text: "Homework 7: DUE 04/10/2019"
-        - text: "Homework 8: DUE 04/17/2019"
+        - text: "Homework 7: DUE 04/17/2019"
+          href: hmwk7_2019.html
+        - text: "Homework 8: DUE 04/24/2019"
     - text: "Files"
       icon: fa-files-o
       href: files.html
