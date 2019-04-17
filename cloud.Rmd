@@ -1,0 +1,16 @@
+---
+title: "To the cloud and beyond - AWS"
+---
+
+## Guest Lecture 1 - Joyce Ho
+
+* Presentation: "ASSESSING MACHINE LEARNING METHODS FOR PREDICTING CARDIOVASCULAR DISEASE COMPLICATIONS IN PEOPLE WITH DIABETES"
+* BIO: She is an assistant professor in the Computer Science Department at Emory University. Her research is in data mining and machine learning, focusing on healthcare applications. She received her PhD from UT Austin, M.S. and B.S. from MIT. She co-founded a successful healthcare analytics company (Accordion Health) and previously worked at Lawrence Livermore National Laboratory.
+* Webpage hosted on Github [https://joyceho.github.io/](https://joyceho.github.io/)
+* Emory CS Bio [http://diabetes.emory.edu/people/faculty/Ho-Joyce.html](http://diabetes.emory.edu/people/faculty/Ho-Joyce.html)
+
+## Guest Lecture 2 - Steve Pittard
+
+* A little more on text mining [https://steviep42.github.io/INFO_550_2019/book/text-mining.html#n-grams](https://steviep42.github.io/INFO_550_2019/book/text-mining.html#n-grams)
+* Intro to AWS [https://steviep42.github.io/INFO_550_2019/amazon_and_r.pdf](https://steviep42.github.io/INFO_550_2019/amazon_and_r.pdf)
+
