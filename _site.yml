@@ -56,6 +56,7 @@ navbar:
         - text: "Homework 7: DUE 04/22/2019"
           href: hmwk7_2019.html
         - text: "Homework 8: DUE 04/24/2019"
+          href: hmwk8_2019.html
     - text: "Files"
       icon: fa-files-o
       href: files.html

@@ -1,0 +1,11 @@
+---
+title: 'Homework 8: DUE 04/24/2019'
+---
+
+## Homework 8
+
+* The Github repository for Homework 8 (due next Wed) is [https://github.com/melindahiggins2000/N741_Homework08_unsupervised](https://github.com/melindahiggins2000/N741_Homework08_unsupervised).
+
+* Homework 8 instructions can be viewed at[https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08.html).
+
+
