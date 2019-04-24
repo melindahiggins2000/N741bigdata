@@ -4,7 +4,7 @@ title: ""
 
 ## Guest Lecture Roy Simpson
 
-* Presentation: "Kaleidoscope: Twists and Turns in Big Data" []()
+* Presentation: "Kaleidoscope: Twists and Turns in Big Data" PPT Slides [https://github.com/melindahiggins2000/N741bigdata/raw/master/RoySimpson_FINALANIA.pptx](https://github.com/melindahiggins2000/N741bigdata/raw/master/RoySimpson_FINALANIA.pptx)
 
 * BIO: ROY L. SIMPSON, DNP, RN, DPNAP, FAAN, FACMI, has more than 30 years of experience in nursing informatics and in senior executive administration. His primary executive research focus pioneered the development and funding of the Werley and Lang Nursing Minimum Data Set (NMDS).
 
