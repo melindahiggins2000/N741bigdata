@@ -1,0 +1,27 @@
+---
+title: ""
+---
+
+## Guest Lecture Roy Simpson
+
+* Presentation: "Kaleidoscope: Twists and Turns in Big Data" []()
+
+* BIO: ROY L. SIMPSON, DNP, RN, DPNAP, FAAN, FACMI, has more than 30 years of experience in nursing informatics and in senior executive administration. His primary executive research focus pioneered the development and funding of the Werley and Lang Nursing Minimum Data Set (NMDS).
+
+NMDS is a minimum set of nursing data elements with uniform definitions and categories, including nursing problems, diagnoses, interventions and patient outcomes approved by the American Nurses Association.
+
+Simpson joined Cerner in 2000. He also holds an academic appointment as clinical professor with Emory University's Nell Hodgson Woodruff School of Nursing’s new Doctorate of Nursing Practice (DNP) program. He has served on the board of trustees for Excelsior College, formerly Regents College, at the State University of NewYork. In 2001, he served as the Frances and Earl Ziegler Visiting Scholar at the University of Oklahoma and in 2002 as the Merle Lott Distinguished Lecturer at Georgia State University.
+
+He served as the 2000 distinguished professor at the University of Wales during the European Summer School on Nursing Informatics in 2002. He received the Informatics Award from Rutgers University in 1999, and the Maes MacInnis Award, from New York University, in 2003.
+
+In 2007, Simpson was awarded honorary international membership in the International Medical Informatics Association and also international membership in Sigma Theta Tau International, representing his scholarship and his contribution for the field of informatics.
+
+Simpson lectures extensively around the world and has published more than 500 articles on nursing informatics. He also sits on 12 editorial review boards, and is a fellow of the American Academy of Nursing, New York Academy of Medicine and the National Academies of Practice. He attained a doctorate in nursing practice, executive leadership/informatics, from American Sentinel University
+
+* online: [http://www.nursing.emory.edu/faculty-and-research/directory/profile.html?id=2980](http://www.nursing.emory.edu/faculty-and-research/directory/profile.html?id=2980)
+
+## Networks - Dr. Vicki Hertzberg
+
+* Github repo [https://github.com/vhertzb/Networks](https://github.com/vhertzb/Networks)
+* PPT Slides Download [https://github.com/vhertzb/Networks/raw/master/Networks%20Intro%20lecture%2020180418.pptx](https://github.com/vhertzb/Networks/raw/master/Networks%20Intro%20lecture%2020180418.pptx)
+

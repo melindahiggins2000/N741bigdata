@@ -36,6 +36,7 @@ navbar:
         - text: "14. To the cloud and beyond - AWS"
           href: cloud.html
         - text: "15. Network Science"
+          href: networks.html
     - text: "Assignments"
       icon: fa-tasks
       menu:
