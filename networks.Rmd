@@ -6,17 +6,19 @@ title: ""
 
 * Presentation: "Kaleidoscope: Twists and Turns in Big Data" PPT Slides [https://github.com/melindahiggins2000/N741bigdata/raw/master/RoySimpson_FINALANIA.pptx](https://github.com/melindahiggins2000/N741bigdata/raw/master/RoySimpson_FINALANIA.pptx)
 
-* BIO: ROY L. SIMPSON, DNP, RN, DPNAP, FAAN, FACMI, has more than 30 years of experience in nursing informatics and in senior executive administration. His primary executive research focus pioneered the development and funding of the Werley and Lang Nursing Minimum Data Set (NMDS).
+* BIO: 
 
-NMDS is a minimum set of nursing data elements with uniform definitions and categories, including nursing problems, diagnoses, interventions and patient outcomes approved by the American Nurses Association.
+> ROY L. SIMPSON, DNP, RN, DPNAP, FAAN, FACMI, has more than 30 years of experience in nursing informatics and in senior executive administration. His primary executive research focus pioneered the development and funding of the Werley and Lang Nursing Minimum Data Set (NMDS).
 
-Simpson joined Cerner in 2000. He also holds an academic appointment as clinical professor with Emory University's Nell Hodgson Woodruff School of Nursing’s new Doctorate of Nursing Practice (DNP) program. He has served on the board of trustees for Excelsior College, formerly Regents College, at the State University of NewYork. In 2001, he served as the Frances and Earl Ziegler Visiting Scholar at the University of Oklahoma and in 2002 as the Merle Lott Distinguished Lecturer at Georgia State University.
+> NMDS is a minimum set of nursing data elements with uniform definitions and categories, including nursing problems, diagnoses, interventions and patient outcomes approved by the American Nurses Association.
 
-He served as the 2000 distinguished professor at the University of Wales during the European Summer School on Nursing Informatics in 2002. He received the Informatics Award from Rutgers University in 1999, and the Maes MacInnis Award, from New York University, in 2003.
+> Simpson joined Cerner in 2000. He also holds an academic appointment as clinical professor with Emory University's Nell Hodgson Woodruff School of Nursing’s new Doctorate of Nursing Practice (DNP) program. He has served on the board of trustees for Excelsior College, formerly Regents College, at the State University of NewYork. In 2001, he served as the Frances and Earl Ziegler Visiting Scholar at the University of Oklahoma and in 2002 as the Merle Lott Distinguished Lecturer at Georgia State University.
 
-In 2007, Simpson was awarded honorary international membership in the International Medical Informatics Association and also international membership in Sigma Theta Tau International, representing his scholarship and his contribution for the field of informatics.
+> He served as the 2000 distinguished professor at the University of Wales during the European Summer School on Nursing Informatics in 2002. He received the Informatics Award from Rutgers University in 1999, and the Maes MacInnis Award, from New York University, in 2003.
 
-Simpson lectures extensively around the world and has published more than 500 articles on nursing informatics. He also sits on 12 editorial review boards, and is a fellow of the American Academy of Nursing, New York Academy of Medicine and the National Academies of Practice. He attained a doctorate in nursing practice, executive leadership/informatics, from American Sentinel University
+> In 2007, Simpson was awarded honorary international membership in the International Medical Informatics Association and also international membership in Sigma Theta Tau International, representing his scholarship and his contribution for the field of informatics.
+
+> Simpson lectures extensively around the world and has published more than 500 articles on nursing informatics. He also sits on 12 editorial review boards, and is a fellow of the American Academy of Nursing, New York Academy of Medicine and the National Academies of Practice. He attained a doctorate in nursing practice, executive leadership/informatics, from American Sentinel University
 
 * online: [http://www.nursing.emory.edu/faculty-and-research/directory/profile.html?id=2980](http://www.nursing.emory.edu/faculty-and-research/directory/profile.html?id=2980)
 
