@@ -16,3 +16,9 @@ title: 'Homework 6: DUE 04/03/2019'
 
 * Then click on this link to accept the invitation to access your personal PRIVATE repository for Homework 6. [https://classroom.github.com/a/RSZBV06J](https://classroom.github.com/a/RSZBV06J) 
 
+## ANSWER KEY
+
+* Github repo see [https://github.com/melindahiggins2000/N741_Homework06_regression](https://github.com/melindahiggins2000/N741_Homework06_regression)
+
+* Answer Key Report [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework06_regression/blob/master/homework6_answerKey.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework06_regression/blob/master/homework6_answerKey.html)
+
