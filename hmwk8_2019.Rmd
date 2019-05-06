@@ -8,4 +8,6 @@ title: 'Homework 8: DUE 04/24/2019'
 
 * Homework 8 instructions can be viewed at[https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08.html).
 
+## ANSWER KEY
 
+* HTML [https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08_answerKey.html](https://htmlpreview.github.io/?https://github.com/melindahiggins2000/N741_Homework08_unsupervised/blob/master/Homework08_answerKey.html)
