@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -59,9 +59,7 @@ h6 {
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -75,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -180,8 +177,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -226,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -238,48 +234,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -293,6 +250,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -328,8 +291,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -338,6 +299,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,7 +330,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2020</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -432,32 +403,20 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1_2019.html">Homework 1: DUE 02/06/2019</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/29/2020</a>
     </li>
     <li>
-      <a href="hmwk2_2019.html">Homework 2: DUE 02/20/2019</a>
+      <a href="pm1.html">Project Milestone 1 DUE 02/05/2020</a>
     </li>
-    <li>
-      <a href="pm1.html">Project Milestone 1 DUE 02/13/2019</a>
-    </li>
-    <li>
-      <a href="hmwk3_2019.html">Homework 3: DUE 02/27/2019</a>
-    </li>
-    <li>
-      <a href="hmwk4_2019.html">Homework 4: DUE 03/06/2019</a>
-    </li>
-    <li>
-      <a href="hmwk5_2019.html">Homework 5: DUE 03/20/2019</a>
-    </li>
-    <li>
-      <a href="hmwk6_2019.html">Homework 6: DUE 04/03/2019</a>
-    </li>
-    <li>
-      <a href="hmwk7_2019.html">Homework 7: DUE 04/22/2019</a>
-    </li>
-    <li>
-      <a href="hmwk8_2019.html">Homework 8: DUE 04/24/2019</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/12/2020</li>
+    <li class="dropdown-header">Homework 3: DUE 02/19/2020</li>
+    <li class="dropdown-header">Homework 4: DUE 03/04/2020</li>
+    <li class="dropdown-header">Homework 5: DUE 03/18/2020</li>
+    <li class="dropdown-header">Project Milestone 2 DUE 03/25/2020</li>
+    <li class="dropdown-header">Homework 6: DUE 04/01/2020</li>
+    <li class="dropdown-header">Homework 7: DUE 04/08/2020</li>
+    <li class="dropdown-header">Homework 8: DUE 04/15/2020</li>
+    <li class="dropdown-header">Project Milestone 3 FINAL DUE 04/29/2020</li>
   </ul>
 </li>
 <li>
@@ -545,46 +504,46 @@ div.tocify {
 
 <div id="vickis-presentation-on-262019" class="section level2">
 <h2>Vicki’s presentation on 2/6/2019</h2>
-<p>Slides posted at <a href="https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html" class="uri">https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html</a></p>
+<p>Slides posted at <a href="https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html">https://melindahiggins2000.github.io/N741_lesson04_dataWrangling/EDA.html</a></p>
 <p>— old 2018 —-</p>
 </div>
 <div id="github-repositories-for-today" class="section level2">
 <h2>Github repositories for today</h2>
 <ul>
-<li><p>Part 1 - <a href="https://github.com/melindahiggins2000/N741_Lecture5_20180214" class="uri">https://github.com/melindahiggins2000/N741_Lecture5_20180214</a> - this Github repository provides examples using the <code>car</code> package with the <code>Leinhardt</code> dataset which will help with Homework 2</p></li>
-<li><p>Part 2 - <a href="https://github.com/melindahiggins2000/Lecture7Foreal" class="uri">https://github.com/melindahiggins2000/Lecture7Foreal</a> - this Github repository covers additional examples working with <code>dplyr</code> and <code>ggplot2</code> working with a <code>Pesticides</code> dataset - this repository was adapted from N741 2017 Lecture 7.</p></li>
+<li><p>Part 1 - <a href="https://github.com/melindahiggins2000/N741_Lecture5_20180214">https://github.com/melindahiggins2000/N741_Lecture5_20180214</a> - this Github repository provides examples using the <code>car</code> package with the <code>Leinhardt</code> dataset which will help with Homework 2</p></li>
+<li><p>Part 2 - <a href="https://github.com/melindahiggins2000/Lecture7Foreal">https://github.com/melindahiggins2000/Lecture7Foreal</a> - this Github repository covers additional examples working with <code>dplyr</code> and <code>ggplot2</code> working with a <code>Pesticides</code> dataset - this repository was adapted from N741 2017 Lecture 7.</p></li>
 </ul>
 </div>
 <div id="exploratory-data-analysis-summary-statistics-visualization" class="section level2">
 <h2>Exploratory Data Analysis, Summary Statistics &amp; Visualization</h2>
 <p>Today’s lecture will get you up and running working with data frames, exploring your data with summary statistics and visualizations. You will be learning the “tidyverse” way of doing things in <code>R</code> using the <code>dplyr</code> and <code>ggplot2</code> packages. Learn more about these packages at:</p>
 <ul>
-<li><code>tidyverse</code> <a href="https://www.tidyverse.org/" class="uri">https://www.tidyverse.org/</a></li>
-<li><code>dplyr</code> <a href="http://dplyr.tidyverse.org/" class="uri">http://dplyr.tidyverse.org/</a></li>
-<li><code>ggplot2</code> <a href="http://ggplot2.tidyverse.org/" class="uri">http://ggplot2.tidyverse.org/</a></li>
+<li><code>tidyverse</code> <a href="https://www.tidyverse.org/">https://www.tidyverse.org/</a></li>
+<li><code>dplyr</code> <a href="http://dplyr.tidyverse.org/">http://dplyr.tidyverse.org/</a></li>
+<li><code>ggplot2</code> <a href="http://ggplot2.tidyverse.org/">http://ggplot2.tidyverse.org/</a></li>
 <li>Garrett Grolemund and Hadley Wickham’s book “R for Data Science” - specifically see these chapters:
 <ul>
-<li>Chapter 3: Data Visualization <a href="http://r4ds.had.co.nz/data-visualisation.html" class="uri">http://r4ds.had.co.nz/data-visualisation.html</a></li>
-<li>Chapter 5: Data Transformation <a href="http://r4ds.had.co.nz/transform.html" class="uri">http://r4ds.had.co.nz/transform.html</a></li>
-<li>Chapter 7: Exploratory Data Analysis <a href="http://r4ds.had.co.nz/exploratory-data-analysis.html" class="uri">http://r4ds.had.co.nz/exploratory-data-analysis.html</a></li>
+<li>Chapter 3: Data Visualization <a href="http://r4ds.had.co.nz/data-visualisation.html">http://r4ds.had.co.nz/data-visualisation.html</a></li>
+<li>Chapter 5: Data Transformation <a href="http://r4ds.had.co.nz/transform.html">http://r4ds.had.co.nz/transform.html</a></li>
+<li>Chapter 7: Exploratory Data Analysis <a href="http://r4ds.had.co.nz/exploratory-data-analysis.html">http://r4ds.had.co.nz/exploratory-data-analysis.html</a></li>
 </ul></li>
 </ul>
 <p>I also encourage you to explore these courses at Datacamp:</p>
 <ul>
-<li>Introduction to the Tidyverse <a href="https://www.datacamp.com/courses/introduction-to-the-tidyverse" class="uri">https://www.datacamp.com/courses/introduction-to-the-tidyverse</a></li>
-<li>Cleaning Data in R <a href="https://www.datacamp.com/courses/cleaning-data-in-r" class="uri">https://www.datacamp.com/courses/cleaning-data-in-r</a></li>
-<li>Exploratory Data Analysis in R: Case Study <a href="https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study" class="uri">https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study</a></li>
-<li>Data Manipulation in R with dplyr <a href="https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial" class="uri">https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial</a></li>
+<li>Introduction to the Tidyverse <a href="https://www.datacamp.com/courses/introduction-to-the-tidyverse">https://www.datacamp.com/courses/introduction-to-the-tidyverse</a></li>
+<li>Cleaning Data in R <a href="https://www.datacamp.com/courses/cleaning-data-in-r">https://www.datacamp.com/courses/cleaning-data-in-r</a></li>
+<li>Exploratory Data Analysis in R: Case Study <a href="https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study">https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study</a></li>
+<li>Data Manipulation in R with dplyr <a href="https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial">https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial</a></li>
 <li>Data Visualization with ggplot2 (Part 1), (Part 2), and (Part 3)
 <ul>
-<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-1" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-1</a></li>
-<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-2" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-2</a></li>
-<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3" class="uri">https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3</a></li>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-1">https://www.datacamp.com/courses/data-visualization-with-ggplot2-1</a></li>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-2">https://www.datacamp.com/courses/data-visualization-with-ggplot2-2</a></li>
+<li><a href="https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3">https://www.datacamp.com/courses/data-visualization-with-ggplot2-part-3</a></li>
 </ul></li>
 </ul>
 <div id="vickis-slides-from-spring-2017" class="section level3">
 <h3>Vicki’s slides from Spring 2017</h3>
-<p>Vicki’s slides from today can be viewed at <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/" class="uri">https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/</a></p>
+<p>Vicki’s slides from today can be viewed at <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/">https://htmlpreview.github.io/?https://raw.githubusercontent.com/vhertzb/EDA/master/EDA.html#/</a></p>
 </div>
 </div>
 
@@ -614,6 +573,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -59,9 +59,7 @@ h6 {
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -75,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -180,8 +177,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -226,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -238,48 +234,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -293,6 +250,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -328,8 +291,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -338,6 +299,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,7 +330,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2020</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -432,32 +403,20 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1_2019.html">Homework 1: DUE 02/06/2019</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/29/2020</a>
     </li>
     <li>
-      <a href="hmwk2_2019.html">Homework 2: DUE 02/20/2019</a>
+      <a href="pm1.html">Project Milestone 1 DUE 02/05/2020</a>
     </li>
-    <li>
-      <a href="pm1.html">Project Milestone 1 DUE 02/13/2019</a>
-    </li>
-    <li>
-      <a href="hmwk3_2019.html">Homework 3: DUE 02/27/2019</a>
-    </li>
-    <li>
-      <a href="hmwk4_2019.html">Homework 4: DUE 03/06/2019</a>
-    </li>
-    <li>
-      <a href="hmwk5_2019.html">Homework 5: DUE 03/20/2019</a>
-    </li>
-    <li>
-      <a href="hmwk6_2019.html">Homework 6: DUE 04/03/2019</a>
-    </li>
-    <li>
-      <a href="hmwk7_2019.html">Homework 7: DUE 04/22/2019</a>
-    </li>
-    <li>
-      <a href="hmwk8_2019.html">Homework 8: DUE 04/24/2019</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/12/2020</li>
+    <li class="dropdown-header">Homework 3: DUE 02/19/2020</li>
+    <li class="dropdown-header">Homework 4: DUE 03/04/2020</li>
+    <li class="dropdown-header">Homework 5: DUE 03/18/2020</li>
+    <li class="dropdown-header">Project Milestone 2 DUE 03/25/2020</li>
+    <li class="dropdown-header">Homework 6: DUE 04/01/2020</li>
+    <li class="dropdown-header">Homework 7: DUE 04/08/2020</li>
+    <li class="dropdown-header">Homework 8: DUE 04/15/2020</li>
+    <li class="dropdown-header">Project Milestone 3 FINAL DUE 04/29/2020</li>
   </ul>
 </li>
 <li>
@@ -556,7 +515,7 @@ div.tocify {
 <ul>
 <li>Fleetwood Loustalot, PhD, FNP, FAHA is the Lead for the Epidemiology, Surveillance and Health Services Team in the Division for Heart Disease and Stroke Prevention (DHDSP) at the Centers for Disease Control and Prevention (CDC). Fleetwood previously worked in clinical practice and has been working in public health for over 15 years. He joined CDC in 2008 as an Epidemic Intelligence Service fellow. He has since been engaged in numerous domestic cardiovascular disease prevention and control projects, including the Department of Health and Human Services Healthy People program and the Million Hearts® initiative. In addition, he has provided technical consultation on several global projects in Latin America and the Caribbean, the Middle East, Sub Saharan Africa and on the World Health Organization’s Global HEARTS initiative. Fleetwood has specific expertise in cardiovascular disease surveillance, improvements in clinical management, and linking community and clinical programs. He is a Commissioned Officer in the US Public Health Service, holding the rank of Captain.</li>
 </ul></li>
-<li>Presentation <a href="https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx" class="uri">https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx</a></li>
+<li>Presentation <a href="https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx">https://github.com/melindahiggins2000/N741bigdata/raw/master/Loustalot_Emory_Presentation_SON_022019.pptx</a></li>
 </ul>
 </div>
 <div id="guest-lecture-2---web-scraping" class="section level2">
@@ -565,9 +524,9 @@ div.tocify {
 <li>Steve Pittard, PhD.</li>
 <li>Bio Summary:
 <ul>
-<li>Steve Pittard’s background is in high performance computation specifically as it relates to the management, processing, and analysis of biological data. He has developed a number of published methods and pipelines to detect and annotate variants, (SNPs and INDELS) in the Human Genome. He also possesses an expert knowledge in the architecture and implementation of computational infrastructure and software tools required to perform rapid ingestion of data for large scale processing and analysis. Much of this experience comes as the result of co-directing a bioinformatics core facility, (BimCore), which was based on the delivery of analysis services to over 90 labs in the Emory University School of Medicine. Prior to joining Emory, Mr. Pittard worked extensively in the Aerospace industry at Lockheed-Martin Corporation where he created software to analyze and predict component failures in the cargo aircraft being manufactured by Lockheed. He also worked for Science Applications International where he designed software to acquire and monitor data within nuclear energy facilities throughout the United States. More recently he develops and teaches courses in the R Programming Language and Software Engineering within the Department of Biostatistics at The Rollins School of Public Health. He is the co-developer of OmicSeq <a href="http://omicseq.org/welcome.htm" class="uri">http://omicseq.org/welcome.htm</a> which is a genomics search engine designed to rapidly locate genes likely to be related to a larger set of query genes and/or pathways. Mr. Pittard is also a music analytics consultant for public relations organizations seeking to understand the social media profile of prominent clients. He also maintains a YouTube channel <a href="https://www.youtube.com/user/biorsph/" class="uri">https://www.youtube.com/user/biorsph/</a> which offers instructional videos relating to R and statistical concepts such as Principal Components Analysis.</li>
+<li>Steve Pittard’s background is in high performance computation specifically as it relates to the management, processing, and analysis of biological data. He has developed a number of published methods and pipelines to detect and annotate variants, (SNPs and INDELS) in the Human Genome. He also possesses an expert knowledge in the architecture and implementation of computational infrastructure and software tools required to perform rapid ingestion of data for large scale processing and analysis. Much of this experience comes as the result of co-directing a bioinformatics core facility, (BimCore), which was based on the delivery of analysis services to over 90 labs in the Emory University School of Medicine. Prior to joining Emory, Mr. Pittard worked extensively in the Aerospace industry at Lockheed-Martin Corporation where he created software to analyze and predict component failures in the cargo aircraft being manufactured by Lockheed. He also worked for Science Applications International where he designed software to acquire and monitor data within nuclear energy facilities throughout the United States. More recently he develops and teaches courses in the R Programming Language and Software Engineering within the Department of Biostatistics at The Rollins School of Public Health. He is the co-developer of OmicSeq <a href="http://omicseq.org/welcome.htm">http://omicseq.org/welcome.htm</a> which is a genomics search engine designed to rapidly locate genes likely to be related to a larger set of query genes and/or pathways. Mr. Pittard is also a music analytics consultant for public relations organizations seeking to understand the social media profile of prominent clients. He also maintains a YouTube channel <a href="https://www.youtube.com/user/biorsph/">https://www.youtube.com/user/biorsph/</a> which offers instructional videos relating to R and statistical concepts such as Principal Components Analysis.</li>
 </ul></li>
-<li>Presentation - based on online Book: “Web Scraping with R” <a href="https://steviep42.github.io/webscraping/book/" class="uri">https://steviep42.github.io/webscraping/book/</a></li>
+<li>Presentation - based on online Book: “Web Scraping with R” <a href="https://steviep42.github.io/webscraping/book/">https://steviep42.github.io/webscraping/book/</a></li>
 </ul>
 </div>
 <div id="text-mining-exercise" class="section level2">
@@ -575,8 +534,8 @@ div.tocify {
 <div id="lecture-text-wrangling" class="section level4">
 <h4>2019 Lecture “Text Wrangling”</h4>
 <ul>
-<li>Github repo <a href="https://github.com/vhertzb/N741-Text-Wrangling" class="uri">https://github.com/vhertzb/N741-Text-Wrangling</a></li>
-<li>HTML presentation <a href="http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html" class="uri">http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html</a></li>
+<li>Github repo <a href="https://github.com/vhertzb/N741-Text-Wrangling">https://github.com/vhertzb/N741-Text-Wrangling</a></li>
+<li>HTML presentation <a href="http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html">http://htmlpreview.github.io/?https://github.com/vhertzb/N741-Text-Wrangling/blob/master/Text_Wrangling.html</a></li>
 <li>R Packages you’ll need for today’s exercise:
 <ul>
 <li><code>RCurl</code></li>
@@ -593,8 +552,8 @@ div.tocify {
 <div id="lecture-notes" class="section level4">
 <h4>2018 Lecture Notes</h4>
 <ul>
-<li>Github Repo <a href="https://github.com/vhertzb/2018week6" class="uri">https://github.com/vhertzb/2018week6</a></li>
-<li>HTML Presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html" class="uri">https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html</a></li>
+<li>Github Repo <a href="https://github.com/vhertzb/2018week6">https://github.com/vhertzb/2018week6</a></li>
+<li>HTML Presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html">https://htmlpreview.github.io/?https://github.com/vhertzb/2018week6/blob/master/Week6.html</a></li>
 </ul>
 </div>
 </div>
@@ -625,6 +584,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

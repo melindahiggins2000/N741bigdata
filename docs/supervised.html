@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -59,9 +59,7 @@ h6 {
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -75,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -180,8 +177,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -226,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -238,48 +234,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -293,6 +250,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -328,8 +291,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -338,6 +299,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,7 +330,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2020</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -432,32 +403,20 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1_2019.html">Homework 1: DUE 02/06/2019</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/29/2020</a>
     </li>
     <li>
-      <a href="hmwk2_2019.html">Homework 2: DUE 02/20/2019</a>
+      <a href="pm1.html">Project Milestone 1 DUE 02/05/2020</a>
     </li>
-    <li>
-      <a href="pm1.html">Project Milestone 1 DUE 02/13/2019</a>
-    </li>
-    <li>
-      <a href="hmwk3_2019.html">Homework 3: DUE 02/27/2019</a>
-    </li>
-    <li>
-      <a href="hmwk4_2019.html">Homework 4: DUE 03/06/2019</a>
-    </li>
-    <li>
-      <a href="hmwk5_2019.html">Homework 5: DUE 03/20/2019</a>
-    </li>
-    <li>
-      <a href="hmwk6_2019.html">Homework 6: DUE 04/03/2019</a>
-    </li>
-    <li>
-      <a href="hmwk7_2019.html">Homework 7: DUE 04/22/2019</a>
-    </li>
-    <li>
-      <a href="hmwk8_2019.html">Homework 8: DUE 04/24/2019</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/12/2020</li>
+    <li class="dropdown-header">Homework 3: DUE 02/19/2020</li>
+    <li class="dropdown-header">Homework 4: DUE 03/04/2020</li>
+    <li class="dropdown-header">Homework 5: DUE 03/18/2020</li>
+    <li class="dropdown-header">Project Milestone 2 DUE 03/25/2020</li>
+    <li class="dropdown-header">Homework 6: DUE 04/01/2020</li>
+    <li class="dropdown-header">Homework 7: DUE 04/08/2020</li>
+    <li class="dropdown-header">Homework 8: DUE 04/15/2020</li>
+    <li class="dropdown-header">Project Milestone 3 FINAL DUE 04/29/2020</li>
   </ul>
 </li>
 <li>
@@ -546,32 +505,32 @@ div.tocify {
 <div id="supervised-learning-2019---v.-hertzberg" class="section level2">
 <h2>Supervised Learning 2019 - V. Hertzberg</h2>
 <ul>
-<li>Github repo <a href="https://github.com/vhertzb/ml_supervised/" class="uri">https://github.com/vhertzb/ml_supervised/</a></li>
-<li>HTML presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html" class="uri">https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html</a></li>
+<li>Github repo <a href="https://github.com/vhertzb/ml_supervised/">https://github.com/vhertzb/ml_supervised/</a></li>
+<li>HTML presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html">https://htmlpreview.github.io/?https://github.com/vhertzb/ml_supervised/blob/master/ML_supervised.html</a></li>
 </ul>
 </div>
 <div id="supervised-learning-2019---m.-higgins-rattle-demo" class="section level2">
 <h2>Supervised Learning 2019 - M. Higgins <code>rattle</code> demo</h2>
 <ul>
-<li>Github Repository <a href="https://github.com/melindahiggins2000/N741SupervisedLearning" class="uri">https://github.com/melindahiggins2000/N741SupervisedLearning</a></li>
+<li>Github Repository <a href="https://github.com/melindahiggins2000/N741SupervisedLearning">https://github.com/melindahiggins2000/N741SupervisedLearning</a></li>
 <li>Read the instructions in the README file.</li>
 </ul>
 </div>
 <div id="the-rattle-package" class="section level2">
 <h2>The <code>rattle</code> package</h2>
 <ul>
-<li><code>rattle</code> on CRAN <a href="https://cran.r-project.org/web/packages/rattle/index.html" class="uri">https://cran.r-project.org/web/packages/rattle/index.html</a></li>
-<li>Rattle Webpage-1 <a href="https://rattle.togaware.com/" class="uri">https://rattle.togaware.com/</a></li>
-<li>Rattle Webpage-2 <a href="https://togaware.com/rattle/" class="uri">https://togaware.com/rattle/</a></li>
-<li>BOOK: “Data Mining with Rattle and R: The Art of Excavating Data for Knowledge Discovery”; by Williams, Graham <a href="https://www.springer.com/us/book/9781441998897" class="uri">https://www.springer.com/us/book/9781441998897</a></li>
-<li>BOOK: “The Essentials of Data Science: Knowledge Discovery Using R”, 1st Edition; by Graham J. Williams <a href="https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005" class="uri">https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005</a> and see more supporting code for this book at <a href="https://togaware.com/onepager/" class="uri">https://togaware.com/onepager/</a>.</li>
+<li><code>rattle</code> on CRAN <a href="https://cran.r-project.org/web/packages/rattle/index.html">https://cran.r-project.org/web/packages/rattle/index.html</a></li>
+<li>Rattle Webpage-1 <a href="https://rattle.togaware.com/">https://rattle.togaware.com/</a></li>
+<li>Rattle Webpage-2 <a href="https://togaware.com/rattle/">https://togaware.com/rattle/</a></li>
+<li>BOOK: “Data Mining with Rattle and R: The Art of Excavating Data for Knowledge Discovery”; by Williams, Graham <a href="https://www.springer.com/us/book/9781441998897">https://www.springer.com/us/book/9781441998897</a></li>
+<li>BOOK: “The Essentials of Data Science: Knowledge Discovery Using R”, 1st Edition; by Graham J. Williams <a href="https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005">https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005</a> and see more supporting code for this book at <a href="https://togaware.com/onepager/">https://togaware.com/onepager/</a>.</li>
 </ul>
 </div>
 <div id="presentation" class="section level2">
 <h2>2018 presentation</h2>
 <ul>
-<li>Github repo <a href="https://github.com/vhertzb/2018week10" class="uri">https://github.com/vhertzb/2018week10</a></li>
-<li>HTML presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html" class="uri">https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html</a></li>
+<li>Github repo <a href="https://github.com/vhertzb/2018week10">https://github.com/vhertzb/2018week10</a></li>
+<li>HTML presentation <a href="https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html">https://htmlpreview.github.io/?https://github.com/vhertzb/2018week10/blob/master/2018week10.html</a></li>
 </ul>
 </div>
 
@@ -601,6 +560,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

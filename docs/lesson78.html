@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -59,9 +59,7 @@ h6 {
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -75,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -180,8 +177,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -226,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -238,48 +234,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -293,6 +250,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -328,8 +291,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -338,6 +299,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,7 +330,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2020</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -432,32 +403,20 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1_2019.html">Homework 1: DUE 02/06/2019</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/29/2020</a>
     </li>
     <li>
-      <a href="hmwk2_2019.html">Homework 2: DUE 02/20/2019</a>
+      <a href="pm1.html">Project Milestone 1 DUE 02/05/2020</a>
     </li>
-    <li>
-      <a href="pm1.html">Project Milestone 1 DUE 02/13/2019</a>
-    </li>
-    <li>
-      <a href="hmwk3_2019.html">Homework 3: DUE 02/27/2019</a>
-    </li>
-    <li>
-      <a href="hmwk4_2019.html">Homework 4: DUE 03/06/2019</a>
-    </li>
-    <li>
-      <a href="hmwk5_2019.html">Homework 5: DUE 03/20/2019</a>
-    </li>
-    <li>
-      <a href="hmwk6_2019.html">Homework 6: DUE 04/03/2019</a>
-    </li>
-    <li>
-      <a href="hmwk7_2019.html">Homework 7: DUE 04/22/2019</a>
-    </li>
-    <li>
-      <a href="hmwk8_2019.html">Homework 8: DUE 04/24/2019</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/12/2020</li>
+    <li class="dropdown-header">Homework 3: DUE 02/19/2020</li>
+    <li class="dropdown-header">Homework 4: DUE 03/04/2020</li>
+    <li class="dropdown-header">Homework 5: DUE 03/18/2020</li>
+    <li class="dropdown-header">Project Milestone 2 DUE 03/25/2020</li>
+    <li class="dropdown-header">Homework 6: DUE 04/01/2020</li>
+    <li class="dropdown-header">Homework 7: DUE 04/08/2020</li>
+    <li class="dropdown-header">Homework 8: DUE 04/15/2020</li>
+    <li class="dropdown-header">Project Milestone 3 FINAL DUE 04/29/2020</li>
   </ul>
 </li>
 <li>
@@ -546,48 +505,48 @@ div.tocify {
 <div id="part-2-03072018" class="section level2">
 <h2>part 2 03/07/2018</h2>
 <ul>
-<li><p>files for part 2 of the <code>dada2</code> exercise at located in the Github repo at <a href="https://github.com/vhertzb/2018Week8" class="uri">https://github.com/vhertzb/2018Week8</a></p></li>
-<li><p>See lecture in HTML at <a href="https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html" class="uri">https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html</a></p></li>
+<li><p>files for part 2 of the <code>dada2</code> exercise at located in the Github repo at <a href="https://github.com/vhertzb/2018Week8">https://github.com/vhertzb/2018Week8</a></p></li>
+<li><p>See lecture in HTML at <a href="https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html">https://cdn.rawgit.com/vhertzb/2018Week8/master/2018Week8.html</a></p></li>
 </ul>
 </div>
 <div id="dada2-exercise" class="section level2">
 <h2><code>dada2</code> exercise</h2>
 <ul>
-<li><p>see <code>vhertzb</code> Github repo at <a href="https://github.com/vhertzb/2018Week7" class="uri">https://github.com/vhertzb/2018Week7</a></p></li>
-<li><p>HTML file with notes <a href="https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html" class="uri">https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html</a></p></li>
+<li><p>see <code>vhertzb</code> Github repo at <a href="https://github.com/vhertzb/2018Week7">https://github.com/vhertzb/2018Week7</a></p></li>
+<li><p>HTML file with notes <a href="https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html">https://cdn.rawgit.com/vhertzb/2018Week7/05bff59a/2018Week7_dada2.html</a></p></li>
 </ul>
 </div>
 <div id="complete-homework-3---dada2-prep-work" class="section level2">
 <h2>Complete Homework 3 - <code>dada2</code> prep work</h2>
 <p>The next 2 classes (lessons 7 and 8) will introduce and work through the data analysis tutorial using the <code>dada2</code> <code>R</code> package. Complete <a href="https://melindahiggins2000.github.io/N741bigdata/hmwk3.html">Homework 3</a> to be sure you are prepared to work through these exercises.</p>
-<p>See details at <a href="https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html" class="uri">https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html</a>.</p>
+<p>See details at <a href="https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html">https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html</a>.</p>
 </div>
 <div id="more-details-on-dada2-r-package" class="section level2">
 <h2>More details on <code>dada2</code> <code>R</code> Package</h2>
 <ul>
-<li><code>dada2</code> homepage <a href="https://benjjneb.github.io/dada2/" class="uri">https://benjjneb.github.io/dada2/</a></li>
+<li><code>dada2</code> homepage <a href="https://benjjneb.github.io/dada2/">https://benjjneb.github.io/dada2/</a></li>
 </ul>
 </div>
 <div id="prep-work-for-dada2-tutorial---instructions" class="section level2">
 <h2>Prep Work for <code>dada2</code> Tutorial - Instructions</h2>
 <p>However, if you would like to come and work along with us through the exercises (hands-on), please come prepared with the following:</p>
 <ol style="list-style-type: decimal">
-<li>A laptop with R and RStudio installed:
+<li><p>A laptop with R and RStudio installed:</p>
 <ol style="list-style-type: lower-alpha">
-<li>Download R <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></li>
-<li>Download RStudio <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></li>
+<li>Download R <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></li>
+<li>Download RStudio <a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a></li>
 </ol></li>
-<li>Install these R packages ahead of time
+<li><p>Install these R packages ahead of time</p>
 <ol style="list-style-type: lower-alpha">
-<li>tidyverse from CRAN <a href="https://cran.r-project.org/web/packages/tidyverse/index.html" class="uri">https://cran.r-project.org/web/packages/tidyverse/index.html</a></li>
-<li>dada2 from Bioconductor <a href="https://www.bioconductor.org/packages/release/bioc/html/dada2.html" class="uri">https://www.bioconductor.org/packages/release/bioc/html/dada2.html</a></li>
-<li>phyloseq from Bioconductor <a href="https://bioconductor.org/packages/release/bioc/html/phyloseq.html" class="uri">https://bioconductor.org/packages/release/bioc/html/phyloseq.html</a></li>
-<li>ShortRead from Bioconductor <a href="http://bioconductor.org/packages/release/bioc/html/ShortRead.html" class="uri">http://bioconductor.org/packages/release/bioc/html/ShortRead.html</a></li>
+<li>tidyverse from CRAN <a href="https://cran.r-project.org/web/packages/tidyverse/index.html">https://cran.r-project.org/web/packages/tidyverse/index.html</a></li>
+<li>dada2 from Bioconductor <a href="https://www.bioconductor.org/packages/release/bioc/html/dada2.html">https://www.bioconductor.org/packages/release/bioc/html/dada2.html</a></li>
+<li>phyloseq from Bioconductor <a href="https://bioconductor.org/packages/release/bioc/html/phyloseq.html">https://bioconductor.org/packages/release/bioc/html/phyloseq.html</a></li>
+<li>ShortRead from Bioconductor <a href="http://bioconductor.org/packages/release/bioc/html/ShortRead.html">http://bioconductor.org/packages/release/bioc/html/ShortRead.html</a></li>
 </ol></li>
-<li><p>See setup details at <a href="https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html" class="uri">https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html</a></p></li>
-<li><p>Open RStudio – create a new project for this dada2 exercise – put it somewhere on your hard drive with a logical location, like <code>&quot;c:\dada2&quot;</code></p></li>
-<li><p>Then following along with the dada2 tutorial at <a href="https://benjjneb.github.io/dada2/tutorial.html" class="uri">https://benjjneb.github.io/dada2/tutorial.html</a> , you will need to download the Mothur MiSeq data from this link <a href="http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip" class="uri">http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip</a></p></li>
-<li><p>One you download the ZIP file, extract all of the files. There will be a subfolder called <code>“\MiSeq_SOP”</code> – copy this folder and its contents into the project folder you created above (e.g. <code>“c:\dada2”</code>)</p></li>
+<li><p>See setup details at <a href="https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html">https://cdn.rawgit.com/vhertzb/2018week6/master/HW3_for_2018.html</a></p></li>
+<li><p>Open RStudio – create a new project for this dada2 exercise – put it somewhere on your hard drive with a logical location, like <code>"c:\dada2"</code></p></li>
+<li><p>Then following along with the dada2 tutorial at <a href="https://benjjneb.github.io/dada2/tutorial.html">https://benjjneb.github.io/dada2/tutorial.html</a> , you will need to download the Mothur MiSeq data from this link <a href="http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip">http://www.mothur.org/w/images/d/d6/MiSeqSOPData.zip</a></p></li>
+<li><p>One you download the ZIP file, extract all of the files. There will be a subfolder called <code>“\MiSeq_SOP”</code> – copy this folder and its contents into the project folder you created above (e.g. <code>“c:\dada2”</code>)</p></li>
 <li><p>Next download, these 2 files “silva_nr_v132_train_set.fa.gz” and “silva_species_assignment_v132.fa.gz” from <a href="https://zenodo.org/record/1172783#.Wo2GM62ZMo8">https://zenodo.org/record/1172783#.Wo2GM62ZMo8)https://zenodo.org/record/1172783#.Wo2GM62ZMo8</a><a href="https://zenodo.org/record/1172783#.Wo2GM62ZMo8" class="uri">https://zenodo.org/record/1172783#.Wo2GM62ZMo8</a>) and put them into the <code>“C:\dada2\MiSeq_SOP”</code> directory</p></li>
 </ol>
 </div>
@@ -618,6 +577,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -59,9 +59,7 @@ h6 {
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -75,7 +73,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -180,8 +177,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -226,6 +221,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -238,48 +234,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -293,6 +250,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -328,8 +291,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -338,6 +299,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,7 +330,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">N741 Spring 2019</a>
+      <a class="navbar-brand" href="index.html">N741 Spring 2020</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -432,32 +403,20 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="hmwk1_2019.html">Homework 1: DUE 02/06/2019</a>
+      <a href="hmwk1_2019.html">Homework 1: DUE 01/29/2020</a>
     </li>
     <li>
-      <a href="hmwk2_2019.html">Homework 2: DUE 02/20/2019</a>
+      <a href="pm1.html">Project Milestone 1 DUE 02/05/2020</a>
     </li>
-    <li>
-      <a href="pm1.html">Project Milestone 1 DUE 02/13/2019</a>
-    </li>
-    <li>
-      <a href="hmwk3_2019.html">Homework 3: DUE 02/27/2019</a>
-    </li>
-    <li>
-      <a href="hmwk4_2019.html">Homework 4: DUE 03/06/2019</a>
-    </li>
-    <li>
-      <a href="hmwk5_2019.html">Homework 5: DUE 03/20/2019</a>
-    </li>
-    <li>
-      <a href="hmwk6_2019.html">Homework 6: DUE 04/03/2019</a>
-    </li>
-    <li>
-      <a href="hmwk7_2019.html">Homework 7: DUE 04/22/2019</a>
-    </li>
-    <li>
-      <a href="hmwk8_2019.html">Homework 8: DUE 04/24/2019</a>
-    </li>
+    <li class="dropdown-header">Homework 2: DUE 02/12/2020</li>
+    <li class="dropdown-header">Homework 3: DUE 02/19/2020</li>
+    <li class="dropdown-header">Homework 4: DUE 03/04/2020</li>
+    <li class="dropdown-header">Homework 5: DUE 03/18/2020</li>
+    <li class="dropdown-header">Project Milestone 2 DUE 03/25/2020</li>
+    <li class="dropdown-header">Homework 6: DUE 04/01/2020</li>
+    <li class="dropdown-header">Homework 7: DUE 04/08/2020</li>
+    <li class="dropdown-header">Homework 8: DUE 04/15/2020</li>
+    <li class="dropdown-header">Project Milestone 3 FINAL DUE 04/29/2020</li>
   </ul>
 </li>
 <li>
@@ -629,21 +588,48 @@ div.tocify {
 </table>
 <p><em><strong>Class participation is expected.</strong></em></p>
 </div>
-<div id="textbooks-required" class="section level2">
-<h2>TEXTBOOKS (Required):</h2>
-<ul>
-<li>Practical Data Science, Zumel N and Mount J, 2014.</li>
-<li>Book website <a href="https://ninazumel.com/practical-data-science-with-r/" class="uri">https://ninazumel.com/practical-data-science-with-r/</a></li>
-</ul>
-</div>
 <div id="textbooks-recommended" class="section level2">
 <h2>TEXTBOOKS (Recommended):</h2>
 <ul>
+<li>Practical Data Science, Zumel N and Mount J, 2014.</li>
+<li>Book website <a href="https://ninazumel.com/practical-data-science-with-r/">https://ninazumel.com/practical-data-science-with-r/</a></li>
+</ul>
+</div>
+<div id="textbooks-required" class="section level2">
+<h2>TEXTBOOKS (Required):</h2>
+<ul>
 <li>R in Action: Data Analysis and Graphics with R, Kabacoff R, 2015.</li>
-<li>Book website <a href="https://www.manning.com/books/r-in-action" class="uri">https://www.manning.com/books/r-in-action</a></li>
+<li>Book website <a href="https://www.manning.com/books/r-in-action">https://www.manning.com/books/r-in-action</a></li>
 <li><a href="https://www.statmethods.net/">Quick-R website</a></li>
 </ul>
-<p><em>The books listed above are available online through the Emory Safari Books Online site. Use the following URL: <a href="http://pid.emory.edu/dzfb2" class="uri">http://pid.emory.edu/dzfb2</a></em></p>
+<p><em>The books listed above are available online through the Emory Safari Books Online site. Use the following URL: <a href="http://pid.emory.edu/dzfb2">http://pid.emory.edu/dzfb2</a></em></p>
+</div>
+<div id="other-useful-texts" class="section level2">
+<h2>Other useful texts:</h2>
+<ul>
+<li>Modern Data Science with R, Baumer, Kaplan, and Horton, CRC Press<br />
+</li>
+<li>Text Mining with R, Silge and Robinson, O’Reilly <a href="https://www.tidytextmining.com/">on-line https://www.tidytextmining.com/</a></li>
+<li>An Introduction to Statistical Learning, James, Witten, Hastie, and Tibshirani, Springer</li>
+<li>R for Data Science, Wickham &amp; Grolemund, O’Reilly <a href="https://r4ds.had.co.nz/">on-line https://r4ds.had.co.nz/</a></li>
+<li>R Markdown: The Definitive Guide, by Yihui Xie, J. J. Allaire, Garrett Grolemund <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></li>
+<li>Dynamic Documents with R and knitr, Second Edition (Chapman &amp; Hall/CRC The R Series) 2nd Edition, by Yihui Xie <a href="https://www.amazon.com/dp/1498716962/ref=cm_sw_su_dp">available at Amazon</a></li>
+<li>bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie <a href="https://bookdown.org/yihui/bookdown/">https://bookdown.org/yihui/bookdown/</a></li>
+</ul>
+</div>
+<div id="useful-websites" class="section level2">
+<h2>Useful websites:</h2>
+<ul>
+<li>Happy Git and GitHub for the useR, by Jenny Bryan, the STAT 545 TAs, Jim Hester <a href="https://happygitwithr.com/">https://happygitwithr.com/</a></li>
+<li>Rmarkdown <a href="https://rmarkdown.rstudio.com/">https://rmarkdown.rstudio.com/</a></li>
+<li>CRAN: download R and packages <a href="https://cran.r-project.org/">https://cran.r-project.org/</a></li>
+<li>RStudio <a href="https://rstudio.com/">https://rstudio.com/</a></li>
+<li>RStudio.cloud <a href="https://rstudio.cloud/">https://rstudio.cloud/</a></li>
+<li>Github <a href="https://github.com/">https://github.com/</a></li>
+<li>Git <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+<li>Rpubs <a href="https://rpubs.com/">https://rpubs.com/</a></li>
+<li>Datacamp <a href="https://www.datacamp.com/">https://www.datacamp.com/</a></li>
+</ul>
 </div>
 <div id="course-requirements-assignments" class="section level2">
 <h2>COURSE REQUIREMENTS &amp; ASSIGNMENTS</h2>
@@ -652,6 +638,15 @@ div.tocify {
 <li><p>Homeworks - Homework assignments will comprise applications of techniques learned in class to different data sets.</p></li>
 <li><p>One comprehensive final project – a practicum/exemplar presentation of the student’s skills and knowledge for obtaining, analyzing and presenting results from Big Data sources to address an issue of interest in healthcare.</p></li>
 </ol>
+</div>
+<div id="cloud-platforms-and-resources-for-course" class="section level2">
+<h2>CLOUD PLATFORMS AND RESOURCES FOR COURSE</h2>
+<p>During this course, class materials, exercises and assignments will utilize GITHUB repositories. Everyone will need an account created at <a href="https://github.com/">https://github.com/</a></p>
+<p>RStudio Cloud will also be utilized for some assignments and exercises. Everyone will need an account created at <a href="https://rstudio.cloud/">https://rstudio.cloud/</a></p>
+</div>
+<div id="software-requirements" class="section level2">
+<h2>SOFTWARE REQUIREMENTS</h2>
+<p>The exercises and assignments in this course require use of the R programming language. Two FREE open source software packages must be installed: install the R programming language first and then install the RStudio interface: * R programming language, download from <a href="https://cran.r-project.org/">https://cran.r-project.org/</a> * RStudio IDE (integrated development environment), download RStudio Desktop from <a href="https://rstudio.com/products/rstudio/download/#download">https://rstudio.com/products/rstudio/download/#download</a> * GIT, needed to link R projects to Github, <a href="https://git-scm.com/">https://git-scm.com/</a></p>
 </div>
 <div id="calendar-schedule-for-lectures-homework" class="section level2">
 <h2>Calendar Schedule for Lectures &amp; Homework</h2>
@@ -673,97 +668,97 @@ div.tocify {
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td align="right">01/16</td>
+<td align="right">01/15</td>
 <td>Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td align="right">01/23</td>
+<td align="right">01/22</td>
 <td>Reproducible Research Principles and Pipelines</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td align="right">01/30</td>
-<td>Data Wrangling</td>
-<td></td>
+<td align="right">01/29</td>
+<td>Data Wrangling with <code>dplyr</code> [Steve Pittard Guest Lecturer]</td>
+<td>HW 1</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td align="right">02/06</td>
-<td>More on Data (and Code) Wrangling</td>
-<td>HW1</td>
+<td align="right">02/05</td>
+<td>Exploratory Data Analysis [Lisa Elon Guest Lecturer]</td>
+<td>Milestone 1</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td align="right">02/13</td>
-<td>Exploratory Data Analysis; Summary Statistics; Visualization</td>
-<td>Milestone 01</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td align="right">02/20</td>
+<td align="right">02/12</td>
 <td>Text/web scraping and working with text (regular expressions)</td>
 <td>HW2</td>
 </tr>
-<tr class="odd">
-<td>7</td>
-<td align="right">02/27</td>
+<tr class="even">
+<td>6</td>
+<td align="right">02/19</td>
 <td>Microbiome analysis – the DADA2 / Phyloseq pipeline</td>
 <td>HW3</td>
 </tr>
+<tr class="odd">
+<td>7</td>
+<td align="right">02/26</td>
+<td>Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)</td>
+<td></td>
+</tr>
 <tr class="even">
 <td>8</td>
-<td align="right">03/06</td>
-<td>Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)</td>
+<td align="right">03/04</td>
+<td>More on Data (and code) Wrangling</td>
 <td>HW4</td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td align="right">03/13</td>
+<td align="right">03/11</td>
 <td>- <strong>SPRING BREAK NO CLASS</strong> -</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td align="right">03/20</td>
-<td>Metabolomics analysis <strong>Delayed 2 weeks</strong></td>
+<td align="right">03/18</td>
+<td>Metabolomics analysis [Rebecca Mitchell Guest Lecturer]</td>
 <td>HW5</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td align="right">03/27</td>
+<td align="right">03/25</td>
 <td>Models – Linear and Logistic; Prediction</td>
 <td>Milestone 2</td>
 </tr>
 <tr class="even">
 <td>11</td>
-<td align="right">04/03</td>
-<td>Machine learning – supervised methods</td>
+<td align="right">04/01</td>
+<td>Machine learning – supervised methods [Joyce Ho Guest Lecturer]</td>
 <td>HW6</td>
 </tr>
 <tr class="odd">
 <td>12</td>
-<td align="right">04/10</td>
+<td align="right">04/08</td>
 <td>Machine learning – unsupervised methods</td>
-<td></td>
+<td>HW7</td>
 </tr>
 <tr class="even">
 <td>13</td>
-<td align="right">04/17</td>
+<td align="right">04/15</td>
 <td>Network science</td>
-<td>HW7 - <strong>due 04/22/2019</strong></td>
+<td>HW8</td>
 </tr>
 <tr class="odd">
 <td>15</td>
-<td align="right">04/25</td>
-<td>To the cloud and beyond - AWS</td>
-<td>HW8</td>
+<td align="right">04/22</td>
+<td>To the cloud and beyond - AWS [Roy Simpson Guest Lecturer]</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>16</td>
-<td align="right">05/01</td>
+<td align="right">04/29</td>
 <td>Project presentations</td>
 <td>Milestone 3: [1] Paper; [2] Oral Presentation; and [3] Slides</td>
 </tr>
@@ -797,6 +792,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

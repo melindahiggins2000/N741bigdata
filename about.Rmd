@@ -21,7 +21,7 @@ title: "About the Instructors"
 
 [Melinda Higgins, Ph.D.](http://nursing.emory.edu/faculty-and-research/directory/profile.html?id=980) holds dual degrees in Chemometrics and Statistics. She has over 20 years research experience focused on pattern recognition, characterization and modeling of high-dimensional, multivariate datasets. She provides statistical and data management consultation for faculty and students at all stages of research. She also conducts workshops, lectures and courses on statistical methods and software (including SPSS, SAS, R and power/sample size packages PASS and G*Power).
 
-You can also get additional information about Melinda at [http://melindahiggins2000.github.io/web2/](http://melindahiggins2000.github.io/web2/)
+You can also get additional information about Melinda at [https://melindahiggins.netlify.com/](https://melindahiggins.netlify.com/)
 
 ### Contact Information
 

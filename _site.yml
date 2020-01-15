@@ -1,7 +1,7 @@
 name: "N741 Big Data Analytics for Healthcare"
 output_dir: "docs"
 navbar:
-  title: "N741 Spring 2019"
+  title: "N741 Spring 2020"
   left:
     - text: "Home"
       icon: fa-home
@@ -40,24 +40,19 @@ navbar:
     - text: "Assignments"
       icon: fa-tasks
       menu:
-        - text: "Homework 1: DUE 02/06/2019"
+        - text: "Homework 1: DUE 01/29/2020"
           href: hmwk1_2019.html
-        - text: "Homework 2: DUE 02/20/2019"
-          href: hmwk2_2019.html
-        - text: "Project Milestone 1 DUE 02/13/2019"
+        - text: "Project Milestone 1 DUE 02/05/2020"
           href: pm1.html
-        - text: "Homework 3: DUE 02/27/2019"
-          href: hmwk3_2019.html
-        - text: "Homework 4: DUE 03/06/2019"
-          href: hmwk4_2019.html
-        - text: "Homework 5: DUE 03/20/2019"
-          href: hmwk5_2019.html
-        - text: "Homework 6: DUE 04/03/2019"
-          href: hmwk6_2019.html
-        - text: "Homework 7: DUE 04/22/2019"
-          href: hmwk7_2019.html
-        - text: "Homework 8: DUE 04/24/2019"
-          href: hmwk8_2019.html
+        - text: "Homework 2: DUE 02/12/2020"
+        - text: "Homework 3: DUE 02/19/2020"
+        - text: "Homework 4: DUE 03/04/2020"
+        - text: "Homework 5: DUE 03/18/2020"
+        - text: "Project Milestone 2 DUE 03/25/2020"
+        - text: "Homework 6: DUE 04/01/2020"
+        - text: "Homework 7: DUE 04/08/2020"
+        - text: "Homework 8: DUE 04/15/2020"
+        - text: "Project Milestone 3 FINAL DUE 04/29/2020"
     - text: "Files"
       icon: fa-files-o
       href: files.html

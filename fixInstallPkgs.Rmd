@@ -11,6 +11,8 @@ title: "FIX for Installing Packages"
     
 --- 
 
+## Previously known issues...
+
 1. First read the post on ![](images/so-logo.png){width=100} at [https://stackoverflow.com/questions/5700505/windows-7-update-packages-problem-unable-to-move-temporary-installation](https://stackoverflow.com/questions/5700505/windows-7-update-packages-problem-unable-to-move-temporary-installation)
 
 2. During your active RStudio session, at the command prompt you can run:

@@ -12,8 +12,6 @@ See YouTube Video for Installing R, RStudio and Rmarkdown at [https://youtu.be/M
 
 ### Learning R
 
-* [Code School - TRYR](http://tryr.codeschool.com/)
-    + **DO THIS FIRST** Code School is an online learning environment. The **TRYR** site is completely free and is a great place to start learning r. You don't even need to have the R software installed! I highly encourage you to run through at least module 1 - but the more you complete, the better!
 * [Data Camp](https://www.datacamp.com/)
     + DataCamp is another great place to start learning online. You need to create an account to get started. There are many FREE courses available on R.
 * [RStudio Online Learning](https://www.rstudio.com/resources/training/online-learning/)
@@ -25,6 +23,10 @@ See YouTube Video for Installing R, RStudio and Rmarkdown at [https://youtu.be/M
 * [Quick-R](http://www.statmethods.net/index.html)
     + This is an excellent site for quick help and resources for using R and statistical analyses in general. The site is owned and maintained by Rob Kabacoff, who also authored the very good book "R in Action".
 * [R Tutorial - Kelly Black at UGA](http://www.cyclismo.org/tutorial/R/)
+
+### Also Help at RStudio.Cloud
+
+* Tutorials and Cheatsheets and more are available at [https://rstudio.cloud/](https://rstudio.cloud/)
 
 ### Getting Help with R
 

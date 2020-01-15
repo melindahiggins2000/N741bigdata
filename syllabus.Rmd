@@ -51,18 +51,41 @@ This course uses a variety of teaching methods, including readings, case present
 
 _**Class participation is expected.**_
 
-## TEXTBOOKS (Required):
+## TEXTBOOKS (Recommended):
 
 * Practical Data Science, Zumel N and Mount J, 2014.
 * Book website [https://ninazumel.com/practical-data-science-with-r/](https://ninazumel.com/practical-data-science-with-r/)
 
-## TEXTBOOKS (Recommended):
+## TEXTBOOKS (Required):
 
 * R in Action: Data Analysis and Graphics with R, Kabacoff R, 2015.
 * Book website [https://www.manning.com/books/r-in-action](https://www.manning.com/books/r-in-action)
 * [Quick-R website](https://www.statmethods.net/)
 
 _The books listed above are available online through the Emory Safari Books Online site. Use the following URL: [http://pid.emory.edu/dzfb2](http://pid.emory.edu/dzfb2)_
+
+## Other useful texts:
+
+* Modern Data Science with R, Baumer, Kaplan, and Horton, CRC Press  
+* Text Mining with R, Silge and Robinson, O’Reilly [on-line https://www.tidytextmining.com/](https://www.tidytextmining.com/)
+* An Introduction to Statistical Learning, James, Witten, Hastie, and Tibshirani, Springer
+* R for Data Science, Wickham & Grolemund, O’Reilly [on-line https://r4ds.had.co.nz/](https://r4ds.had.co.nz/)
+* R Markdown: The Definitive Guide, by Yihui Xie, J. J. Allaire, Garrett Grolemund [https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/)
+* Dynamic Documents with R and knitr, Second Edition (Chapman & Hall/CRC The R Series) 2nd Edition, by Yihui Xie [available at Amazon](https://www.amazon.com/dp/1498716962/ref=cm_sw_su_dp)
+* bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie [https://bookdown.org/yihui/bookdown/](https://bookdown.org/yihui/bookdown/)
+
+## Useful websites:
+
+* Happy Git and GitHub for the useR, by Jenny Bryan, the STAT 545 TAs, Jim Hester [https://happygitwithr.com/](https://happygitwithr.com/)
+* Rmarkdown [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
+* CRAN: download R and packages [https://cran.r-project.org/](https://cran.r-project.org/)
+* RStudio [https://rstudio.com/](https://rstudio.com/)
+* RStudio.cloud [https://rstudio.cloud/](https://rstudio.cloud/)
+* Github [https://github.com/](https://github.com/)
+* Git [https://git-scm.com/](https://git-scm.com/)
+* Rpubs [https://rpubs.com/](https://rpubs.com/)
+* Datacamp [https://www.datacamp.com/](https://www.datacamp.com/)
+
 
 ## COURSE REQUIREMENTS & ASSIGNMENTS
 
@@ -72,23 +95,36 @@ Successful completion of the course objectives will be determined by performance
 
 2. One comprehensive final project – a practicum/exemplar presentation of the student’s skills and knowledge for obtaining, analyzing and presenting results from Big Data sources to address an issue of interest in healthcare.
 
+## CLOUD PLATFORMS AND RESOURCES FOR COURSE 
+
+During this course, class materials, exercises and assignments will utilize GITHUB repositories. Everyone will need an account created at [https://github.com/](https://github.com/)
+
+RStudio Cloud will also be utilized for some assignments and exercises. Everyone will need an account created at [https://rstudio.cloud/](https://rstudio.cloud/) 
+
+## SOFTWARE REQUIREMENTS
+
+The exercises and assignments in this course require use of the R programming language. Two FREE open source software packages must be installed: install the R programming language first and then install the RStudio interface:
+* R programming language, download from [https://cran.r-project.org/](https://cran.r-project.org/)
+* RStudio IDE (integrated development environment), download RStudio Desktop from [https://rstudio.com/products/rstudio/download/#download](https://rstudio.com/products/rstudio/download/#download)
+* GIT, needed to link R projects to Github, [https://git-scm.com/](https://git-scm.com/)
+
 ## Calendar Schedule for Lectures & Homework
 
 Session	| Date | Topic                                        	| Assignment DUE
 ----------|--------:|-----------------------------------------------|--------------
-1	| 01/16 | Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports	| 
-2	| 01/23  | Reproducible Research Principles and Pipelines	| 
-3	| 01/30  | Data Wrangling	| 
-4	| 02/06  | More on Data (and Code) Wrangling	| HW1
-5	| 02/13  | Exploratory Data Analysis; Summary Statistics; Visualization 	| Milestone 01
-6	| 02/20  | Text/web scraping and working with text (regular expressions)	| HW2 
-7	| 02/27  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| HW3  
-8	| 03/06  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued) | HW4 
-9	| 03/13  | - **SPRING BREAK NO CLASS** -	| 
-10	| 03/20  | Metabolomics analysis **Delayed 2 weeks** | HW5
-11  | 03/27  | Models – Linear and Logistic; Prediction	| Milestone 2
-11	| 04/03  | Machine learning – supervised methods	| HW6 
-12	| 04/10  | Machine learning – unsupervised methods	| 
-13	| 04/17  | Network science	| HW7 - **due 04/22/2019**
-15	| 04/25  | To the cloud and beyond - AWS | HW8
-16	| 05/01  | Project presentations	| Milestone 3: [1] Paper; [2] Oral Presentation; and [3] Slides  
+1	| 01/15 | Introduction to the Course; What is data science?; R and RStudio; Rmarkdown reports	| 
+2	| 01/22  | Reproducible Research Principles and Pipelines	| 
+3	| 01/29  | Data Wrangling	with `dplyr` [Steve Pittard Guest Lecturer]| HW 1
+4	| 02/05  | Exploratory Data Analysis [Lisa Elon Guest Lecturer]	| Milestone 1
+5	| 02/12  | Text/web scraping and working with text (regular expressions) 	| HW2
+6	| 02/19  | Microbiome analysis – the DADA2 / Phyloseq pipeline	| HW3 
+7	| 02/26  | Microbiome analysis – the DADA2 / Phyloseq pipeline (continued)	|   
+8	| 03/04  | More on Data (and code) Wrangling | HW4 
+9	| 03/11  | - **SPRING BREAK NO CLASS** -	| 
+10	| 03/18  | Metabolomics analysis [Rebecca Mitchell Guest Lecturer] | HW5
+11  | 03/25  | Models – Linear and Logistic; Prediction	| Milestone 2
+11	| 04/01  | Machine learning – supervised methods [Joyce Ho Guest Lecturer] | HW6 
+12	| 04/08  | Machine learning – unsupervised methods	| HW7
+13	| 04/15  | Network science	| HW8
+15	| 04/22  | To the cloud and beyond - AWS [Roy Simpson Guest Lecturer] | 
+16	| 04/29  | Project presentations	| Milestone 3: [1] Paper; [2] Oral Presentation; and [3] Slides  
